@@ -57,3 +57,12 @@ Utilise
 - api github npm
 - typescript
 
+Implémenetation
+
+- partir d'une liste de owner/nom de dépôts
+- appeler l'api github pour métadonnées, countloc en parallèle
+- si countloc échoue: fallback téléchargement + scc
+- rassemblement et exportation CSV
+  - repositories.csv
+  - languages.csv
+
