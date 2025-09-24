@@ -43,6 +43,23 @@ Relation Langage
 - TD: nombre de lignes vides (lignes vide ou contenant uniquement des espaces)
 - TC: longueur de ligne moyenne
 
+## Variante minimale
+
+avec juste ce que reporoulette retourne: repos.json (1010 objects)
+
+todo: ajouter deux variables
+
+- QN name -> distance de Levenshtein
+- QN owner -> distance de Levenshtein
+- QN description -> QO : vide, petit, moyen, grand, nerd, TF-IDF
+- TD date creation
+- TD date derniere maj
+- TD date dernier push
+- TD nm stargazers
+- QN languages
+
+(oublier html_url, full_name et visibility)
+
 ## Organisation
 
 ### Phase 1: Fetching

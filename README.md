@@ -25,3 +25,6 @@ Stack: python
 
 ### Analyses des composantes principales
 
+- Normalisation
+
+
