@@ -43,3 +43,17 @@ Relation Langage
 - TD: nombre de lignes vides (lignes vide ou contenant uniquement des espaces)
 - TC: longueur de ligne moyenne
 
+## Organisation
+
+### Phase 1: Fetching
+
+Requêtes scc, faire attention au rate limits
+
+Sortie: données brutes (csv)
+
+Utilise
+
+- scc: https://github.com/boyter/scc
+- api github npm
+- typescript
+
