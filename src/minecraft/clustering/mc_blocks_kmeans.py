@@ -8,9 +8,9 @@ ordinal encoding for qualitative-ordinal variables, converts `spawnable`
 to a quantitative scale, scales features, and runs k-means clustering.
 
 Outputs:
-- <input>_with_clusters.csv  (original data + cluster label)
-- <input>_cluster_profiles.csv (cluster-wise feature averages)
-- <input>_kdiag.png (optional: inertia/silhouette plots if --plots)
+- with_clusters.csv  (original data + cluster label)
+- cluster_profiles.csv (cluster-wise feature averages)
+- kdiag.png (optional: inertia/silhouette plots if --plots)
 
 Usage:
   python mc_blocks_kmeans.py --csv blocklist_clean.csv --k auto --plots
@@ -31,68 +31,17 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
+from const import PathCsvClusterProfiles, PathCsvStd, PathCsvWithClusters, PathPlotKdiag
+
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="K-means clustering for Minecraft blocks.")
-    p.add_argument("--csv", required=True, help="Path to semicolon-delimited CSV (e.g. blocklist_clean.csv)")
     p.add_argument("--k", default="auto", help="Number of clusters (int) or 'auto' to search (default: auto)")
     p.add_argument("--kmin", type=int, default=2, help="Min k when --k=auto (default: 2)")
     p.add_argument("--kmax", type=int, default=12, help="Max k when --k=auto (default: 12)")
     p.add_argument("--plots", action="store_true", help="Save inertia/silhouette plots to <input>_kdiag.png")
     p.add_argument("--random_state", type=int, default=42, help="Random seed (default: 42)")
     return p.parse_args()
-
-
-def casefold_map(d: dict[str, int]) -> dict[str, int]:
-    return {k.casefold(): v for k, v in d.items()}
-
-
-# Encodings
-SPAWNABLE_MAP = casefold_map({
-    "No": 0,
-    "Fire-Immune Mobs Only": 1,
-    "Ocelots and Parrots Only": 2,
-    "Polar Bear Only": 3,
-    "Maybe": 4,
-    "Yes": 5,
-})
-
-CONDUCTIVE_MAP = casefold_map({
-    "No": 0,
-    "Maybe": 1,
-    "Yes": 2,
-})
-
-FULL_CUBE_MAP = casefold_map({
-    "No": 0,
-    "Maybe": 1,
-    "Yes": 2,
-})
-
-MOVABLE_MAP = casefold_map({
-    "No": 0,
-    "Breaks": 1,
-    "Maybe": 2,
-    "Yes": 3,
-})
-
-
-NUMERIC_FEATURES = [
-    "number_of_variants",
-    "height_external",
-    "width_external",
-    "volume",
-    "blast_resistance",
-    "luminance",
-]
-
-ORDINAL_FEATURES = [
-    ("conductive", CONDUCTIVE_MAP),
-    ("full_cube", FULL_CUBE_MAP),
-    ("movable", MOVABLE_MAP),
-]
-
-QUANT_SPAWNABLE = "spawnable"  # to be transformed via SPAWNABLE_MAP
 
 
 def load_data(csv_path: Path) -> pd.DataFrame:
@@ -124,42 +73,42 @@ def coerce_numeric(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     return df
 
 
-def prepare_features(df: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
-    work = df.copy()
+# def prepare_features(df: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
+#     work = df.copy()
 
-    # Drop the nominal name column if present
-    if "block" in work.columns:
-        work = work.drop(columns=["block"])
+#     # Drop the nominal name column if present
+#     if "block" in work.columns:
+#         work = work.drop(columns=["block"])
 
-    # Numeric casts
-    work = coerce_numeric(work, NUMERIC_FEATURES)
+#     # Numeric casts
+#     work = coerce_numeric(work, NumericFeatures)
 
-    # Ordinal encodings
-    for col, mapping in ORDINAL_FEATURES:
-        if col not in work.columns:
-            print(f"[WARN] Missing ordinal column '{col}', creating NaNs", file=sys.stderr)
-            work[col] = np.nan
-        else:
-            work[col] = map_ordinal(work[col], mapping, col)
+#     # Ordinal encodings
+#     for col, mapping in OrdinalFeatures:
+#         if col not in work.columns:
+#             print(f"[WARN] Missing ordinal column '{col}', creating NaNs", file=sys.stderr)
+#             work[col] = np.nan
+#         else:
+#             work[col] = map_ordinal(work[col], mapping, col)
 
-    # Quantitative transformation of spawnable
-    if QUANT_SPAWNABLE in work.columns:
-        work[QUANT_SPAWNABLE] = map_ordinal(work[QUANT_SPAWNABLE], SPAWNABLE_MAP, QUANT_SPAWNABLE)
-    else:
-        print(f"[WARN] Missing column '{QUANT_SPAWNABLE}', creating NaNs", file=sys.stderr)
-        work[QUANT_SPAWNABLE] = np.nan
+#     # Quantitative transformation of spawnable
+#     if QuantSpawnable in work.columns:
+#         work[QuantSpawnable] = map_ordinal(work[QuantSpawnable], SpawnableMap, QuantSpawnable)
+#     else:
+#         print(f"[WARN] Missing column '{QuantSpawnable}', creating NaNs", file=sys.stderr)
+#         work[QuantSpawnable] = np.nan
 
-    # Feature list in final order
-    features = NUMERIC_FEATURES + [c for c, _ in ORDINAL_FEATURES] + [QUANT_SPAWNABLE]
+#     # Feature list in final order
+#     features = NumericFeatures + [c for c, _ in OrdinalFeatures] + [QuantSpawnable]
 
-    # Impute missing with median
-    for c in features:
-        if work[c].isna().any():
-            med = work[c].median()
-            work[c] = work[c].fillna(med)
+#     # Impute missing with median
+#     for c in features:
+#         if work[c].isna().any():
+#             med = work[c].median()
+#             work[c] = work[c].fillna(med)
 
-    X = work[features].astype(float)
-    return X, features
+#     X = work[features].astype(float)
+#     return X, features
 
 
 def choose_k_auto(X: np.ndarray, kmin: int, kmax: int, random_state: int) -> tuple[int, pd.DataFrame]:
@@ -197,16 +146,17 @@ def plot_diagnostics(diag: pd.DataFrame, out_png: Path) -> None:
     print(f"[INFO] Saved diagnostics plot to {out_png}")
 
 
-def run():
+if __name__ == "__main__":
     args = parse_args()
-    csv_path = Path(args.csv)
-    if not csv_path.exists():
-        print(f"[ERROR] CSV not found: {csv_path}", file=sys.stderr)
+    if not PathCsvStd.exists():
+        print(f"[ERROR] CSV not found: {PathCsvStd}", file=sys.stderr)
         sys.exit(2)
 
-    df = load_data(csv_path)
+    df = load_data(PathCsvStd)
 
-    X, features = prepare_features(df)
+    X = df
+    features = df.columns
+    #X, features = prepare_features(df)
 
     scaler = StandardScaler()
     Xs = scaler.fit_transform(X.values)
@@ -231,10 +181,8 @@ def run():
     out_df = df.copy()
     out_df["cluster"] = labels
 
-    out_base = csv_path.with_suffix("")
-    out_csv = out_base.with_name(out_base.name + "_with_clusters.csv")
-    out_df.to_csv(out_csv, index=False, sep=";")
-    print(f"[INFO] Wrote {out_csv}")
+    out_df.to_csv(PathCsvWithClusters, index=False, sep=";")
+    print(f"[INFO] Wrote {PathCsvWithClusters}")
 
     # Profiles per cluster (means in original scale)
     centers_scaled = model.cluster_centers_
@@ -242,24 +190,16 @@ def run():
     centers_df = pd.DataFrame(centers, columns=features)
     centers_df.insert(0, "cluster", range(best_k))
 
-    # Aggregate means from data as well
-    agg = (
-        out_df.join(pd.DataFrame(X, columns=features))
-        .groupby("cluster")[features]
-        .mean()
-        .reset_index()
-    )
+    # Aggregate means from numeric matrix X (already float)
+    Xdf = pd.DataFrame(X, columns=features, index=df.index)
+    Xdf["cluster"] = labels
+    agg = Xdf.groupby("cluster")[features].mean().reset_index()
+
     profiles = centers_df.merge(agg, on="cluster", suffixes=("_center", "_mean"))
 
-    out_prof = out_base.with_name(out_base.name + "_cluster_profiles.csv")
-    profiles.to_csv(out_prof, index=False, sep=";")
-    print(f"[INFO] Wrote {out_prof}")
+    profiles.to_csv(PathCsvClusterProfiles, index=False, sep=";")
+    print(f"[INFO] Wrote {PathCsvClusterProfiles}")
 
     # Optionally plot diagnostics
     if args.k == "auto" and args.plots and diag is not None:
-        out_png = out_base.with_name(out_base.name + "_kdiag.png")
-        plot_diagnostics(diag, out_png)
-
-
-if __name__ == "__main__":
-    run()
+        plot_diagnostics(diag, PathPlotKdiag)

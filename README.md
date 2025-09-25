@@ -29,17 +29,19 @@ Stack: python
 
 ## Préparation compte rendu
 
+format:notebook
+
 parties (from memory)
 
 ### Introduction/Abstract
 
-- émettre une hypothèse
-
-### Présentation dataset
+### Corps
 
 - source
 - étapes de prétraitement, etc.
 
-### Résultats analyse
+- valeurs manquantes -> no translation key
+- variance élevée -> besoin de centrer-réduire
+- features discriminantes
 
 ### Conclusion
