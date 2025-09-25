@@ -1,52 +1,91 @@
 import json
-from pathlib import Path
+from math import isfinite
 
 blocklist_path = "../../../datasets/minecraft/blocks/blocklist.json"
 
 with open(blocklist_path, "r", encoding="utf-8") as f:
     blocks = json.load(f)
 
+def safe_int(val):
+    if isinstance(val, bool):  # avoid True -> 1
+        return None
+    if isinstance(val, (int, float)) and isfinite(val):
+        return int(val)
+    try:
+        return int(str(val).strip().split()[0])
+    except Exception:
+        return None
+
+def extract_numeric_values(x):
+    vals = []
+    if isinstance(x, dict):
+        for v in x.values():
+            vals.extend(extract_numeric_values(v))
+    elif isinstance(x, (list, tuple)):
+        for v in x:
+            vals.extend(extract_numeric_values(v))
+    else:
+        n = safe_int(x)
+        if n is not None:
+            vals.append(n)
+    return vals
+
+def average_or_none(x):
+    vals = extract_numeric_values(x)
+    if not vals:
+        return None
+    return round(sum(vals) / len(vals))
+
+def average_or_default(x, default):
+    vals = extract_numeric_values(x)
+    if not vals:
+        return default
+    return round(sum(vals) / len(vals))
+
+def listify_variants(v):
+    if v is None:
+        return []
+    if isinstance(v, list):
+        return v
+    return [v]
+
+def set_if_not_none(d, key, value):
+    if value is not None:
+        d[key] = value
+
 cleaned_blocks = []
 
 for block in blocks:
-    variants = block.get("variants", [])
-    if isinstance(variants, str):
-        variants = [variants]
+    variants = listify_variants(block.get("variants"))
     number_of_variants = len(variants)
 
-    def safe_int(val):
-        if isinstance(val, (int, float)):
-            return int(val)
-        try:
-            return int(str(val).split()[0])
-        except Exception:
-            return None
+    height = average_or_default(block.get("height_external"), default=0)
+    width = average_or_default(block.get("width_external"), default=0)
 
-    height = safe_int(block.get("height_external"))
-    width = safe_int(block.get("width_external"))
-    blast_resistance = safe_int(block.get("blast_resistance"))
-    luminance = safe_int(block.get("luminance"))
+    blast_resistance = average_or_none(block.get("blast_resistance"))
+    luminance = average_or_none(block.get("luminance"))
 
-    volume = height * width if isinstance(height, int) and isinstance(width, int) else None
+    volume = int(width) * int(width) * int(height)
 
-    cleaned_blocks.append({
-        "block": block.get("block"),
-        "height_external": height,
-        "width_external": width,
-        "blast_resistance": blast_resistance,
-        "luminance": luminance,
-        "number_of_variants": number_of_variants,
-        "volume": volume,
-        "conductive": block.get("conductive"),
-        "movable": block.get("movable"),
-        "full_cube": block.get("full_cube"),
-        "spawnable": block.get("spawnable"),
-    })
+    result = {}
+    set_if_not_none(result, "block", block.get("block"))
 
-# Save new JSON
+    result["height_external"] = int(height)
+    result["width_external"] = int(width)
+    result["number_of_variants"] = int(number_of_variants)
+    result["volume"] = int(volume)
+
+    set_if_not_none(result, "blast_resistance", blast_resistance)
+    set_if_not_none(result, "luminance", luminance)
+
+    for k in ("conductive", "movable", "full_cube", "spawnable"):
+        v = block.get(k)
+        if v is not None:
+            result[k] = v
+
+    cleaned_blocks.append(result)
+
 with open("blocklist_clean.json", "w", encoding="utf-8") as f:
     json.dump(cleaned_blocks, f, indent=2, ensure_ascii=False)
-
-print(cleaned_blocks)
 
 print("blocklist_clean.json generated with selected variables.")
