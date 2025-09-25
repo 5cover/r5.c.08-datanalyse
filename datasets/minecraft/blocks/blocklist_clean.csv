@@ -1,1096 +1,1080 @@
 block;number_of_variants;height_external;width_external;volume;blast_resistance;luminance;conductive;full_cube;spawnable;movable
-Activator Rail;1;0;0;0;50;0;No;No;No;Yes
-Air;3;0;0;0;0;0;No;No;No;Yes
-Cave Air;3;0;0;0;0;0;No;No;No;Yes
-Void Air;3;0;0;0;0;0;No;No;No;Yes
-Amethyst Cluster;4;10;10;1000;51;5;No;No;No;Breaks
-Large Amethyst Bud;4;10;10;1000;51;4;No;No;No;Breaks
-Medium Amethyst Bud;4;10;10;1000;51;2;No;No;No;Breaks
-Small Amethyst Bud;4;10;10;1000;51;1;No;No;No;Breaks
-Ancient Debris;1;16;16;4096;1200;0;Yes;Yes;Yes;Yes
-Andesite;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Polished Andesite;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Anvil;3;10;13;1690;1200;0;No;No;No;Maybe
-Chipped Anvil;3;10;13;1690;1200;0;No;No;No;Maybe
-Damaged Anvil;3;10;13;1690;1200;0;No;No;No;Maybe
-Azalea;2;16;13;2704;0;0;No;No;Yes;Breaks
-Flowering Azalea;2;16;13;2704;0;0;No;No;Yes;Breaks
-Bamboo;2;16;0;0;1;0;No;No;No;Breaks
-Bamboo Shoot;2;16;0;0;1;0;No;No;No;Breaks
-Bamboo Mosaic;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Black Banner;32;0;0;0;1;0;No;No;No;No
-Blue Banner;32;0;0;0;1;0;No;No;No;No
-Brown Banner;32;0;0;0;1;0;No;No;No;No
-Cyan Banner;32;0;0;0;1;0;No;No;No;No
-Gray Banner;32;0;0;0;1;0;No;No;No;No
-Green Banner;32;0;0;0;1;0;No;No;No;No
-Light Blue Banner;32;0;0;0;1;0;No;No;No;No
-Light Gray Banner;32;0;0;0;1;0;No;No;No;No
-Lime Banner;32;0;0;0;1;0;No;No;No;No
-Magenta Banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: black_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: blue_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: brown_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: cyan_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: gray_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: green_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: light_blue_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: light_gray_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: lime_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: magenta_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: orange_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: pink_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: purple_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: red_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: white_wall_banner;32;0;0;0;1;0;No;No;No;No
-No Translation Key: yellow_wall_banner;32;0;0;0;1;0;No;No;No;No
-Orange Banner;32;0;0;0;1;0;No;No;No;No
-Pink Banner;32;0;0;0;1;0;No;No;No;No
-Purple Banner;32;0;0;0;1;0;No;No;No;No
-Red Banner;32;0;0;0;1;0;No;No;No;No
-White Banner;32;0;0;0;1;0;No;No;No;No
-Yellow Banner;32;0;0;0;1;0;No;No;No;No
-Barrel;1;16;16;4096;2;0;Yes;Yes;Yes;No
-Barrier;1;16;16;4096;3600001;0;Yes;Yes;No;No
-Basalt;3;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Polished Basalt;3;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Smooth Basalt;3;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Beacon;1;16;16;4096;3;15;No;Yes;No;No
-Bedrock;1;16;16;4096;3600000;0;Yes;Yes;No;No
-Black Bed;16;9;10;900;0;0;No;No;No;Breaks
-Blue Bed;16;9;10;900;0;0;No;No;No;Breaks
-Brown Bed;16;9;10;900;0;0;No;No;No;Breaks
-Cyan Bed;16;9;10;900;0;0;No;No;No;Breaks
-Gray Bed;16;9;10;900;0;0;No;No;No;Breaks
-Green Bed;16;9;10;900;0;0;No;No;No;Breaks
-Light Blue Bed;16;9;10;900;0;0;No;No;No;Breaks
-Light Gray Bed;16;9;10;900;0;0;No;No;No;Breaks
-Lime Bed;16;9;10;900;0;0;No;No;No;Breaks
-Magenta Bed;16;9;10;900;0;0;No;No;No;Breaks
-Orange Bed;16;9;10;900;0;0;No;No;No;Breaks
-Pink Bed;16;9;10;900;0;0;No;No;No;Breaks
-Purple Bed;16;9;10;900;0;0;No;No;No;Breaks
-Red Bed;16;9;10;900;0;0;No;No;No;Breaks
-White Bed;16;9;10;900;0;0;No;No;No;Breaks
-Yellow Bed;16;9;10;900;0;0;No;No;No;Breaks
-Bee Nest;1;16;16;4096;0;0;Yes;Yes;Yes;No
-Beehive;1;16;16;4096;1;0;Yes;Yes;Yes;No
-Bell;1;12;12;1728;5;0;No;No;No;Breaks
-Big Dripleaf;2;14;16;3584;50;0;No;No;No;Breaks
-Big Dripleaf Stem;2;14;16;3584;50;0;No;No;No;Breaks
-Blackstone;5;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Chiseled Polished Blackstone;5;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cracked Polished Blackstone Bricks;5;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Polished Blackstone;5;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Polished Blackstone Bricks;5;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Blast Furnace;1;16;16;4096;4;6;Yes;Yes;Yes;No
-Block of Amethyst;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Block of Bamboo;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Block of Coal;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Exposed Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Exposed Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Oxidized Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Oxidized Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Block of Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Exposed Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Exposed Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Oxidized Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Oxidized Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Weathered Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Weathered Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Weathered Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Weathered Cut Copper;16;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Diamond;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Emerald;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Gold;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Iron;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Lapis Lazuli;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Block of Netherite;1;16;16;4096;1200;0;Yes;Yes;Yes;Yes
-Block of Quartz;5;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Chiseled Quartz Block;5;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Quartz Bricks;5;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Quartz Pillar;5;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Smooth Quartz Block;5;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Raw Copper;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Raw Gold;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Raw Iron;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Block of Redstone;1;16;16;4096;6;0;No;Yes;Yes;Yes
-Block of Stripped Bamboo;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Blue Ice;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Bone Block;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Bookshelf;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Brewing Stand;1;8;12;1152;0;1;No;No;No;No
-Bricks;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Budding Amethyst;1;16;16;4096;2;0;Yes;Yes;Yes;Breaks
-Acacia Button;14;0;0;0;0;0;No;No;No;Breaks
-Bamboo Button;14;0;0;0;0;0;No;No;No;Breaks
-Birch Button;14;0;0;0;0;0;No;No;No;Breaks
-Cherry Button;14;0;0;0;0;0;No;No;No;Breaks
-Crimson Button;14;0;0;0;0;0;No;No;No;Breaks
-Dark Oak Button;14;0;0;0;0;0;No;No;No;Breaks
-Jungle Button;14;0;0;0;0;0;No;No;No;Breaks
-Mangrove Button;14;0;0;0;0;0;No;No;No;Breaks
-Oak Button;14;0;0;0;0;0;No;No;No;Breaks
-Pale Oak Button;14;0;0;0;0;0;No;No;No;Breaks
-Polished Blackstone Button;14;0;0;0;0;0;No;No;No;Breaks
-Spruce Button;14;0;0;0;0;0;No;No;No;Breaks
-Stone Button;14;0;0;0;0;0;No;No;No;Breaks
-Warped Button;14;0;0;0;0;0;No;No;No;Breaks
-Cactus;1;15;15;3375;0;0;No;No;No;Breaks
-Cake;18;8;11;968;0;0;No;No;No;Breaks
-Cake with Black Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Blue Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Brown Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Cyan Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Gray Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Green Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Light Blue Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Light Gray Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Lime Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Magenta Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Orange Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Pink Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Purple Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Red Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with White Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Cake with Yellow Candle;18;11;11;1331;0;2;No;No;No;Breaks
-Calcite;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Calibrated Sculk Sensor;1;8;16;2048;51;1;No;No;No;No
-Campfire;2;7;16;1792;51;8;No;No;No;No
-Soul Campfire;2;7;16;1792;51;5;No;No;No;No
-Black Candle;17;6;10;600;50;4;No;No;No;Breaks
-Blue Candle;17;6;10;600;50;4;No;No;No;Breaks
-Brown Candle;17;6;10;600;50;4;No;No;No;Breaks
-Candle;17;6;10;600;50;4;No;No;No;Breaks
-Cyan Candle;17;6;10;600;50;4;No;No;No;Breaks
-Gray Candle;17;6;10;600;50;4;No;No;No;Breaks
-Green Candle;17;6;10;600;50;4;No;No;No;Breaks
-Light Blue Candle;17;6;10;600;50;4;No;No;No;Breaks
-Light Gray Candle;17;6;10;600;50;4;No;No;No;Breaks
-Lime Candle;17;6;10;600;50;4;No;No;No;Breaks
-Magenta Candle;17;6;10;600;50;4;No;No;No;Breaks
-Orange Candle;17;6;10;600;50;4;No;No;No;Breaks
-Pink Candle;17;6;10;600;50;4;No;No;No;Breaks
-Purple Candle;17;6;10;600;50;4;No;No;No;Breaks
-Red Candle;17;6;10;600;50;4;No;No;No;Breaks
-White Candle;17;6;10;600;50;4;No;No;No;Breaks
-Yellow Candle;17;6;10;600;50;4;No;No;No;Breaks
-Black Carpet;16;1;16;256;0;0;No;No;No;Yes
-Blue Carpet;16;1;16;256;0;0;No;No;No;Yes
-Brown Carpet;16;1;16;256;0;0;No;No;No;Yes
-Cyan Carpet;16;1;16;256;0;0;No;No;No;Yes
-Gray Carpet;16;1;16;256;0;0;No;No;No;Yes
-Green Carpet;16;1;16;256;0;0;No;No;No;Yes
-Light Blue Carpet;16;1;16;256;0;0;No;No;No;Yes
-Light Gray Carpet;16;1;16;256;0;0;No;No;No;Yes
-Lime Carpet;16;1;16;256;0;0;No;No;No;Yes
-Magenta Carpet;16;1;16;256;0;0;No;No;No;Yes
-Orange Carpet;16;1;16;256;0;0;No;No;No;Yes
-Pink Carpet;16;1;16;256;0;0;No;No;No;Yes
-Purple Carpet;16;1;16;256;0;0;No;No;No;Yes
-Red Carpet;16;1;16;256;0;0;No;No;No;Yes
-White Carpet;16;1;16;256;0;0;No;No;No;Yes
-Yellow Carpet;16;1;16;256;0;0;No;No;No;Yes
-Cartography Table;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Cauldron;4;10;7;490;2;0;No;No;No;Yes
-Lava Cauldron;4;10;7;490;2;15;No;No;No;Yes
-Powder Snow Cauldron;4;10;7;490;2;0;No;No;No;Yes
-Water Cauldron;4;10;7;490;2;0;No;No;No;Yes
-Cave Vines;2;0;0;0;0;7;No;No;No;Breaks
-Cave Vines Plant;2;0;0;0;0;7;No;No;No;Breaks
-Chain;1;13;13;2197;53;0;No;No;No;Yes
-Chest;1;14;16;3584;51;0;No;No;No;No
-Chiseled Bookshelf;1;16;16;4096;2;0;Yes;Yes;Yes;No
-Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Exposed Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Oxidized Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Exposed Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Oxidized Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Waxed Weathered Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Weathered Chiseled Copper;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Chiseled Tuff;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Chiseled Tuff Bricks;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Chorus Flower;1;16;16;4096;0;0;No;Yes;No;Breaks
-Chorus Plant;1;14;14;2744;0;0;No;No;No;Breaks
-Clay;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Coal Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Deepslate Coal Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Coarse Dirt;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Chiseled Deepslate;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cobbled Deepslate;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cracked Deepslate Bricks;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cracked Deepslate Tiles;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Deepslate Bricks;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Deepslate Tiles;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Polished Deepslate;7;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cobblestone;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Infested Cobblestone;3;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Mossy Cobblestone;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cobweb;1;0;0;0;4;0;No;No;No;Breaks
-Cocoa;1;12;10;1200;3;0;No;No;No;Breaks
-Chain Command Block;3;16;16;4096;3600000;0;Yes;Yes;Yes;No
-Command Block;3;16;16;4096;3600000;0;Yes;Yes;Yes;No
-Repeating Command Block;3;16;16;4096;3600000;0;Yes;Yes;Yes;No
-Composter;1;9;9;729;1;0;No;No;No;Yes
-Black Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Blue Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Brown Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Cyan Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Gray Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Green Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Light Blue Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Light Gray Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Lime Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Magenta Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Orange Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Pink Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Purple Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Red Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-White Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Yellow Concrete;16;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Black Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Blue Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Brown Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Cyan Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Gray Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Green Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Light Blue Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Light Gray Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Lime Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Magenta Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Orange Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Pink Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Purple Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Red Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-White Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Yellow Concrete Powder;16;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Conduit;1;11;11;1331;52;15;No;No;No;No
-Copper Bulb;8;16;16;4096;6;8;No;Yes;Maybe;Yes
-Exposed Copper Bulb;8;16;16;4096;6;6;No;Yes;Maybe;Yes
-Oxidized Copper Bulb;8;16;16;4096;6;2;No;Yes;Maybe;Yes
-Waxed Copper Bulb;8;16;16;4096;6;8;No;Yes;Maybe;Yes
-Waxed Exposed Copper Bulb;8;16;16;4096;6;6;No;Yes;Maybe;Yes
-Waxed Oxidized Copper Bulb;8;16;16;4096;6;2;No;Yes;Maybe;Yes
-Waxed Weathered Copper Bulb;8;16;16;4096;6;4;No;Yes;Maybe;Yes
-Weathered Copper Bulb;8;16;16;4096;6;4;No;Yes;Maybe;Yes
-Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Exposed Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Oxidized Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Waxed Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Waxed Exposed Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Waxed Oxidized Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Waxed Weathered Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Weathered Copper Grate;8;16;16;4096;53;0;No;Yes;No;Yes
-Copper Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Deepslate Copper Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Brain Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Bubble Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Dead Brain Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Dead Bubble Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Dead Fire Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Dead Horn Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Dead Tube Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Fire Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Horn Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Tube Coral Block;10;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Brain Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Brain Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Bubble Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Bubble Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Brain Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Brain Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Bubble Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Bubble Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Fire Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Fire Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Horn Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Horn Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Tube Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Dead Tube Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Fire Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Fire Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Horn Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Horn Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Tube Coral Fan;20;0;0;0;50;0;No;No;No;Yes
-Tube Coral Wall Fan;20;0;0;0;50;0;No;No;No;Yes
-Brain Coral;10;0;0;0;50;0;No;No;No;Yes
-Bubble Coral;10;0;0;0;50;0;No;No;No;Yes
-Dead Brain Coral;10;0;0;0;50;0;No;No;No;Yes
-Dead Bubble Coral;10;0;0;0;50;0;No;No;No;Yes
-Dead Fire Coral;10;0;0;0;50;0;No;No;No;Yes
-Dead Horn Coral;10;0;0;0;50;0;No;No;No;Yes
-Dead Tube Coral;10;0;0;0;50;0;No;No;No;Yes
-Fire Coral;10;0;0;0;50;0;No;No;No;Yes
-Horn Coral;10;0;0;0;50;0;No;No;No;Yes
-Tube Coral;10;0;0;0;50;0;No;No;No;Yes
-Crafter;1;16;16;4096;4;0;Yes;Yes;Yes;No
-Crafting Table;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Creaking Heart;1;16;16;4096;10;0;Yes;Yes;Yes;No
-Attached Melon Stem;8;0;0;0;0;0;No;No;No;Breaks
-Attached Pumpkin Stem;8;0;0;0;0;0;No;No;No;Breaks
-Beetroots;8;0;0;0;0;0;No;No;No;Breaks
-Carrots;8;0;0;0;0;0;No;No;No;Breaks
-Melon Stem;8;0;0;0;0;0;No;No;No;Breaks
-Potatoes;8;0;0;0;0;0;No;No;No;Breaks
-Pumpkin Stem;8;0;0;0;0;0;No;No;No;Breaks
-Wheat Crops;8;0;0;0;0;0;No;No;No;Breaks
-Crying Obsidian;1;16;16;4096;1200;10;Yes;Yes;Yes;No
-Daylight Detector;1;6;16;1536;0;0;No;No;No;No
-Dead Bush;1;0;0;0;0;0;No;No;No;Breaks
-Decorated Pot;1;16;15;3600;50;0;No;No;No;Breaks
-Deepslate;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Infested Deepslate;2;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Detector Rail;1;0;0;0;50;0;No;No;No;Yes
-Deepslate Diamond Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Diamond Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Diorite;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Polished Diorite;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Dirt;2;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Rooted Dirt;2;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Dirt Path;1;15;16;3840;1;0;No;No;No;Yes
-Dispenser;1;16;16;4096;4;0;Yes;Yes;Yes;No
-Acacia Door;21;16;10;1600;3;0;No;No;No;Breaks
-Bamboo Door;21;16;10;1600;3;0;No;No;No;Breaks
-Birch Door;21;16;10;1600;3;0;No;No;No;Breaks
-Cherry Door;21;16;10;1600;3;0;No;No;No;Breaks
-Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Crimson Door;21;16;10;1600;3;0;No;No;No;Breaks
-Dark Oak Door;21;16;10;1600;3;0;No;No;No;Breaks
-Exposed Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Iron Door;21;16;10;1600;5;0;No;No;No;Breaks
-Jungle Door;21;16;10;1600;3;0;No;No;No;Breaks
-Mangrove Door;21;16;10;1600;3;0;No;No;No;Breaks
-Oak Door;21;16;10;1600;3;0;No;No;No;Breaks
-Oxidized Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Pale Oak Door;21;16;10;1600;3;0;No;No;No;Breaks
-Spruce Door;21;16;10;1600;3;0;No;No;No;Breaks
-Warped Door;21;16;10;1600;3;0;No;No;No;Breaks
-Waxed Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Waxed Exposed Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Waxed Oxidized Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Waxed Weathered Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Weathered Copper Door;21;16;10;1600;6;0;No;No;No;Breaks
-Dragon Egg;1;16;15;3600;9;1;No;No;No;Yes
-Dried Kelp Block;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Dripstone Block;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Dropper;1;16;16;4096;4;0;Yes;Yes;Yes;No
-Deepslate Emerald Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Emerald Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Enchanting Table;1;12;16;3072;1200;7;No;No;No;No
-End Gateway;1;0;0;0;3600000;15;No;No;No;No
-End Portal;1;0;0;0;3600000;15;No;No;No;No
-End Portal Frame;1;14;15;3150;3600000;1;No;No;No;No
-End Rod;1;13;13;2197;0;14;No;No;No;Yes
-End Stone;1;16;16;4096;9;0;Yes;Yes;Yes;Yes
-End Stone Bricks;1;16;16;4096;9;0;Yes;Yes;Yes;Yes
-Ender Chest;1;14;15;3150;600;7;No;No;No;No
-Farmland;1;15;16;3840;1;0;No;No;No;Yes
-Acacia Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Bamboo Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Birch Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Cherry Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Crimson Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Dark Oak Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Jungle Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Mangrove Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Oak Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Pale Oak Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Spruce Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Warped Fence Gate;12;24;13;4056;3;0;No;No;No;Yes
-Acacia Fence;13;24;13;4056;52;0;No;No;No;Yes
-Bamboo Fence;13;24;13;4056;52;0;No;No;No;Yes
-Birch Fence;13;24;13;4056;52;0;No;No;No;Yes
-Cherry Fence;13;24;13;4056;52;0;No;No;No;Yes
-Crimson Fence;13;24;13;4056;52;0;No;No;No;Yes
-Dark Oak Fence;13;24;13;4056;52;0;No;No;No;Yes
-Jungle Fence;13;24;13;4056;52;0;No;No;No;Yes
-Mangrove Fence;13;24;13;4056;52;0;No;No;No;Yes
-Nether Brick Fence;13;24;13;4056;53;0;No;No;No;Yes
-Oak Fence;13;24;13;4056;52;0;No;No;No;Yes
-Pale Oak Fence;13;24;13;4056;52;0;No;No;No;Yes
-Spruce Fence;13;24;13;4056;52;0;No;No;No;Yes
-Warped Fence;13;24;13;4056;52;0;No;No;No;Yes
-Fern;2;0;0;0;0;0;No;No;No;Breaks
-Large Fern;2;0;0;0;0;0;No;No;No;Breaks
-Fire;2;0;0;0;0;15;No;No;No;Breaks
-Soul Fire;2;0;0;0;0;10;No;No;No;Breaks
-Fletching Table;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Flower Pot;38;6;11;726;0;0;No;No;No;Breaks
-Potted Acacia Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Allium;38;6;11;726;0;0;No;No;No;Breaks
-Potted Azalea;38;6;11;726;0;0;No;No;No;Breaks
-Potted Azure Bluet;38;6;11;726;0;0;No;No;No;Breaks
-Potted Bamboo;38;6;11;726;0;0;No;No;No;Breaks
-Potted Birch Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Blue Orchid;38;6;11;726;0;0;No;No;No;Breaks
-Potted Brown Mushroom;38;6;11;726;0;0;No;No;No;Breaks
-Potted Cactus;38;6;11;726;0;0;No;No;No;Breaks
-Potted Cherry Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Closed Eyeblossom;38;6;11;726;0;0;No;No;No;Breaks
-Potted Cornflower;38;6;11;726;0;0;No;No;No;Breaks
-Potted Crimson Fungus;38;6;11;726;0;0;No;No;No;Breaks
-Potted Crimson Roots;38;6;11;726;0;0;No;No;No;Breaks
-Potted Dandelion;38;6;11;726;0;0;No;No;No;Breaks
-Potted Dark Oak Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Dead Bush;38;6;11;726;0;0;No;No;No;Breaks
-Potted Fern;38;6;11;726;0;0;No;No;No;Breaks
-Potted Flowering Azalea;38;6;11;726;0;0;No;No;No;Breaks
-Potted Jungle Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Lily of the Valley;38;6;11;726;0;0;No;No;No;Breaks
-Potted Mangrove Propagule;38;6;11;726;0;0;No;No;No;Breaks
-Potted Oak Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Open Eyeblossom;38;6;11;726;0;0;No;No;No;Breaks
-Potted Orange Tulip;38;6;11;726;0;0;No;No;No;Breaks
-Potted Oxeye Daisy;38;6;11;726;0;0;No;No;No;Breaks
-Potted Pale Oak Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Pink Tulip;38;6;11;726;0;0;No;No;No;Breaks
-Potted Poppy;38;6;11;726;0;0;No;No;No;Breaks
-Potted Red Mushroom;38;6;11;726;0;0;No;No;No;Breaks
-Potted Red Tulip;38;6;11;726;0;0;No;No;No;Breaks
-Potted Spruce Sapling;38;6;11;726;0;0;No;No;No;Breaks
-Potted Torchflower;38;6;11;726;0;0;No;No;No;Breaks
-Potted Warped Fungus;38;6;11;726;0;0;No;No;No;Breaks
-Potted Warped Roots;38;6;11;726;0;0;No;No;No;Breaks
-Potted White Tulip;38;6;11;726;0;0;No;No;No;Breaks
-Potted Wither Rose;38;6;11;726;0;0;No;No;No;Breaks
-Allium;19;0;0;0;0;0;No;No;No;Breaks
-Azure Bluet;19;0;0;0;0;0;No;No;No;Breaks
-Blue Orchid;19;0;0;0;0;0;No;No;No;Breaks
-Closed Eyeblossom;19;0;0;0;0;0;No;No;No;Breaks
-Cornflower;19;0;0;0;0;0;No;No;No;Breaks
-Dandelion;19;0;0;0;0;0;No;No;No;Breaks
-Lilac;19;0;0;0;0;0;No;No;No;Breaks
-Lily of the Valley;19;0;0;0;0;0;No;No;No;Breaks
-Open Eyeblossom;19;0;0;0;0;0;No;No;No;Breaks
-Orange Tulip;19;0;0;0;0;0;No;No;No;Breaks
-Oxeye Daisy;19;0;0;0;0;0;No;No;No;Breaks
-Peony;19;0;0;0;0;0;No;No;No;Breaks
-Pink Tulip;19;0;0;0;0;0;No;No;No;Breaks
-Poppy;19;0;0;0;0;0;No;No;No;Breaks
-Red Tulip;19;0;0;0;0;0;No;No;No;Breaks
-Rose Bush;19;0;0;0;0;0;No;No;No;Breaks
-Sunflower;19;0;0;0;0;0;No;No;No;Breaks
-White Tulip;19;0;0;0;0;0;No;No;No;Breaks
-Wither Rose;19;0;0;0;0;0;No;No;No;Breaks
-Ochre Froglight;3;16;16;4096;0;15;Yes;Yes;No;Yes
-Pearlescent Froglight;3;16;16;4096;0;15;Yes;Yes;No;Yes
-Verdant Froglight;3;16;16;4096;0;15;Yes;Yes;No;Yes
-Frogspawn;1;0;0;0;0;0;No;No;No;Breaks
-Frosted Ice;1;16;16;4096;0;0;No;Yes;Polar Bear Only;Yes
-Crimson Fungus;2;0;0;0;0;0;No;No;No;Breaks
-Warped Fungus;2;0;0;0;0;0;No;No;No;Breaks
-Furnace;1;16;16;4096;4;6;Yes;Yes;Yes;No
-Gilded Blackstone;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Glass;1;16;16;4096;0;0;No;Yes;No;Yes
-Glass Pane;1;16;12;2304;50;0;No;No;No;Yes
-Black Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Blue Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Brown Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Cyan Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Gray Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Green Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Light Blue Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Light Gray Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Lime Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Magenta Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Orange Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Pink Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Purple Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Red Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-White Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Yellow Glazed Terracotta;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Glow Lichen;1;0;0;0;50;6;No;No;No;Breaks
-Glowstone;1;16;16;4096;0;15;No;Yes;No;Yes
-Deepslate Gold Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Gold Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Granite;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Polished Granite;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Grass Block;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Gravel;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Grindstone;1;13;13;2197;6;0;No;No;No;No
-Hanging Roots;1;0;0;0;50;0;No;No;No;Breaks
-Acacia Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Acacia Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Bamboo Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Bamboo Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Birch Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Birch Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Cherry Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Cherry Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Crimson Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Crimson Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Dark Oak Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Dark Oak Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Jungle Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Jungle Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Mangrove Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Mangrove Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Oak Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Oak Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Pale Oak Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Pale Oak Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Spruce Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Spruce Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Warped Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Warped Wall Hanging Sign;24;16;13;2704;50;0;No;No;No;No
-Hay Bale;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Creeper Head;14;10;12;1440;1;0;No;No;No;Breaks
-Creeper Wall Head;14;10;12;1440;1;0;No;No;No;Breaks
-Dragon Head;14;10;12;1440;1;0;No;No;No;Breaks
-Dragon Wall Head;14;10;12;1440;1;0;No;No;No;Breaks
-Piglin Head;14;10;12;1440;1;0;No;No;No;Breaks
-Piglin Wall Head;14;10;12;1440;1;0;No;No;No;Breaks
-Player Head;14;10;12;1440;1;0;No;No;No;Breaks
-Player Wall Head;14;10;12;1440;1;0;No;No;No;Breaks
-Skeleton Skull;14;10;12;1440;1;0;No;No;No;Breaks
-Skeleton Wall Skull;14;10;12;1440;1;0;No;No;No;Breaks
-Wither Skeleton Skull;14;10;12;1440;1;0;No;No;No;Breaks
-Wither Skeleton Wall Skull;14;10;12;1440;1;0;No;No;No;Breaks
-Zombie Head;14;10;12;1440;1;0;No;No;No;Breaks
-Zombie Wall Head;14;10;12;1440;1;0;No;No;No;Breaks
-Heavy Core;1;8;12;1152;1200;0;No;No;No;Yes
-Honey Block;1;15;15;3375;0;0;No;No;No;Yes
-Honeycomb Block;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Hopper;1;14;13;2366;5;0;No;No;No;No
-Crimson Hyphae;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Crimson Hyphae;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Warped Hyphae;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Warped Hyphae;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Ice;1;16;16;4096;0;0;No;Yes;Polar Bear Only;Yes
-Iron Bars;1;16;12;2304;53;0;No;No;No;Yes
-Deepslate Iron Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Iron Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Jack o'Lantern;1;16;16;4096;1;15;Yes;Yes;Yes;Breaks
-Jigsaw Block;1;16;16;4096;3600000;0;Yes;Yes;Yes;No
-Jukebox;1;16;16;4096;6;0;Yes;Yes;Yes;No
-Kelp;2;0;0;0;100;0;No;No;No;Breaks
-Kelp Plant;2;0;0;0;100;0;No;No;No;Breaks
-Ladder;1;16;10;1600;50;0;No;No;No;Breaks
-Lantern;2;8;10;800;52;15;No;No;No;Breaks
-Soul Lantern;2;8;10;800;52;10;No;No;No;Breaks
-Deepslate Lapis Lazuli Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Lapis Lazuli Ore;2;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Lava;1;0;0;0;100;15;No;No;No;Breaks
-Acacia Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Azalea Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Birch Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Cherry Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Dark Oak Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Flowering Azalea Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Jungle Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Mangrove Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Oak Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Pale Oak Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Spruce Leaves;11;16;16;4096;50;0;No;Yes;Ocelots and Parrots Only;Breaks
-Lectern;1;8;14;1568;2;0;No;No;No;No
-Lever;1;0;0;0;0;0;No;No;No;Breaks
-Light;1;0;0;0;3600001;8;No;No;No;No
-Lightning Rod;1;13;13;2197;53;0;No;No;No;Yes
-Lily Pad;1;2;15;450;0;0;No;No;No;Breaks
-Lodestone;1;16;16;4096;4;0;Yes;Yes;Yes;No
-Acacia Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Birch Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Cherry Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Dark Oak Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Jungle Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Mangrove Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Oak Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Pale Oak Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Spruce Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Acacia Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Birch Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Cherry Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Dark Oak Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Jungle Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Mangrove Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Oak Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Pale Oak Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Spruce Log;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Loom;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Magma Block;1;16;16;4096;0;3;Yes;Yes;Fire-Immune Mobs Only;Yes
-Mangrove Propagule;1;0;0;0;50;0;No;No;No;Breaks
-Mangrove Roots;1;16;16;4096;50;0;Yes;Yes;Yes;Yes
-Melon;1;16;16;4096;1;0;Yes;Yes;Yes;Breaks
-Moss Block;1;16;16;4096;0;0;Yes;Yes;Yes;Breaks
-Moss Carpet;1;1;16;256;0;0;No;No;No;Breaks
-Moving Piston;1;0;0;0;0;0;No;No;No;No
-Mud;1;14;16;3584;0;0;Yes;No;Yes;Yes
-Mud Bricks;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Muddy Mangrove Roots;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Brown Mushroom Block;3;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Mushroom Stem;3;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Red Mushroom Block;3;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Brown Mushroom;2;0;0;0;0;1;No;No;No;Breaks
-Red Mushroom;2;0;0;0;0;0;No;No;No;Breaks
-Mycelium;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Chiseled Nether Bricks;4;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cracked Nether Bricks;4;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Nether Bricks;4;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Red Nether Bricks;4;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Nether Gold Ore;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Nether Portal;1;0;0;0;0;11;No;No;No;No
-Nether Quartz Ore;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Nether Sprouts;1;0;0;0;0;0;No;No;No;Breaks
-Nether Wart;1;0;0;0;0;0;No;No;No;Breaks
-Netherrack;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Note Block;1;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Crimson Nylium;2;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Warped Nylium;2;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Observer;1;16;16;4096;3;0;No;Yes;Yes;Yes
-Obsidian;1;16;16;4096;1200;0;Yes;Yes;Yes;No
-Packed Ice;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Packed Mud;1;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Pale Hanging Moss;1;16;0;0;0;0;No;No;No;Breaks
-Pale Moss Block;1;16;16;4096;0;0;Yes;Yes;Yes;Breaks
-Pale Moss Carpet;1;1;16;256;0;0;No;No;No;Breaks
-Pink Petals;1;0;0;0;0;0;No;No;No;Breaks
-Piston;3;13;13;2197;2;0;No;Maybe;Maybe;Maybe
-Piston Head;3;13;13;2197;2;0;No;Maybe;Maybe;Maybe
-Sticky Piston;3;13;13;2197;2;0;No;Maybe;Maybe;Maybe
-Pitcher Crop;1;4;12;576;0;0;No;No;No;Breaks
-Pitcher Plant;1;0;0;0;0;0;No;No;No;Breaks
-Acacia Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Bamboo Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Birch Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Cherry Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Crimson Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Dark Oak Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Jungle Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Mangrove Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Oak Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Pale Oak Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Spruce Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Warped Planks;12;16;16;4096;3;0;Yes;Yes;Yes;Yes
-Podzol;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Pointed Dripstone;1;14;0;0;52;0;No;No;No;Yes
-Polished Tuff;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Powder Snow;1;16;0;0;0;0;No;No;No;Yes
-Powered Rail;1;0;0;0;50;0;No;No;No;Yes
-Acacia Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Bamboo Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Birch Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Cherry Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Crimson Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Dark Oak Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Heavy Weighted Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Jungle Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Light Weighted Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Mangrove Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Oak Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Pale Oak Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Polished Blackstone Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Spruce Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Stone Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Warped Pressure Plate;16;0;0;0;0;0;No;No;No;Breaks
-Dark Prismarine;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Prismarine;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Prismarine Bricks;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Carved Pumpkin;2;16;16;4096;1;0;Yes;Yes;Yes;Breaks
-Pumpkin;2;16;16;4096;1;0;Yes;Yes;Yes;Breaks
-Purpur Block;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Purpur Pillar;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Rail;1;0;0;0;50;0;No;No;No;Yes
-Red Sand;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Chiseled Red Sandstone;4;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Cut Red Sandstone;4;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Red Sandstone;4;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Smooth Red Sandstone;4;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Redstone Comparator;1;2;16;512;0;0;No;No;No;Breaks
-Redstone Wire;1;0;0;0;0;0;No;No;No;Breaks
-Redstone Lamp;1;16;16;4096;0;8;Yes;Yes;Yes;Yes
-Deepslate Redstone Ore;2;16;16;4096;3;4;Yes;Yes;Yes;Yes
-Redstone Ore;2;16;16;4096;3;4;Yes;Yes;Yes;Yes
-Redstone Repeater;1;2;16;512;0;0;No;No;No;Breaks
-Redstone Torch;2;0;0;0;0;4;No;No;No;Breaks
-Redstone Wall Torch;2;0;0;0;0;4;No;No;No;Breaks
-Reinforced Deepslate;1;16;16;4096;1200;0;Yes;Yes;Yes;No
-Block of Resin;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Chiseled Resin Bricks;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Resin Bricks;2;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Resin Clump;1;0;16;0;50;0;No;No;No;Breaks
-Respawn Anchor;1;16;16;4096;1200;7;Yes;Yes;Maybe;No
-Crimson Roots;2;0;0;0;0;0;No;No;No;Breaks
-Warped Roots;2;0;0;0;0;0;No;No;No;Breaks
-Sand;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Chiseled Sandstone;4;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Cut Sandstone;4;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Sandstone;4;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Smooth Sandstone;4;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Acacia Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Birch Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Cherry Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Dark Oak Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Jungle Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Oak Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Pale Oak Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Spruce Sapling;8;0;0;0;0;0;No;No;No;Breaks
-Scaffolding;1;7;12;1008;50;0;No;No;No;Yes
-Sculk;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Sculk Catalyst;1;16;16;4096;3;6;Yes;Yes;Yes;No
-Sculk Sensor;1;8;16;2048;51;1;No;No;No;No
-Sculk Shrieker;1;8;16;2048;52;0;No;No;No;No
-Sculk Vein;1;0;0;0;50;0;No;No;No;Breaks
-Sea Lantern;1;16;16;4096;0;15;No;Yes;No;Yes
-Sea Pickle;1;6;13;1014;50;5;No;No;No;Breaks
-Seagrass;2;0;0;0;100;0;No;No;No;Breaks
-Tall Seagrass;2;0;0;0;100;0;No;No;No;Breaks
-Short Grass;1;0;0;0;0;0;No;No;No;Breaks
-Shroomlight;1;16;16;4096;1;15;Yes;Yes;No;Yes
-Black Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Blue Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Brown Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Cyan Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Gray Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Green Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Light Blue Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Light Gray Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Lime Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Magenta Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Orange Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Pink Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Purple Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Red Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-White Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Yellow Shulker Box;17;20;20;8000;2;0;Yes;Maybe;Yes;Breaks
-Acacia Sign;24;0;0;0;50;0;No;No;No;No
-Acacia Wall Sign;24;0;0;0;50;0;No;No;No;No
-Bamboo Sign;24;0;0;0;50;0;No;No;No;No
-Bamboo Wall Sign;24;0;0;0;50;0;No;No;No;No
-Birch Sign;24;0;0;0;50;0;No;No;No;No
-Birch Wall Sign;24;0;0;0;50;0;No;No;No;No
-Cherry Sign;24;0;0;0;50;0;No;No;No;No
-Cherry Wall Sign;24;0;0;0;50;0;No;No;No;No
-Crimson Sign;24;0;0;0;50;0;No;No;No;No
-Crimson Wall Sign;24;0;0;0;50;0;No;No;No;No
-Dark Oak Sign;24;0;0;0;50;0;No;No;No;No
-Dark Oak Wall Sign;24;0;0;0;50;0;No;No;No;No
-Jungle Sign;24;0;0;0;50;0;No;No;No;No
-Jungle Wall Sign;24;0;0;0;50;0;No;No;No;No
-Mangrove Sign;24;0;0;0;50;0;No;No;No;No
-Mangrove Wall Sign;24;0;0;0;50;0;No;No;No;No
-Oak Sign;24;0;0;0;50;0;No;No;No;No
-Oak Wall Sign;24;0;0;0;50;0;No;No;No;No
-Pale Oak Sign;24;0;0;0;50;0;No;No;No;No
-Pale Oak Wall Sign;24;0;0;0;50;0;No;No;No;No
-Spruce Sign;24;0;0;0;50;0;No;No;No;No
-Spruce Wall Sign;24;0;0;0;50;0;No;No;No;No
-Warped Sign;24;0;0;0;50;0;No;No;No;No
-Warped Wall Sign;24;0;0;0;50;0;No;No;No;No
-Acacia Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Andesite Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Bamboo Mosaic Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Bamboo Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Birch Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Blackstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Cherry Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Cobbled Deepslate Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Cobblestone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Crimson Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Cut Red Sandstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Cut Sandstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Dark Oak Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Dark Prismarine Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Deepslate Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Deepslate Tile Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Diorite Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-End Stone Brick Slab;62;12;16;3072;54;0;Maybe;Maybe;Maybe;Yes
-Exposed Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Granite Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Jungle Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Mangrove Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Mossy Cobblestone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Mossy Stone Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Mud Brick Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Nether Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Oak Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Oxidized Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Pale Oak Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Petrified Oak Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Andesite Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Blackstone Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Blackstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Deepslate Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Diorite Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Granite Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Polished Tuff Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Prismarine Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Prismarine Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Purpur Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Quartz Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Red Nether Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Red Sandstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Resin Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Sandstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Smooth Quartz Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Smooth Red Sandstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Smooth Sandstone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Smooth Stone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Spruce Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Stone Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Stone Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Tuff Brick Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Tuff Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Warped Slab;62;12;16;3072;52;0;Maybe;Maybe;Maybe;Yes
-Waxed Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Waxed Exposed Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Waxed Oxidized Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Waxed Weathered Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Weathered Cut Copper Slab;62;12;16;3072;53;0;Maybe;Maybe;Maybe;Yes
-Slime Block;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Small Dripleaf;1;0;0;0;50;0;No;No;No;Breaks
-Smithing Table;1;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Smoker;1;16;16;4096;4;6;Yes;Yes;Yes;No
-Sniffer Egg;1;16;14;3136;0;0;No;No;No;Yes
-Snow;1;8;16;2048;0;0;No;No;Maybe;Breaks
-Snow Block;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Soul Sand;1;14;16;3584;0;0;Yes;No;Yes;Yes
-Soul Soil;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Monster Spawner;1;16;16;4096;5;0;Yes;Yes;Yes;No
-Sponge;2;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Wet Sponge;2;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Spore Blossom;1;0;0;0;0;0;No;No;No;Breaks
-Black Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Blue Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Brown Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Cyan Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Gray Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Green Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Light Blue Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Light Gray Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Lime Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Magenta Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Orange Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Pink Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Purple Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Red Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-White Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Yellow Stained Glass;16;16;16;4096;0;0;No;Yes;No;Yes
-Black Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Blue Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Brown Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Cyan Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Gray Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Green Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Light Blue Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Light Gray Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Lime Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Magenta Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Orange Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Pink Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Purple Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Red Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-White Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Yellow Stained Glass Pane;16;16;12;2304;50;0;No;No;No;Yes
-Acacia Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Andesite Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Bamboo Mosaic Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Bamboo Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Birch Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Blackstone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Cherry Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Cobbled Deepslate Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Cobblestone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Crimson Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Dark Oak Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Dark Prismarine Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Deepslate Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Deepslate Tile Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Diorite Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-End Stone Brick Stairs;58;12;12;1728;54;0;No;No;Maybe;Yes
-Exposed Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Granite Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Jungle Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Mangrove Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Mossy Cobblestone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Mossy Stone Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Mud Brick Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Nether Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Oak Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Oxidized Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Pale Oak Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Polished Andesite Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Polished Blackstone Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Polished Blackstone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Polished Deepslate Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Polished Diorite Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Polished Granite Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Polished Tuff Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Prismarine Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Prismarine Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Purpur Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Quartz Stairs;58;12;12;1728;50;0;No;No;Maybe;Yes
-Red Nether Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Red Sandstone Stairs;58;12;12;1728;50;0;No;No;Maybe;Yes
-Resin Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Sandstone Stairs;58;12;12;1728;50;0;No;No;Maybe;Yes
-Smooth Quartz Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Smooth Red Sandstone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Smooth Sandstone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Spruce Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Stone Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Stone Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Tuff Brick Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Tuff Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Warped Stairs;58;12;12;1728;52;0;No;No;Maybe;Yes
-Waxed Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Waxed Exposed Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Waxed Oxidized Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Waxed Weathered Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Weathered Cut Copper Stairs;58;12;12;1728;53;0;No;No;Maybe;Yes
-Crimson Stem;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Crimson Stem;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Warped Stem;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Warped Stem;4;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Infested Stone;3;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Smooth Stone;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Stone;3;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Chiseled Stone Bricks;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Cracked Stone Bricks;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Infested Chiseled Stone Bricks;8;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Infested Cracked Stone Bricks;8;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Infested Mossy Stone Bricks;8;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Infested Stone Bricks;8;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Mossy Stone Bricks;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Stone Bricks;8;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Stonecutter;1;9;16;2304;4;0;No;No;No;Yes
-Structure Block;1;16;16;4096;3600000;0;Yes;Yes;Yes;No
-Structure Void;1;0;0;0;0;0;No;No;No;Breaks
-Sugar Cane;1;0;0;0;0;0;No;No;No;Breaks
-Suspicious Gravel;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Suspicious Sand;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Sweet Berry Bush;1;0;0;0;0;0;No;No;No;Breaks
-Tall Grass;1;0;0;0;0;0;No;No;No;Breaks
-Target;1;16;16;4096;0;0;Yes;Yes;Yes;Yes
-Black Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Blue Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Brown Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Cyan Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Gray Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Green Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Light Blue Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Light Gray Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Lime Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Magenta Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Orange Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Pink Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Purple Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Red Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-White Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Yellow Terracotta;17;16;16;4096;4;0;Yes;Yes;Yes;Yes
-Tinted Glass;1;16;16;4096;0;0;No;Yes;No;Yes
-TNT;1;16;16;4096;0;0;No;Yes;Yes;Yes
-Soul Torch;4;0;0;0;0;10;No;No;No;Breaks
-Soul Wall Torch;4;0;0;0;0;10;No;No;No;Breaks
-Torch;4;0;0;0;0;14;No;No;No;Breaks
-Wall Torch;4;0;0;0;0;14;No;No;No;Breaks
-Torchflower;1;0;0;0;0;0;No;No;No;Breaks
-Torchflower Crop;1;0;0;0;0;0;No;No;No;Breaks
-Acacia Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Bamboo Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Birch Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Cherry Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Crimson Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Dark Oak Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Exposed Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Iron Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Jungle Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Mangrove Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Oak Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Oxidized Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Pale Oak Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Spruce Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Warped Trapdoor;21;10;10;1000;52;0;No;No;No;Yes
-Waxed Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Waxed Exposed Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Waxed Oxidized Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Waxed Weathered Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Weathered Copper Trapdoor;21;10;10;1000;53;0;No;No;No;Yes
-Trapped Chest;1;14;16;3584;51;0;No;No;No;No
-Trial Spawner;1;16;16;4096;50;4;Yes;Yes;Yes;No
-Tripwire;1;0;0;0;0;0;No;No;No;Breaks
-Tripwire Hook;1;0;0;0;0;0;No;No;No;Breaks
-Tuff;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Tuff Bricks;1;16;16;4096;6;0;Yes;Yes;Yes;Yes
-Turtle Egg;1;7;13;1183;0;0;No;No;No;Breaks
-Twisting Vines;2;0;0;0;0;0;No;No;No;Breaks
-Twisting Vines Plant;2;0;0;0;0;0;No;No;No;Breaks
-Vault;1;16;16;4096;50;9;Yes;Yes;Yes;No
-Vines;1;0;0;0;0;0;No;No;No;Breaks
-Andesite Wall;26;24;13;4056;53;0;No;No;No;Yes
-Blackstone Wall;26;24;13;4056;53;0;No;No;No;Yes
-Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Cobbled Deepslate Wall;26;24;13;4056;53;0;No;No;No;Yes
-Cobblestone Wall;26;24;13;4056;53;0;No;No;No;Yes
-Deepslate Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Deepslate Tile Wall;26;24;13;4056;53;0;No;No;No;Yes
-Diorite Wall;26;24;13;4056;53;0;No;No;No;Yes
-End Stone Brick Wall;26;24;13;4056;54;0;No;No;No;Yes
-Granite Wall;26;24;13;4056;53;0;No;No;No;Yes
-Mossy Cobblestone Wall;26;24;13;4056;53;0;No;No;No;Yes
-Mossy Stone Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Mud Brick Wall;26;24;13;4056;52;0;No;No;No;Yes
-Nether Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Polished Blackstone Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Polished Blackstone Wall;26;24;13;4056;53;0;No;No;No;Yes
-Polished Deepslate Wall;26;24;13;4056;53;0;No;No;No;Yes
-Polished Tuff Wall;26;24;13;4056;53;0;No;No;No;Yes
-Prismarine Wall;26;24;13;4056;53;0;No;No;No;Yes
-Red Nether Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Red Sandstone Wall;26;24;13;4056;50;0;No;No;No;Yes
-Resin Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Sandstone Wall;26;24;13;4056;50;0;No;No;No;Yes
-Stone Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Tuff Brick Wall;26;24;13;4056;53;0;No;No;No;Yes
-Tuff Wall;26;24;13;4056;53;0;No;No;No;Yes
-Nether Wart Block;2;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Warped Wart Block;2;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Bubble Column;2;0;0;0;100;0;No;No;No;Breaks
-Water;2;0;0;0;100;0;No;No;No;Breaks
-Weeping Vines;2;0;0;0;0;0;No;No;No;Breaks
-Weeping Vines Plant;2;0;0;0;0;0;No;No;No;Breaks
-Acacia Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Birch Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Cherry Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Dark Oak Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Jungle Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Mangrove Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Oak Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Pale Oak Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Spruce Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Acacia Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Birch Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Cherry Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Dark Oak Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Jungle Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Mangrove Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Oak Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Pale Oak Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Stripped Spruce Wood;18;16;16;4096;2;0;Yes;Yes;Yes;Yes
-Black Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Blue Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Brown Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Cyan Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Gray Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Green Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Light Blue Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Light Gray Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Lime Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Magenta Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Orange Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Pink Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Purple Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Red Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-White Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
-Yellow Wool;16;16;16;4096;1;0;Yes;Yes;Yes;Yes
+Activator Rail;1;0;0;0;50.35;0.0;No;No;No;Yes
+Air;3;0;0;0;0.0;0.0;No;No;No;Yes
+Cave Air;3;0;0;0;0.0;0.0;No;No;No;Yes
+Void Air;3;0;0;0;0.0;0.0;No;No;No;Yes
+Amethyst Cluster;4;9;9;729;50.75;5.0;No;No;No;Breaks
+Large Amethyst Bud;4;9;9;729;50.75;4.0;No;No;No;Breaks
+Medium Amethyst Bud;4;9;9;729;50.75;2.0;No;No;No;Breaks
+Small Amethyst Bud;4;9;9;729;50.75;1.0;No;No;No;Breaks
+Ancient Debris;1;16;16;4096;1200.0;0.0;Yes;Yes;Yes;Yes
+Andesite;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Polished Andesite;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Anvil;3;10;12;1440;1200.0;0.0;No;No;No;Maybe
+Chipped Anvil;3;10;12;1440;1200.0;0.0;No;No;No;Maybe
+Damaged Anvil;3;10;12;1440;1200.0;0.0;No;No;No;Maybe
+Azalea;2;16;13;2704;0.0;0.0;No;No;Yes;Breaks
+Flowering Azalea;2;16;13;2704;0.0;0.0;No;No;Yes;Breaks
+Bamboo;2;16;0;0;1.0;0.0;No;No;No;Breaks
+Bamboo Shoot;2;16;0;0;1.0;0.0;No;No;No;Breaks
+Bamboo Mosaic;1;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Black Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Blue Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Brown Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Cyan Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Gray Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Green Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Light Blue Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Light Gray Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Lime Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Magenta Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Orange Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Pink Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Purple Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Red Banner;32;0;0;0;1.0;0.0;No;No;No;No
+White Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Yellow Banner;32;0;0;0;1.0;0.0;No;No;No;No
+Barrel;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;No
+Barrier;1;16;16;4096;3600000.75;0.0;Yes;Yes;No;No
+Basalt;3;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Polished Basalt;3;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Smooth Basalt;3;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Beacon;1;16;16;4096;3.0;15.0;No;Yes;No;No
+Bedrock;1;16;16;4096;3600000.0;0.0;Yes;Yes;No;No
+Black Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Blue Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Brown Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Cyan Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Gray Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Green Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Light Blue Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Light Gray Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Lime Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Magenta Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Orange Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Pink Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Purple Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Red Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+White Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Yellow Bed;16;9;9;729;0.2;0.0;No;No;No;Breaks
+Bee Nest;1;16;16;4096;0.30000000000000004;0.0;Yes;Yes;Yes;No
+Beehive;1;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;No
+Bell;1;12;12;1728;5.0;0.0;No;No;No;Breaks
+Big Dripleaf;2;14;16;3584;50.05;0.0;No;No;No;Breaks
+Big Dripleaf Stem;2;14;16;3584;50.05;0.0;No;No;No;Breaks
+Blackstone;5;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Chiseled Polished Blackstone;5;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cracked Polished Blackstone Bricks;5;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Polished Blackstone;5;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Polished Blackstone Bricks;5;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Blast Furnace;1;16;16;4096;3.5;6.5;Yes;Yes;Yes;No
+Block of Amethyst;1;16;16;4096;1.5;0.0;Yes;Yes;Yes;Yes
+Block of Bamboo;1;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Block of Coal;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Exposed Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Exposed Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Oxidized Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Oxidized Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Block of Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Exposed Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Exposed Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Oxidized Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Oxidized Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Weathered Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Weathered Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Weathered Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Weathered Cut Copper;16;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Diamond;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Emerald;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Gold;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Iron;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Lapis Lazuli;1;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Block of Netherite;1;16;16;4096;1200.0;0.0;Yes;Yes;Yes;Yes
+Block of Quartz;5;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Chiseled Quartz Block;5;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Quartz Bricks;5;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Quartz Pillar;5;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Smooth Quartz Block;5;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Raw Copper;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Raw Gold;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Raw Iron;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Block of Redstone;1;16;16;4096;6.0;0.0;No;Yes;Yes;Yes
+Block of Stripped Bamboo;1;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Blue Ice;1;16;16;4096;2.8;0.0;Yes;Yes;Yes;Yes
+Bone Block;1;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Bookshelf;1;16;16;4096;1.5;0.0;Yes;Yes;Yes;Yes
+Brewing Stand;1;8;12;1152;0.5;1.0;No;No;No;No
+Bricks;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Budding Amethyst;1;16;16;4096;1.5;0.0;Yes;Yes;Yes;Breaks
+Acacia Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Bamboo Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Birch Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Cherry Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Crimson Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Dark Oak Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Jungle Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Mangrove Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Oak Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Pale Oak Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Polished Blackstone Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Spruce Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Stone Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Warped Button;14;0;0;0;0.5;0.0;No;No;No;Breaks
+Cactus;1;15;15;3375;0.4;0.0;No;No;No;Breaks
+Cake;18;8;10;800;0.5;0.0;No;No;No;Breaks
+Cake with Black Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Blue Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Brown Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Cyan Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Gray Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Green Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Light Blue Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Light Gray Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Lime Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Magenta Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Orange Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Pink Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Purple Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Red Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with White Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Cake with Yellow Candle;18;11;10;1100;0.5;1.5;No;No;No;Breaks
+Calcite;1;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Calibrated Sculk Sensor;1;8;16;2048;50.75;1.0;No;No;No;No
+Campfire;2;7;16;1792;51.0;7.5;No;No;No;No
+Soul Campfire;2;7;16;1792;51.0;5.0;No;No;No;No
+Black Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Blue Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Brown Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Cyan Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Gray Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Green Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Light Blue Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Light Gray Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Lime Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Magenta Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Orange Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Pink Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Purple Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Red Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+White Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Yellow Candle;17;6;10;600;50.05;3.75;No;No;No;Breaks
+Black Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Blue Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Brown Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Cyan Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Gray Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Green Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Light Blue Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Light Gray Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Lime Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Magenta Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Orange Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Pink Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Purple Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Red Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+White Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Yellow Carpet;16;1;16;256;0.1;0.0;No;No;No;Yes
+Cartography Table;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;Yes
+Cauldron;4;10;7;490;2.0;0.0;No;No;No;Yes
+Lava Cauldron;4;10;7;490;2.0;15.0;No;No;No;Yes
+Powder Snow Cauldron;4;10;7;490;2.0;0.0;No;No;No;Yes
+Water Cauldron;4;10;7;490;2.0;0.0;No;No;No;Yes
+Cave Vines;2;0;0;0;0.0;7.0;No;No;No;Breaks
+Cave Vines Plant;2;0;0;0;0.0;7.0;No;No;No;Breaks
+Chain;1;12;12;1728;53.0;0.0;No;No;No;Yes
+Chest;1;14;15;3150;51.25;0.0;No;No;No;No
+Chiseled Bookshelf;1;16;16;4096;1.5;0.0;Yes;Yes;Yes;No
+Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Exposed Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Oxidized Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Exposed Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Oxidized Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Waxed Weathered Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Weathered Chiseled Copper;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Chiseled Tuff;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Chiseled Tuff Bricks;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Chorus Flower;1;16;16;4096;0.4;0.0;No;Yes;No;Breaks
+Chorus Plant;1;14;14;2744;0.4;0.0;No;No;No;Breaks
+Clay;1;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Coal Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Deepslate Coal Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Coarse Dirt;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Chiseled Deepslate;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cobbled Deepslate;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cracked Deepslate Bricks;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cracked Deepslate Tiles;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Deepslate Bricks;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Deepslate Tiles;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Polished Deepslate;7;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cobblestone;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Infested Cobblestone;3;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Mossy Cobblestone;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cobweb;1;0;0;0;4.0;0.0;No;No;No;Breaks
+Cocoa;1;12;10;1200;3.0;0.0;No;No;No;Breaks
+Chain Command Block;3;16;16;4096;3600000.0;0.0;Yes;Yes;Yes;No
+Command Block;3;16;16;4096;3600000.0;0.0;Yes;Yes;Yes;No
+Repeating Command Block;3;16;16;4096;3600000.0;0.0;Yes;Yes;Yes;No
+Composter;1;9;9;729;0.6000000000000001;0.0;No;No;No;Yes
+Black Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Blue Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Brown Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Cyan Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Gray Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Green Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Light Blue Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Light Gray Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Lime Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Magenta Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Orange Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Pink Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Purple Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Red Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+White Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Yellow Concrete;16;16;16;4096;1.8;0.0;Yes;Yes;Yes;Yes
+Black Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Blue Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Brown Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Cyan Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Gray Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Green Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Light Blue Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Light Gray Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Lime Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Magenta Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Orange Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Pink Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Purple Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Red Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+White Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Yellow Concrete Powder;16;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Conduit;1;11;11;1331;51.5;15.0;No;No;No;No
+Copper Bulb;8;16;16;4096;6.0;7.5;No;Yes;Maybe;Yes
+Exposed Copper Bulb;8;16;16;4096;6.0;6.0;No;Yes;Maybe;Yes
+Oxidized Copper Bulb;8;16;16;4096;6.0;2.0;No;Yes;Maybe;Yes
+Waxed Copper Bulb;8;16;16;4096;6.0;7.5;No;Yes;Maybe;Yes
+Waxed Exposed Copper Bulb;8;16;16;4096;6.0;6.0;No;Yes;Maybe;Yes
+Waxed Oxidized Copper Bulb;8;16;16;4096;6.0;2.0;No;Yes;Maybe;Yes
+Waxed Weathered Copper Bulb;8;16;16;4096;6.0;4.0;No;Yes;Maybe;Yes
+Weathered Copper Bulb;8;16;16;4096;6.0;4.0;No;Yes;Maybe;Yes
+Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Exposed Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Oxidized Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Waxed Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Waxed Exposed Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Waxed Oxidized Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Waxed Weathered Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Weathered Copper Grate;8;16;16;4096;53.0;0.0;No;Yes;No;Yes
+Copper Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Deepslate Copper Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Brain Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Bubble Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Dead Brain Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Dead Bubble Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Dead Fire Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Dead Horn Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Dead Tube Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Fire Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Horn Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Tube Coral Block;10;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Brain Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Brain Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Bubble Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Bubble Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Brain Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Brain Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Bubble Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Bubble Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Fire Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Fire Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Horn Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Horn Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Tube Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Tube Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Fire Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Fire Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Horn Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Horn Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Tube Coral Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Tube Coral Wall Fan;20;0;0;0;50.0;0.0;No;No;No;Yes
+Brain Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Bubble Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Brain Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Bubble Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Fire Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Horn Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Dead Tube Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Fire Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Horn Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Tube Coral;10;0;0;0;50.0;0.0;No;No;No;Yes
+Crafter;1;16;16;4096;3.5;0.0;Yes;Yes;Yes;No
+Crafting Table;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;Yes
+Creaking Heart;1;16;16;4096;10.0;0.0;Yes;Yes;Yes;No
+Attached Melon Stem;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Attached Pumpkin Stem;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Beetroots;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Carrots;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Melon Stem;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Potatoes;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Pumpkin Stem;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Wheat Crops;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Crying Obsidian;1;16;16;4096;1200.0;10.0;Yes;Yes;Yes;No
+Daylight Detector;1;6;16;1536;0.2;0.0;No;No;No;No
+Dead Bush;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Decorated Pot;1;16;15;3600;50.0;0.0;No;No;No;Breaks
+Deepslate;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Infested Deepslate;2;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Detector Rail;1;0;0;0;50.35;0.0;No;No;No;Yes
+Deepslate Diamond Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Diamond Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Diorite;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Polished Diorite;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Dirt;2;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Rooted Dirt;2;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Dirt Path;1;15;16;3840;0.65;0.0;No;No;No;Yes
+Dispenser;1;16;16;4096;3.5;0.0;Yes;Yes;Yes;No
+Acacia Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Bamboo Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Birch Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Cherry Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Crimson Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Dark Oak Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Exposed Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Iron Door;21;16;9;1296;5.0;0.0;No;No;No;Breaks
+Jungle Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Mangrove Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Oak Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Oxidized Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Pale Oak Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Spruce Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Warped Door;21;16;9;1296;3.0;0.0;No;No;No;Breaks
+Waxed Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Waxed Exposed Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Waxed Oxidized Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Waxed Weathered Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Weathered Copper Door;21;16;9;1296;6.0;0.0;No;No;No;Breaks
+Dragon Egg;1;16;15;3600;9.0;1.0;No;No;No;Yes
+Dried Kelp Block;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;Yes
+Dripstone Block;1;16;16;4096;1.0;0.0;Yes;Yes;Yes;Yes
+Dropper;1;16;16;4096;3.5;0.0;Yes;Yes;Yes;No
+Deepslate Emerald Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Emerald Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Enchanting Table;1;12;16;3072;1200.0;7.0;No;No;No;No
+End Gateway;1;0;0;0;3600000.0;15.0;No;No;No;No
+End Portal;1;0;0;0;3600000.0;15.0;No;No;No;No
+End Portal Frame;1;14;14;2744;3600000.0;1.0;No;No;No;No
+End Rod;1;13;13;2197;0.0;14.0;No;No;No;Yes
+End Stone;1;16;16;4096;9.0;0.0;Yes;Yes;Yes;Yes
+End Stone Bricks;1;16;16;4096;9.0;0.0;Yes;Yes;Yes;Yes
+Ender Chest;1;14;15;3150;600.0;7.0;No;No;No;No
+Farmland;1;15;16;3840;0.6000000000000001;0.0;No;No;No;Yes
+Acacia Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Bamboo Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Birch Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Cherry Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Crimson Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Dark Oak Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Jungle Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Mangrove Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Oak Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Pale Oak Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Spruce Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Warped Fence Gate;12;24;13;4056;3.0;0.0;No;No;No;Yes
+Acacia Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Bamboo Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Birch Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Cherry Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Crimson Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Dark Oak Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Jungle Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Mangrove Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Nether Brick Fence;13;24;13;4056;53.0;0.0;No;No;No;Yes
+Oak Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Pale Oak Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Spruce Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Warped Fence;13;24;13;4056;51.5;0.0;No;No;No;Yes
+Fern;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Large Fern;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Fire;2;0;0;0;0.0;15.0;No;No;No;Breaks
+Soul Fire;2;0;0;0;0.0;10.0;No;No;No;Breaks
+Fletching Table;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;Yes
+Flower Pot;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Acacia Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Allium;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Azalea;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Azure Bluet;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Bamboo;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Birch Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Blue Orchid;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Brown Mushroom;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Cactus;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Cherry Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Closed Eyeblossom;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Cornflower;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Crimson Fungus;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Crimson Roots;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Dandelion;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Dark Oak Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Dead Bush;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Fern;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Flowering Azalea;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Jungle Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Lily of the Valley;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Mangrove Propagule;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Oak Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Open Eyeblossom;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Orange Tulip;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Oxeye Daisy;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Pale Oak Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Pink Tulip;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Poppy;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Red Mushroom;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Red Tulip;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Spruce Sapling;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Torchflower;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Warped Fungus;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Warped Roots;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted White Tulip;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Potted Wither Rose;38;6;11;726;0.0;0.0;No;No;No;Breaks
+Allium;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Azure Bluet;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Blue Orchid;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Closed Eyeblossom;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Cornflower;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Dandelion;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Lilac;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Lily of the Valley;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Open Eyeblossom;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Orange Tulip;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Oxeye Daisy;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Peony;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Pink Tulip;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Poppy;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Red Tulip;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Rose Bush;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Sunflower;19;0;0;0;0.0;0.0;No;No;No;Breaks
+White Tulip;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Wither Rose;19;0;0;0;0.0;0.0;No;No;No;Breaks
+Ochre Froglight;3;16;16;4096;0.30000000000000004;15.0;Yes;Yes;No;Yes
+Pearlescent Froglight;3;16;16;4096;0.30000000000000004;15.0;Yes;Yes;No;Yes
+Verdant Froglight;3;16;16;4096;0.30000000000000004;15.0;Yes;Yes;No;Yes
+Frogspawn;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Frosted Ice;1;16;16;4096;0.5;0.0;No;Yes;Polar Bear Only;Yes
+Crimson Fungus;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Warped Fungus;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Furnace;1;16;16;4096;3.5;6.5;Yes;Yes;Yes;No
+Gilded Blackstone;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Glass;1;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Glass Pane;1;16;12;2304;50.15;0.0;No;No;No;Yes
+Black Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Blue Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Brown Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Cyan Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Gray Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Green Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Light Blue Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Light Gray Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Lime Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Magenta Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Orange Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Pink Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Purple Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Red Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+White Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Yellow Glazed Terracotta;16;16;16;4096;1.4;0.0;Yes;Yes;Yes;Yes
+Glow Lichen;1;0;0;0;50.1;6.0;No;No;No;Breaks
+Glowstone;1;16;16;4096;0.30000000000000004;15.0;No;Yes;No;Yes
+Deepslate Gold Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Gold Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Granite;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Polished Granite;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Grass Block;1;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Gravel;1;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Grindstone;1;12;13;2028;6.0;0.0;No;No;No;No
+Hanging Roots;1;0;0;0;50.0;0.0;No;No;No;Breaks
+Acacia Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Acacia Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Bamboo Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Bamboo Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Birch Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Birch Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Cherry Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Cherry Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Crimson Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Crimson Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Dark Oak Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Dark Oak Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Jungle Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Jungle Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Mangrove Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Mangrove Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Oak Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Oak Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Pale Oak Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Pale Oak Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Spruce Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Spruce Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Warped Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Warped Wall Hanging Sign;24;16;13;2704;50.5;0.0;No;No;No;No
+Hay Bale;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Creeper Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Creeper Wall Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Dragon Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Dragon Wall Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Piglin Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Piglin Wall Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Player Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Player Wall Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Skeleton Skull;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Skeleton Wall Skull;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Wither Skeleton Skull;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Wither Skeleton Wall Skull;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Zombie Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Zombie Wall Head;14;10;12;1440;1.0;0.0;No;No;No;Breaks
+Heavy Core;1;8;12;1152;1200.0;0.0;No;No;No;Yes
+Honey Block;1;15;15;3375;0.0;0.0;No;No;No;Yes
+Honeycomb Block;1;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Hopper;1;13;12;1872;4.8;0.0;No;No;No;No
+Crimson Hyphae;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Crimson Hyphae;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Warped Hyphae;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Warped Hyphae;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Ice;1;16;16;4096;0.5;0.0;No;Yes;Polar Bear Only;Yes
+Iron Bars;1;16;12;2304;53.0;0.0;No;No;No;Yes
+Deepslate Iron Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Iron Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Jack o'Lantern;1;16;16;4096;1.0;15.0;Yes;Yes;Yes;Breaks
+Jigsaw Block;1;16;16;4096;3600000.0;0.0;Yes;Yes;Yes;No
+Jukebox;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;No
+Kelp;2;0;0;0;100.0;0.0;No;No;No;Breaks
+Kelp Plant;2;0;0;0;100.0;0.0;No;No;No;Breaks
+Ladder;1;16;9;1296;50.2;0.0;No;No;No;Breaks
+Lantern;2;8;10;800;51.75;15.0;No;No;No;Breaks
+Soul Lantern;2;8;10;800;51.75;10.0;No;No;No;Breaks
+Deepslate Lapis Lazuli Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Lapis Lazuli Ore;2;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Lava;1;0;0;0;100.0;15.0;No;No;No;Breaks
+Acacia Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Azalea Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Birch Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Cherry Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Dark Oak Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Flowering Azalea Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Jungle Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Mangrove Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Oak Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Pale Oak Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Spruce Leaves;11;16;16;4096;50.1;0.0;No;Yes;Ocelots and Parrots Only;Breaks
+Lectern;1;8;14;1568;2.5;0.0;No;No;No;No
+Lever;1;0;0;0;0.5;0.0;No;No;No;Breaks
+Light;1;0;0;0;3600000.75;7.5;No;No;No;No
+Lightning Rod;1;13;13;2197;53.0;0.0;No;No;No;Yes
+Lily Pad;1;1;15;225;0.0;0.0;No;No;No;Breaks
+Lodestone;1;16;16;4096;3.5;0.0;Yes;Yes;Yes;No
+Acacia Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Birch Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Cherry Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Dark Oak Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Jungle Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Mangrove Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Oak Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Pale Oak Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Spruce Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Acacia Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Birch Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Cherry Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Dark Oak Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Jungle Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Mangrove Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Oak Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Pale Oak Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Spruce Log;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Loom;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;Yes
+Magma Block;1;16;16;4096;0.5;3.0;Yes;Yes;Fire-Immune Mobs Only;Yes
+Mangrove Propagule;1;0;0;0;50.0;0.0;No;No;No;Breaks
+Mangrove Roots;1;16;16;4096;50.35;0.0;Yes;Yes;Yes;Yes
+Melon;1;16;16;4096;1.0;0.0;Yes;Yes;Yes;Breaks
+Moss Block;1;16;16;4096;0.1;0.0;Yes;Yes;Yes;Breaks
+Moss Carpet;1;1;16;256;0.1;0.0;No;No;No;Breaks
+Moving Piston;1;0;0;0;0.0;0.0;No;No;No;No
+Mud;1;14;16;3584;0.5;0.0;Yes;No;Yes;Yes
+Mud Bricks;1;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Muddy Mangrove Roots;1;16;16;4096;0.7000000000000001;0.0;Yes;Yes;Yes;Yes
+Brown Mushroom Block;3;16;16;4096;0.2;0.0;Yes;Yes;Yes;Yes
+Mushroom Stem;3;16;16;4096;0.2;0.0;Yes;Yes;Yes;Yes
+Red Mushroom Block;3;16;16;4096;0.2;0.0;Yes;Yes;Yes;Yes
+Brown Mushroom;2;0;0;0;0.0;1.0;No;No;No;Breaks
+Red Mushroom;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Mycelium;1;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Chiseled Nether Bricks;4;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cracked Nether Bricks;4;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Nether Bricks;4;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Red Nether Bricks;4;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Nether Gold Ore;1;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Nether Portal;1;0;0;0;0.0;11.0;No;No;No;No
+Nether Quartz Ore;1;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Nether Sprouts;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Nether Wart;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Netherrack;1;16;16;4096;0.4;0.0;Yes;Yes;Yes;Yes
+Note Block;1;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Crimson Nylium;2;16;16;4096;0.4;0.0;Yes;Yes;Yes;Yes
+Warped Nylium;2;16;16;4096;0.4;0.0;Yes;Yes;Yes;Yes
+Observer;1;16;16;4096;3.0;0.0;No;Yes;Yes;Yes
+Obsidian;1;16;16;4096;1200.0;0.0;Yes;Yes;Yes;No
+Packed Ice;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Packed Mud;1;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Pale Hanging Moss;1;16;0;0;0.0;0.0;No;No;No;Breaks
+Pale Moss Block;1;16;16;4096;0.1;0.0;Yes;Yes;Yes;Breaks
+Pale Moss Carpet;1;1;16;256;0.1;0.0;No;No;No;Breaks
+Pink Petals;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Piston;3;12;12;1728;1.5;0.0;No;Maybe;Maybe;Maybe
+Piston Head;3;12;12;1728;1.5;0.0;No;Maybe;Maybe;Maybe
+Sticky Piston;3;12;12;1728;1.5;0.0;No;Maybe;Maybe;Maybe
+Pitcher Crop;1;4;12;576;0.0;0.0;No;No;No;Breaks
+Pitcher Plant;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Acacia Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Bamboo Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Birch Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Cherry Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Crimson Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Dark Oak Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Jungle Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Mangrove Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Oak Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Pale Oak Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Spruce Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Warped Planks;12;16;16;4096;3.0;0.0;Yes;Yes;Yes;Yes
+Podzol;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Pointed Dripstone;1;14;0;0;51.5;0.0;No;No;No;Yes
+Polished Tuff;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Powder Snow;1;16;0;0;0.25;0.0;No;No;No;Yes
+Powered Rail;1;0;0;0;50.35;0.0;No;No;No;Yes
+Acacia Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Bamboo Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Birch Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Cherry Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Crimson Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Dark Oak Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Heavy Weighted Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Jungle Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Light Weighted Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Mangrove Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Oak Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Pale Oak Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Polished Blackstone Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Spruce Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Stone Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Warped Pressure Plate;16;0;0;0;0.5;0.0;No;No;No;Breaks
+Dark Prismarine;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Prismarine;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Prismarine Bricks;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Carved Pumpkin;2;16;16;4096;1.0;0.0;Yes;Yes;Yes;Breaks
+Pumpkin;2;16;16;4096;1.0;0.0;Yes;Yes;Yes;Breaks
+Purpur Block;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Purpur Pillar;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Rail;1;0;0;0;50.35;0.0;No;No;No;Yes
+Red Sand;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Chiseled Red Sandstone;4;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Cut Red Sandstone;4;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Red Sandstone;4;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Smooth Red Sandstone;4;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Redstone Comparator;1;2;16;512;0.0;0.0;No;No;No;Breaks
+Redstone Wire;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Redstone Lamp;1;16;16;4096;0.30000000000000004;7.5;Yes;Yes;Yes;Yes
+Deepslate Redstone Ore;2;16;16;4096;3.0;4.5;Yes;Yes;Yes;Yes
+Redstone Ore;2;16;16;4096;3.0;4.5;Yes;Yes;Yes;Yes
+Redstone Repeater;1;2;16;512;0.0;0.0;No;No;No;Breaks
+Redstone Torch;2;0;0;0;0.0;3.5;No;No;No;Breaks
+Redstone Wall Torch;2;0;0;0;0.0;3.5;No;No;No;Breaks
+Reinforced Deepslate;1;16;16;4096;1200.0;0.0;Yes;Yes;Yes;No
+Block of Resin;1;16;16;4096;0.0;0.0;Yes;Yes;Yes;Yes
+Chiseled Resin Bricks;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Resin Bricks;2;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Resin Clump;1;0;16;0;50.0;0.0;No;No;No;Breaks
+Respawn Anchor;1;16;16;4096;1200.0;7.2;Yes;Yes;Maybe;No
+Crimson Roots;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Warped Roots;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Sand;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Chiseled Sandstone;4;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Cut Sandstone;4;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Sandstone;4;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Smooth Sandstone;4;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Acacia Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Birch Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Cherry Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Dark Oak Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Jungle Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Oak Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Pale Oak Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Spruce Sapling;8;0;0;0;0.0;0.0;No;No;No;Breaks
+Scaffolding;1;6;12;864;50.0;0.0;No;No;No;Yes
+Sculk;1;16;16;4096;0.2;0.0;Yes;Yes;Yes;Yes
+Sculk Catalyst;1;16;16;4096;3.0;6.0;Yes;Yes;Yes;No
+Sculk Sensor;1;8;16;2048;50.75;1.0;No;No;No;No
+Sculk Shrieker;1;8;16;2048;51.5;0.0;No;No;No;No
+Sculk Vein;1;0;0;0;50.1;0.0;No;No;No;Breaks
+Sea Lantern;1;16;16;4096;0.30000000000000004;15.0;No;Yes;No;Yes
+Sea Pickle;1;6;12;864;50.0;5.25;No;No;No;Breaks
+Seagrass;2;0;0;0;100.0;0.0;No;No;No;Breaks
+Tall Seagrass;2;0;0;0;100.0;0.0;No;No;No;Breaks
+Short Grass;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Shroomlight;1;16;16;4096;1.0;15.0;Yes;Yes;No;Yes
+Black Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Blue Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Brown Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Cyan Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Gray Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Green Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Light Blue Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Light Gray Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Lime Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Magenta Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Orange Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Pink Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Purple Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Red Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+White Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Yellow Shulker Box;17;20;20;8000;2.0;0.0;Yes;Maybe;Yes;Breaks
+Acacia Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Acacia Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Bamboo Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Bamboo Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Birch Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Birch Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Cherry Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Cherry Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Crimson Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Crimson Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Dark Oak Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Dark Oak Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Jungle Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Jungle Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Mangrove Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Mangrove Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Oak Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Oak Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Pale Oak Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Pale Oak Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Spruce Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Spruce Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Warped Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Warped Wall Sign;24;0;0;0;50.5;0.0;No;No;No;No
+Acacia Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Andesite Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Bamboo Mosaic Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Bamboo Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Birch Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Blackstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Cherry Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Cobbled Deepslate Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Cobblestone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Crimson Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Cut Red Sandstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Cut Sandstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Dark Oak Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Dark Prismarine Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Deepslate Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Deepslate Tile Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Diorite Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+End Stone Brick Slab;62;12;16;3072;54.5;0.0;Maybe;Maybe;Maybe;Yes
+Exposed Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Granite Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Jungle Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Mangrove Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Mossy Cobblestone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Mossy Stone Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Mud Brick Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Nether Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Oak Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Oxidized Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Pale Oak Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Petrified Oak Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Andesite Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Blackstone Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Blackstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Deepslate Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Diorite Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Granite Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Polished Tuff Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Prismarine Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Prismarine Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Purpur Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Quartz Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Red Nether Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Red Sandstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Resin Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Sandstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Smooth Quartz Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Smooth Red Sandstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Smooth Sandstone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Smooth Stone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Spruce Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Stone Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Stone Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Tuff Brick Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Tuff Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Warped Slab;62;12;16;3072;51.5;0.0;Maybe;Maybe;Maybe;Yes
+Waxed Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Waxed Exposed Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Waxed Oxidized Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Waxed Weathered Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Weathered Cut Copper Slab;62;12;16;3072;53.0;0.0;Maybe;Maybe;Maybe;Yes
+Slime Block;1;16;16;4096;0.0;0.0;Yes;Yes;Yes;Yes
+Small Dripleaf;1;0;0;0;50.0;0.0;No;No;No;Breaks
+Smithing Table;1;16;16;4096;2.5;0.0;Yes;Yes;Yes;Yes
+Smoker;1;16;16;4096;3.5;6.5;Yes;Yes;Yes;No
+Sniffer Egg;1;16;14;3136;0.5;0.0;No;No;No;Yes
+Snow;1;8;16;2048;0.1;0.0;No;No;Maybe;Breaks
+Snow Block;1;16;16;4096;0.2;0.0;Yes;Yes;Yes;Yes
+Soul Sand;1;14;16;3584;0.5;0.0;Yes;No;Yes;Yes
+Soul Soil;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Monster Spawner;1;16;16;4096;5.0;0.0;Yes;Yes;Yes;No
+Sponge;2;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Wet Sponge;2;16;16;4096;0.6000000000000001;0.0;Yes;Yes;Yes;Yes
+Spore Blossom;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Black Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Blue Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Brown Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Cyan Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Gray Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Green Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Light Blue Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Light Gray Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Lime Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Magenta Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Orange Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Pink Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Purple Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Red Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+White Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Yellow Stained Glass;16;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+Black Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Blue Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Brown Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Cyan Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Gray Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Green Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Light Blue Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Light Gray Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Lime Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Magenta Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Orange Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Pink Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Purple Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Red Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+White Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Yellow Stained Glass Pane;16;16;12;2304;50.15;0.0;No;No;No;Yes
+Acacia Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Andesite Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Bamboo Mosaic Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Bamboo Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Birch Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Blackstone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Cherry Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Cobbled Deepslate Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Cobblestone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Crimson Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Dark Oak Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Dark Prismarine Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Deepslate Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Deepslate Tile Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Diorite Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+End Stone Brick Stairs;58;12;12;1728;54.5;0.0;No;No;Maybe;Yes
+Exposed Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Granite Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Jungle Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Mangrove Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Mossy Cobblestone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Mossy Stone Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Mud Brick Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Nether Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Oak Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Oxidized Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Pale Oak Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Polished Andesite Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Polished Blackstone Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Polished Blackstone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Polished Deepslate Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Polished Diorite Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Polished Granite Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Polished Tuff Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Prismarine Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Prismarine Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Purpur Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Quartz Stairs;58;12;12;1728;50.4;0.0;No;No;Maybe;Yes
+Red Nether Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Red Sandstone Stairs;58;12;12;1728;50.4;0.0;No;No;Maybe;Yes
+Resin Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Sandstone Stairs;58;12;12;1728;50.4;0.0;No;No;Maybe;Yes
+Smooth Quartz Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Smooth Red Sandstone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Smooth Sandstone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Spruce Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Stone Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Stone Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Tuff Brick Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Tuff Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Warped Stairs;58;12;12;1728;51.5;0.0;No;No;Maybe;Yes
+Waxed Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Waxed Exposed Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Waxed Oxidized Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Waxed Weathered Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Weathered Cut Copper Stairs;58;12;12;1728;53.0;0.0;No;No;Maybe;Yes
+Crimson Stem;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Crimson Stem;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Warped Stem;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Warped Stem;4;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Infested Stone;3;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Smooth Stone;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Stone;3;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Chiseled Stone Bricks;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Cracked Stone Bricks;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Infested Chiseled Stone Bricks;8;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Infested Cracked Stone Bricks;8;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Infested Mossy Stone Bricks;8;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Infested Stone Bricks;8;16;16;4096;0.75;0.0;Yes;Yes;Yes;Yes
+Mossy Stone Bricks;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Stone Bricks;8;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Stonecutter;1;9;16;2304;3.5;0.0;No;No;No;Yes
+Structure Block;1;16;16;4096;3600000.0;0.0;Yes;Yes;Yes;No
+Structure Void;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Sugar Cane;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Suspicious Gravel;1;16;16;4096;0.25;0.0;Yes;Yes;Yes;Yes
+Suspicious Sand;1;16;16;4096;0.25;0.0;Yes;Yes;Yes;Yes
+Sweet Berry Bush;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Tall Grass;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Target;1;16;16;4096;0.5;0.0;Yes;Yes;Yes;Yes
+Black Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Blue Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Brown Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Cyan Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Gray Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Green Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Light Blue Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Light Gray Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Lime Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Magenta Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Orange Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Pink Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Purple Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Red Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+White Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Yellow Terracotta;17;16;16;4096;4.2;0.0;Yes;Yes;Yes;Yes
+Tinted Glass;1;16;16;4096;0.30000000000000004;0.0;No;Yes;No;Yes
+TNT;1;16;16;4096;0.0;0.0;No;Yes;Yes;Yes
+Soul Torch;4;0;0;0;0.0;10.0;No;No;No;Breaks
+Soul Wall Torch;4;0;0;0;0.0;10.0;No;No;No;Breaks
+Torch;4;0;0;0;0.0;14.0;No;No;No;Breaks
+Wall Torch;4;0;0;0;0.0;14.0;No;No;No;Breaks
+Torchflower;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Torchflower Crop;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Acacia Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Bamboo Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Birch Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Cherry Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Crimson Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Dark Oak Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Exposed Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Iron Trapdoor;21;9;9;729;52.5;0.0;No;No;No;Yes
+Jungle Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Mangrove Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Oak Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Oxidized Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Pale Oak Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Spruce Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Warped Trapdoor;21;9;9;729;51.5;0.0;No;No;No;Yes
+Waxed Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Waxed Exposed Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Waxed Oxidized Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Waxed Weathered Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Weathered Copper Trapdoor;21;9;9;729;53.0;0.0;No;No;No;Yes
+Trapped Chest;1;14;15;3150;51.25;0.0;No;No;No;No
+Trial Spawner;1;16;16;4096;50.0;4.0;Yes;Yes;Yes;No
+Tripwire;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Tripwire Hook;1;0;0;0;0.0;0.0;No;No;No;Breaks
+Tuff;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Tuff Bricks;1;16;16;4096;6.0;0.0;Yes;Yes;Yes;Yes
+Turtle Egg;1;7;13;1183;0.5;0.0;No;No;No;Breaks
+Twisting Vines;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Twisting Vines Plant;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Vault;1;16;16;4096;50.0;9.0;Yes;Yes;Yes;No
+Vines;1;0;0;0;0.2;0.0;No;No;No;Breaks
+Andesite Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Blackstone Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Cobbled Deepslate Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Cobblestone Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Deepslate Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Deepslate Tile Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Diorite Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+End Stone Brick Wall;26;24;13;4056;54.5;0.0;No;No;No;Yes
+Granite Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Mossy Cobblestone Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Mossy Stone Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Mud Brick Wall;26;24;13;4056;51.5;0.0;No;No;No;Yes
+Nether Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Polished Blackstone Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Polished Blackstone Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Polished Deepslate Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Polished Tuff Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Prismarine Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Red Nether Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Red Sandstone Wall;26;24;13;4056;50.4;0.0;No;No;No;Yes
+Resin Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Sandstone Wall;26;24;13;4056;50.4;0.0;No;No;No;Yes
+Stone Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Tuff Brick Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Tuff Wall;26;24;13;4056;53.0;0.0;No;No;No;Yes
+Nether Wart Block;2;16;16;4096;1.0;0.0;Yes;Yes;Yes;Yes
+Warped Wart Block;2;16;16;4096;1.0;0.0;Yes;Yes;Yes;Yes
+Bubble Column;2;0;0;0;100.0;0.0;No;No;No;Breaks
+Water;2;0;0;0;100.0;0.0;No;No;No;Breaks
+Weeping Vines;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Weeping Vines Plant;2;0;0;0;0.0;0.0;No;No;No;Breaks
+Acacia Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Birch Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Cherry Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Dark Oak Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Jungle Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Mangrove Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Oak Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Pale Oak Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Spruce Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Acacia Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Birch Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Cherry Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Dark Oak Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Jungle Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Mangrove Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Oak Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Pale Oak Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Stripped Spruce Wood;18;16;16;4096;2.0;0.0;Yes;Yes;Yes;Yes
+Black Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Blue Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Brown Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Cyan Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Gray Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Green Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Light Blue Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Light Gray Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Lime Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Magenta Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Orange Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Pink Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Purple Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Red Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+White Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
+Yellow Wool;16;16;16;4096;0.8;0.0;Yes;Yes;Yes;Yes
