@@ -1,0 +1,289 @@
+block,height_external,width_external,number_of_variants,volume,blast_resistance,luminance,conductive,movable,full_cube,spawnable
+Activator Rail,0,0,1,0,50,0,No,Yes,No,No
+Air,0,0,3,0,0,0,No,Yes,No,No
+Amethyst Cluster,10,10,4,1000,50,3,No,Breaks,No,No
+Ancient Debris,16,16,1,4096,1200,0,Yes,Yes,Yes,Yes
+Andesite,16,16,2,4096,6,0,Yes,Yes,Yes,Yes
+Anvil,10,13,3,1690,1200,0,No,"{'Normally': 'No', 'When Falling': 'Yes'}",No,No
+Azalea,16,13,2,2704,0,0,No,Breaks,No,Yes
+Bamboo,16,0,2,0,1,0,No,Breaks,No,No
+Bamboo Mosaic,16,16,1,4096,3,0,Yes,Yes,Yes,Yes
+Banners,0,0,32,0,1,0,No,No,No,No
+Barrel,16,16,1,4096,2,0,Yes,No,Yes,Yes
+Barrier,16,16,1,4096,3600000,0,Yes,No,Yes,No
+Basalt,16,16,3,4096,4,0,Yes,Yes,Yes,Yes
+Beacon,16,16,1,4096,3,15,No,No,Yes,No
+Bedrock,16,16,1,4096,3600000,0,Yes,No,Yes,No
+Beds,9,10,16,900,0,0,No,Breaks,No,No
+Bee Nest,16,16,1,4096,0,0,Yes,No,Yes,Yes
+Beehive,16,16,1,4096,0,0,Yes,No,Yes,Yes
+Bell,12,12,1,1728,5,0,No,Breaks,No,No
+Big Dripleaf,14,16,2,3584,50,0,No,Breaks,No,No
+Blackstone,16,16,5,4096,6,0,Yes,Yes,Yes,Yes
+Blast Furnace,16,16,1,4096,3,6,Yes,No,Yes,Yes
+Block of Amethyst,16,16,1,4096,1,0,Yes,Yes,Yes,Yes
+Block of Bamboo,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Block of Coal,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Copper,16,16,16,4096,6,0,Yes,Yes,Yes,Yes
+Block of Diamond,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Emerald,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Gold,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Iron,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Lapis Lazuli,16,16,1,4096,3,0,Yes,Yes,Yes,Yes
+Block of Netherite,16,16,1,4096,1200,0,Yes,Yes,Yes,Yes
+Block of Quartz,16,16,5,4096,3,0,Yes,Yes,Yes,Yes
+Block of Raw Copper,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Raw Gold,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Raw Iron,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Block of Redstone,16,16,1,4096,6,0,No,Yes,Yes,Yes
+Block of Stripped Bamboo,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Blue Ice,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Bone Block,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Bookshelf,16,16,1,4096,1,0,Yes,Yes,Yes,Yes
+Brewing Stand,8,12,1,1152,0,1,No,No,No,No
+Bricks,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Budding Amethyst,16,16,1,4096,1,0,Yes,Breaks,Yes,Yes
+Buttons,0,0,14,0,0,0,No,Breaks,No,No
+Cactus,15,15,1,3375,0,0,No,Breaks,No,No
+Cake,11,11,18,1331,0,1,No,Breaks,No,No
+Calcite,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Calibrated Sculk Sensor,8,16,1,2048,50,1,No,No,No,No
+Campfire,7,16,2,1792,51,6,No,No,No,No
+Candles,6,10,17,600,50,4,No,Breaks,No,No
+Carpets,1,16,16,256,0,0,No,Yes,No,No
+Cartography Table,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Cauldron,10,7,4,490,2,8,No,Yes,No,No
+Cave Vines,0,0,2,0,0,7,No,Breaks,No,No
+Chain,12,12,1,1728,53,0,No,Yes,No,No
+Chest,14,16,1,3584,51,0,No,No,No,No
+Chiseled Bookshelf,16,16,1,4096,1,0,Yes,No,Yes,Yes
+Chiseled Copper,16,16,8,4096,6,0,Yes,Yes,Yes,Yes
+Chiseled Tuff,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Chiseled Tuff Bricks,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Chorus Flower,16,16,1,4096,0,0,No,Breaks,Yes,No
+Chorus Plant,14,14,1,2744,0,0,No,Breaks,No,No
+Clay,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Coal Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Coarse Dirt,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Cobbled Deepslate,16,16,7,4096,6,0,Yes,Yes,Yes,Yes
+Cobblestone,16,16,3,4096,3,0,Yes,Yes,Yes,Yes
+Cobweb,0,0,1,0,4,0,No,Breaks,No,No
+Cocoa,12,10,1,1200,3,0,No,Breaks,No,No
+Command Blocks,16,16,3,4096,3600000,0,Yes,No,Yes,Yes
+Composter,9,9,1,729,0,0,No,Yes,No,No
+Concrete,16,16,16,4096,1,0,Yes,Yes,Yes,Yes
+Concrete Powder,16,16,16,4096,0,0,Yes,Yes,Yes,Yes
+Conduit,11,11,1,1331,52,15,No,No,No,No
+Copper Bulb,16,16,8,4096,6,5,No,Yes,Yes,"{'Copper Bulb<br>Waxed Copper Bulb': {'lit: false': 'Yes', 'lit: true': 'No'}, 'Exposed Copper Bulb<br>Oxidized Copper Bulb<br>Waxed Exposed Copper Bulb<br>Waxed Oxidized Copper Bulb<br>Waxed Weathered Copper Bulb<br>Weathered Copper Bulb': 'Yes'}"
+Copper Grate,16,16,8,4096,53,0,No,Yes,Yes,No
+Copper Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Coral Blocks,16,16,10,4096,6,0,Yes,Yes,Yes,Yes
+Coral Fans,0,0,20,0,50,0,No,"{'Brain Coral Fan<br>Brain Coral Wall Fan<br>Bubble Coral Fan<br>Bubble Coral Wall Fan<br>Fire Coral Fan<br>Fire Coral Wall Fan<br>Horn Coral Fan<br>Horn Coral Wall Fan<br>Tube Coral Fan<br>Tube Coral Wall Fan': 'Breaks', 'Dead Brain Coral Fan<br>Dead Brain Coral Wall Fan<br>Dead Bubble Coral Fan<br>Dead Bubble Coral Wall Fan<br>Dead Fire Coral Fan<br>Dead Fire Coral Wall Fan<br>Dead Horn Coral Fan<br>Dead Horn Coral Wall Fan<br>Dead Tube Coral Fan<br>Dead Tube Coral Wall Fan': 'Yes'}",No,No
+Corals,0,0,10,0,50,0,No,"{'Brain Coral<br>Bubble Coral<br>Fire Coral<br>Horn Coral<br>Tube Coral': 'Breaks', 'Dead Brain Coral<br>Dead Bubble Coral<br>Dead Fire Coral<br>Dead Horn Coral<br>Dead Tube Coral': 'Yes'}",No,No
+Crafter,16,16,1,4096,3,0,Yes,No,Yes,Yes
+Crafting Table,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Creaking Heart,16,16,1,4096,10,0,Yes,No,Yes,Yes
+Crops,0,0,8,0,0,0,No,Breaks,No,No
+Crying Obsidian,16,16,1,4096,1200,10,Yes,No,Yes,Yes
+Daylight Detector,6,16,1,1536,0,0,No,No,No,No
+Dead Bush,0,0,1,0,0,0,No,Breaks,No,No
+Decorated Pot,16,15,1,3600,50,0,No,Breaks,No,No
+Deepslate,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Detector Rail,0,0,1,0,50,0,No,Yes,No,No
+Diamond Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Diorite,16,16,2,4096,6,0,Yes,Yes,Yes,Yes
+Dirt,16,16,2,4096,0,0,Yes,Yes,Yes,Yes
+Dirt Path,15,16,1,3840,0,0,No,Yes,No,No
+Dispenser,16,16,1,4096,3,0,Yes,No,Yes,Yes
+Doors,16,10,21,1600,5,0,No,Breaks,No,No
+Dragon Egg,16,15,1,3600,9,1,No,"{'Normally': 'Breaks', 'When Falling': 'Yes'}",No,No
+Dried Kelp Block,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Dripstone Block,16,16,1,4096,1,0,Yes,Yes,Yes,Yes
+Dropper,16,16,1,4096,3,0,Yes,No,Yes,Yes
+Emerald Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Enchanting Table,12,16,1,3072,1200,7,No,No,No,No
+End Gateway,0,0,1,0,3600000,15,No,No,No,No
+End Portal,0,0,1,0,3600000,15,No,No,No,No
+End Portal Frame,14,15,1,3150,3600000,1,No,No,No,No
+End Rod,13,13,1,2197,0,14,No,Yes,No,No
+End Stone,16,16,1,4096,9,0,Yes,Yes,Yes,Yes
+End Stone Bricks,16,16,1,4096,9,0,Yes,Yes,Yes,Yes
+Ender Chest,14,15,1,3150,600,7,No,No,No,No
+Farmland,15,16,1,3840,0,0,No,Yes,No,No
+Fence Gates,24,13,12,4056,3,0,No,Yes,No,No
+Fences,24,13,13,4056,52,0,No,Yes,No,No
+Fern,0,0,2,0,0,0,No,Breaks,No,No
+Fire,0,0,2,0,0,12,No,Breaks,No,No
+Fletching Table,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Flower Pot,6,11,38,726,0,0,No,Breaks,No,No
+Flowers,0,0,19,0,0,0,No,Breaks,No,No
+Froglights,16,16,3,4096,0,15,Yes,Yes,Yes,No
+Frogspawn,0,0,1,0,0,0,No,Breaks,No,No
+Frosted Ice,16,16,1,4096,0,0,No,Yes,Yes,Polar Bear Only
+Fungi,0,0,2,0,0,0,No,Breaks,No,No
+Furnace,16,16,1,4096,3,6,Yes,No,Yes,Yes
+Gilded Blackstone,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Glass,16,16,1,4096,0,0,No,Yes,Yes,No
+Glass Pane,16,12,1,2304,50,0,No,Yes,No,No
+Glazed Terracotta,16,16,16,4096,1,0,Yes,Yes,Yes,Yes
+Glow Lichen,0,0,1,0,50,6,No,Breaks,No,No
+Glowstone,16,16,1,4096,0,15,No,Yes,Yes,No
+Gold Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Granite,16,16,2,4096,6,0,Yes,Yes,Yes,Yes
+Grass Block,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Gravel,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Grindstone,13,13,1,2197,6,0,No,No,No,No
+Hanging Roots,0,0,1,0,50,0,No,Breaks,No,No
+Hanging Signs,16,13,24,2704,50,0,No,No,No,No
+Hay Bale,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Heads,10,12,14,1440,1,0,No,Breaks,No,No
+Heavy Core,8,12,1,1152,1200,0,No,Yes,No,No
+Honey Block,15,15,1,3375,0,0,No,Yes,No,No
+Honeycomb Block,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Hopper,14,13,1,2366,4,0,No,No,No,No
+Hyphae,16,16,4,4096,2,0,Yes,Yes,Yes,Yes
+Ice,16,16,1,4096,0,0,No,Yes,Yes,Polar Bear Only
+Iron Bars,16,12,1,2304,53,0,No,Yes,No,No
+Iron Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Jack o'Lantern,16,16,1,4096,1,15,Yes,Breaks,Yes,Yes
+Jigsaw Block,16,16,1,4096,3600000,0,Yes,No,Yes,Yes
+Jukebox,16,16,1,4096,6,0,Yes,No,Yes,Yes
+Kelp,0,0,2,0,100,0,No,Breaks,No,No
+Ladder,16,10,1,1600,50,0,No,Breaks,No,No
+Lantern,8,10,2,800,52,12,No,Breaks,No,No
+Lapis Lazuli Ore,16,16,2,4096,3,0,Yes,Yes,Yes,Yes
+Lava,0,0,1,0,100,15,No,Breaks,No,No
+Leaves,16,16,11,4096,50,0,No,Breaks,Yes,Ocelots and Parrots Only
+Lectern,8,14,1,1568,2,0,No,No,No,No
+Lever,0,0,1,0,0,0,No,Breaks,No,No
+Light Block,0,0,1,0,3600000,8,No,No,No,No
+Lightning Rod,13,13,1,2197,53,0,No,Yes,No,No
+Lily Pad,1,15,1,225,0,0,No,Breaks,No,No
+Lodestone,16,16,1,4096,3,0,Yes,No,Yes,Yes
+Logs,16,16,18,4096,2,0,Yes,Yes,Yes,Yes
+Loom,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Magma Block,16,16,1,4096,0,3,Yes,Yes,Yes,Fire-Immune Mobs Only
+Mangrove Propagule,0,0,1,0,50,0,No,Breaks,No,No
+Mangrove Roots,16,16,1,4096,50,0,Yes,Yes,Yes,Yes
+Melon,16,16,1,4096,1,0,Yes,Breaks,Yes,Yes
+Moss Block,16,16,1,4096,0,0,Yes,Breaks,Yes,Yes
+Moss Carpet,1,16,1,256,0,0,No,Breaks,No,No
+Moving Piston,0,0,1,0,0,0,No,No,No,No
+Mud,14,16,1,3584,0,0,Yes,Yes,No,Yes
+Mud Bricks,16,16,1,4096,3,0,Yes,Yes,Yes,Yes
+Muddy Mangrove Roots,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Mushroom Blocks,16,16,3,4096,0,0,Yes,Yes,Yes,Yes
+Mushrooms,0,0,2,0,0,0,No,Breaks,No,No
+Mycelium,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Nether Bricks,16,16,4,4096,6,0,Yes,Yes,Yes,Yes
+Nether Gold Ore,16,16,1,4096,3,0,Yes,Yes,Yes,Yes
+Nether Portal,0,0,1,0,0,11,No,No,No,No
+Nether Quartz Ore,16,16,1,4096,3,0,Yes,Yes,Yes,Yes
+Nether Sprouts,0,0,1,0,0,0,No,Breaks,No,No
+Nether Wart,0,0,1,0,0,0,No,Breaks,No,No
+Netherrack,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Note Block,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Nylium,16,16,2,4096,0,0,Yes,Yes,Yes,Yes
+Observer,16,16,1,4096,3,0,No,Yes,Yes,Yes
+Obsidian,16,16,1,4096,1200,0,Yes,No,Yes,Yes
+Packed Ice,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Packed Mud,16,16,1,4096,3,0,Yes,Yes,Yes,Yes
+Pale Hanging Moss,16,0,1,0,0,0,No,Breaks,No,No
+Pale Moss Block,16,16,1,4096,0,0,Yes,Breaks,Yes,Yes
+Pale Moss Carpet,1,16,1,256,0,0,No,Breaks,No,No
+Pink Petals,0,0,1,0,0,0,No,Breaks,No,No
+Piston,13,13,3,2197,1,0,No,"{'Extended': 'No', 'Retracted': 'Yes'}","{'Piston Head': 'No', 'Piston<br>Sticky Piston': {'extended: false': 'Yes', 'extended: true': 'No'}}","{'Piston Head': {'facing: down<br>facing: east<br>facing: north<br>facing: south<br>facing: west': 'No', 'facing: up': 'Yes'}, 'Piston<br>Sticky Piston': {'extended: false': 'Yes', 'extended: true': {'facing: down': 'Yes', 'facing: east<br>facing: north<br>facing: south<br>facing: up<br>facing: west': 'No'}}}"
+Pitcher Crop,4,12,1,576,0,0,No,Breaks,No,No
+Pitcher Plant,0,0,1,0,0,0,No,Breaks,No,No
+Planks,16,16,12,4096,3,0,Yes,Yes,Yes,Yes
+Podzol,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Pointed Dripstone,14,0,1,0,52,0,No,"{'Normally': 'Breaks', 'When Falling': 'Yes'}",No,No
+Polished Tuff,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Powder Snow,16,0,1,0,0,0,No,Yes,No,No
+Powered Rail,0,0,1,0,50,0,No,Yes,No,No
+Pressure Plates,0,0,16,0,0,0,No,Breaks,No,No
+Prismarine,16,16,3,4096,6,0,Yes,Yes,Yes,Yes
+Pumpkin,16,16,2,4096,1,0,Yes,Breaks,Yes,Yes
+Purpur Block,16,16,2,4096,6,0,Yes,Yes,Yes,Yes
+Rail,0,0,1,0,50,0,No,Yes,No,No
+Red Sand,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Red Sandstone,16,16,4,4096,3,0,Yes,Yes,Yes,Yes
+Redstone Comparator,2,16,1,512,0,0,No,Breaks,No,No
+Redstone Dust,0,0,1,0,0,0,No,Breaks,No,No
+Redstone Lamp,16,16,1,4096,0,8,Yes,Yes,Yes,Yes
+Redstone Ore,16,16,2,4096,3,4,Yes,Yes,Yes,Yes
+Redstone Repeater,2,16,1,512,0,0,No,Breaks,No,No
+Redstone Torch,0,0,2,0,0,4,No,Breaks,No,No
+Reinforced Deepslate,16,16,1,4096,1200,0,Yes,No,Yes,Yes
+Resin Block,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Resin Bricks,16,16,2,4096,6,0,Yes,Yes,Yes,Yes
+Resin Clump,0,16,1,0,50,0,No,Breaks,No,No
+Respawn Anchor,16,16,1,4096,1200,7,Yes,No,Yes,"{'charges: 0<br>charges: 1<br>charges: 2<br>charges: 3': 'Yes', 'charges: 4': 'No'}"
+Roots,0,0,2,0,0,0,No,Breaks,No,No
+Sand,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Sandstone,16,16,4,4096,3,0,Yes,Yes,Yes,Yes
+Saplings,0,0,8,0,0,0,No,Breaks,No,No
+Scaffolding,7,12,1,1008,50,0,No,"{'Normally': 'Breaks', 'When Falling': 'Yes'}",No,No
+Sculk,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Sculk Catalyst,16,16,1,4096,3,6,Yes,No,Yes,Yes
+Sculk Sensor,8,16,1,2048,50,1,No,No,No,No
+Sculk Shrieker,8,16,1,2048,52,0,No,No,No,No
+Sculk Vein,0,0,1,0,50,0,No,Breaks,No,No
+Sea Lantern,16,16,1,4096,0,15,No,Yes,Yes,No
+Sea Pickle,6,13,1,1014,50,5,No,Breaks,No,No
+Seagrass,0,0,2,0,100,0,No,Breaks,No,No
+Short Grass,0,0,1,0,0,0,No,Breaks,No,No
+Shroomlight,16,16,1,4096,1,15,Yes,Yes,Yes,No
+Shulker Box,20,20,17,8000,2,0,Yes,Breaks,"{'Closed': 'Yes', 'Open': 'No'}",Yes
+Signs,0,0,24,0,50,0,No,No,No,No
+Slabs,12,16,62,3072,53,0,"{'type: bottom<br>type: top': 'No', 'type: double': 'Yes'}",Yes,"{'type: bottom<br>type: top': 'No', 'type: double': 'Yes'}","{'type: bottom': 'No', 'type: double<br>type: top': 'Yes'}"
+Slime Block,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Small Dripleaf,0,0,1,0,50,0,No,Breaks,No,No
+Smithing Table,16,16,1,4096,2,0,Yes,Yes,Yes,Yes
+Smoker,16,16,1,4096,3,6,Yes,No,Yes,Yes
+Sniffer Egg,16,14,1,3136,0,0,No,Yes,No,No
+Snow,8,16,1,2048,0,0,No,Breaks,No,"{'layers: 1<br>layers: 2<br>layers: 3<br>layers: 4<br>layers: 5<br>layers: 6<br>layers: 7': 'No', 'layers: 8': 'Yes'}"
+Snow Block,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Soul Sand,14,16,1,3584,0,0,Yes,Yes,No,Yes
+Soul Soil,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Spawner,16,16,1,4096,5,0,Yes,No,Yes,Yes
+Sponge,16,16,2,4096,0,0,Yes,Yes,Yes,Yes
+Spore Blossom,0,0,1,0,0,0,No,Breaks,No,No
+Stained Glass,16,16,16,4096,0,0,No,Yes,Yes,No
+Stained Glass Panes,16,12,16,2304,50,0,No,Yes,No,No
+Stairs,12,12,58,1728,52,0,No,Yes,No,"{'half: bottom': 'No', 'half: top': 'Yes'}"
+Stems,16,16,4,4096,2,0,Yes,Yes,Yes,Yes
+Stone,16,16,3,4096,3,0,Yes,Yes,Yes,Yes
+Stone Bricks,16,16,8,4096,3,0,Yes,Yes,Yes,Yes
+Stonecutter,9,16,1,2304,3,0,No,Yes,No,No
+Structure Block,16,16,1,4096,3600000,0,Yes,No,Yes,Yes
+Structure Void,0,0,1,0,0,0,No,Breaks,No,No
+Sugar Cane,0,0,1,0,0,0,No,Breaks,No,No
+Suspicious Gravel,16,16,1,4096,0,0,Yes,"{'Normally': 'Breaks', 'When Falling': 'Yes'}",Yes,Yes
+Suspicious Sand,16,16,1,4096,0,0,Yes,"{'Normally': 'Breaks', 'When Falling': 'Yes'}",Yes,Yes
+Sweet Berry Bush,0,0,1,0,0,0,No,Breaks,No,No
+Tall Grass,0,0,1,0,0,0,No,Breaks,No,No
+Target,16,16,1,4096,0,0,Yes,Yes,Yes,Yes
+Terracotta,16,16,17,4096,4,0,Yes,Yes,Yes,Yes
+Tinted Glass,16,16,1,4096,0,0,No,Yes,Yes,No
+TNT,16,16,1,4096,0,0,No,Yes,Yes,Yes
+Torch,0,0,4,0,0,12,No,Breaks,No,No
+Torchflower,0,0,1,0,0,0,No,Breaks,No,No
+Torchflower Crop,0,0,1,0,0,0,No,Breaks,No,No
+Trapdoors,10,10,21,1000,52,0,No,Yes,No,No
+Trapped Chest,14,16,1,3584,51,0,No,No,No,No
+Trial Spawner,16,16,1,4096,50,4,Yes,No,Yes,Yes
+Tripwire,0,0,1,0,0,0,No,Breaks,No,No
+Tripwire Hook,0,0,1,0,0,0,No,Breaks,No,No
+Tuff,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Tuff Bricks,16,16,1,4096,6,0,Yes,Yes,Yes,Yes
+Turtle Egg,7,13,1,1183,0,0,No,Breaks,No,No
+Twisting Vines,0,0,2,0,0,0,No,Breaks,No,No
+Vault,16,16,1,4096,50,9,Yes,No,Yes,Yes
+Vines,0,0,1,0,0,0,No,Breaks,No,No
+Walls,24,13,26,4056,52,0,No,Yes,No,No
+Wart Blocks,16,16,2,4096,1,0,Yes,Yes,Yes,Yes
+Water,0,0,2,0,100,0,No,Breaks,No,No
+Weeping Vines,0,0,2,0,0,0,No,Breaks,No,No
+Wood,16,16,18,4096,2,0,Yes,Yes,Yes,Yes
+Wool,16,16,16,4096,0,0,Yes,Yes,Yes,Yes
