@@ -26,3 +26,20 @@ Stack: python
 ### Analyses des composantes principales
 
 - Normalisation
+
+## Préparation compte rendu
+
+parties (from memory)
+
+### Introduction/Abstract
+
+- émettre une hypothèse
+
+### Présentation dataset
+
+- source
+- étapes de prétraitement, etc.
+
+### Résultats analyse
+
+### Conclusion
