@@ -2,3 +2,4 @@
 AGENTS.md
 notes.md
 .venv/
+*.pyc
