@@ -1,6 +1,6 @@
 # Projet jeu de données
 
-Groupe : triinôme : Titouan + Mathieu
+Groupe : trinôme : Titouan + Matthieu
 
 Idées jeu de données "maison"
 
@@ -26,5 +26,3 @@ Stack: python
 ### Analyses des composantes principales
 
 - Normalisation
-
-
