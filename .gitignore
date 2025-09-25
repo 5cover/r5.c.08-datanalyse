@@ -3,3 +3,4 @@ AGENTS.md
 notes.md
 .venv/
 *.pyc
+pca_outputs/
