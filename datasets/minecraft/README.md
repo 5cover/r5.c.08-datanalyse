@@ -18,5 +18,6 @@ luminance|TD $[0;15]$|light emission level
 movable|QO: No, Breaks, Maybe, Yes|can this block be moved
 number_of_variants|TD|
 spawnable|QN: No, Fire-Immune Mobs Only, Ocelots and Parrots Only, Polar Bear Only, Maybe, Yes
-volume|TD|
-width external|TD|
+volume|TD|Numbers of voxels (1/16 block³) the block occupies in average
+width_external|TD|Average voxel width (1/16 blocks)
+height_external|TD|Average voxel height (1/16 blocks)
