@@ -11,12 +11,10 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-# 1) Default to your uploaded file, but allow overriding via argv
 DEFAULT_PATHS = [
     Path("../../../datasets/minecraft/blocks/blocklist_clean.json"),    # your project tree
 ]
 
-# Quantitative and categorical fields expected in the dataset
 QUANT_COLS = [
     "height_external",
     "width_external",
@@ -62,44 +60,38 @@ def resolve_path(cli_arg: str | None) -> Path:
 def load_dataset(path: Path) -> tuple[pd.DataFrame, str]:
     df = pd.read_json(path)
 
-    # Ensure expected columns exist
     for c in QUANT_COLS + ["block"] + CATEGORICAL_CANDIDATES:
         if c not in df.columns:
             df[c] = np.nan
 
-    # Normalize 'movable' to a categorical string column
     df["movable_cat"] = df["movable"].apply(normalize_movable)
 
-    # Coerce quantitative columns to numeric (errors -> NaN)
     for c in QUANT_COLS:
         df[c] = pd.to_numeric(df[c], errors="coerce")
 
-    # Drop rows with all NaNs across quant cols, then fill remaining NaNs with medians
     df = df.dropna(subset=QUANT_COLS, how="all").copy()
     for c in QUANT_COLS:
         if df[c].isna().any():
             df[c] = df[c].fillna(df[c].median())
 
-    # Pick a categorical column for coloring (prefer 'conductive', else fallbacks)
     for cat_col in ["conductive", "movable_cat", "full_cube", "spawnable"]:
         if cat_col in df.columns and not df[cat_col].isna().all():
             df[cat_col] = df[cat_col].astype(str).str.strip().str.title()
             return df, cat_col
 
-    # Fallback if everything is missing
     df["category"] = "Unknown"
     return df, "category"
 
 
 def biplot(scores: np.ndarray, coeff: np.ndarray, labels: list[str] | None = None):
-    """Variables biplot for the first two principal components."""
     fig, ax = plt.subplots(figsize=(7, 6))
     ax.scatter(scores[:, 0], scores[:, 1], s=10, alpha=0.6)
     for i in range(coeff.shape[0]):
         ax.arrow(0, 0, coeff[i, 0], coeff[i, 1], head_width=0.02, length_includes_head=True)
         if labels is not None:
             ax.text(coeff[i, 0] * 1.08, coeff[i, 1] * 1.08, labels[i], ha="center", va="center")
-
+    
+    
     lim = 1.1 * np.max(np.abs(coeff[:, :2]))
     ax.set_xlim(-lim, lim)
     ax.set_ylim(-lim, lim)
@@ -177,9 +169,7 @@ def main():
         "block": df.get("block", pd.Series([None]*len(df))).values,
     })
 
-    # Note: keeping default matplotlib colors (no explicit palette)
     plt.figure(figsize=(7, 6))
-    # Map categories to int codes for coloring
     unique_cats = sorted(pca_df[cat_col].dropna().unique().tolist())
     cat_to_idx = {c: i for i, c in enumerate(unique_cats)}
     colors = [cat_to_idx.get(c, 0) for c in pca_df[cat_col]]
@@ -195,7 +185,6 @@ def main():
     plt.savefig(ind_path, dpi=160)
     print(f"Saved individuals plot -> {ind_path}")
 
-    # Bonus: export scores and loadings for your report
     pca_scores_path = out_dir / "pca_scores.csv"
     pca_loadings_path = out_dir / "pca_loadings.csv"
     pd.DataFrame(scores, columns=[f"Dim{i+1}" for i in range(n_components)]).assign(block=df["block"]).to_csv(pca_scores_path, index=False)
