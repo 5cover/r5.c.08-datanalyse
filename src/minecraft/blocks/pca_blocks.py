@@ -9,12 +9,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
 
+# ---------- Config ----------
 DEFAULT_PATHS = [
-    Path("../../../datasets/minecraft/blocks/blocklist_clean.json"),    # your project tree
+    Path(sys.argv[1]) if len(sys.argv) > 1 else None,
+    Path("/mnt/data/blocklist_clean.json"),  # uploaded file
+    Path("../../../datasets/minecraft/blocks/blocklist_clean.json"),
 ]
-
 QUANT_COLS = [
     "height_external",
     "width_external",
@@ -25,7 +26,7 @@ QUANT_COLS = [
 ]
 CATEGORICAL_CANDIDATES = ["conductive", "movable", "full_cube", "spawnable"]
 
-
+# ---------- Helpers ----------
 def normalize_movable(value: Any) -> str:
     """
     Normalize 'movable' which can be a string or an object (older data).
@@ -44,18 +45,11 @@ def normalize_movable(value: Any) -> str:
         return "Unknown"
     return str(value).strip().title()
 
-
-def resolve_path(cli_arg: str | None) -> Path:
-    if cli_arg:
-        p = Path(cli_arg)
-        if p.exists():
+def resolve_existing_path(candidates: list[Path | None]) -> Path:
+    for p in candidates:
+        if p and p.exists():
             return p
-        print(f"WARNING: {p} not found; trying fallbacks...", file=sys.stderr)
-    for cand in DEFAULT_PATHS:
-        if cand.exists():
-            return cand
     raise FileNotFoundError("blocklist_clean.json not found in known locations.")
-
 
 def load_dataset(path: Path) -> tuple[pd.DataFrame, str]:
     df = pd.read_json(path)
@@ -82,46 +76,65 @@ def load_dataset(path: Path) -> tuple[pd.DataFrame, str]:
     df["category"] = "Unknown"
     return df, "category"
 
+def standardize_zscore(X: pd.DataFrame) -> pd.DataFrame:
+    """
+    TD standardisation: subtract mean, divide by std (z-score). (X - mean) / std
+    This mirrors the TD cell exactly.  :contentReference[oaicite:6]{index=6}
+    """
+    X = X.copy()
+    temp = X.sub(X.mean())
+    X_scaled = temp.div(X.std(ddof=1))
+    X_scaled = X_scaled.replace([np.inf, -np.inf], np.nan).fillna(0.0)
+    return X_scaled
 
-def biplot(scores: np.ndarray, coeff: np.ndarray, labels: list[str] | None = None):
+def biplot_from_pca(pca: PCA, feature_names: list[str], components: tuple[int, int]=(0,1),
+                    circle: bool=True, title="Biplot (variables & individus, 2 premières composantes)"):
+    """
+    Plot variable directions (loadings) in the PC1-PC2 plane.
+    We use pca.components_.T (unit-length in standardized PCA), which fits the TD approach.
+    Optional: draw correlation circle of radius 1. :contentReference[oaicite:7]{index=7}
+    """
+    loadings = pca.components_.T[:, [components[0], components[1]]]
     fig, ax = plt.subplots(figsize=(7, 6))
-    ax.scatter(scores[:, 0], scores[:, 1], s=10, alpha=0.6)
-    for i in range(coeff.shape[0]):
-        ax.arrow(0, 0, coeff[i, 0], coeff[i, 1], head_width=0.02, length_includes_head=True)
-        if labels is not None:
-            ax.text(coeff[i, 0] * 1.08, coeff[i, 1] * 1.08, labels[i], ha="center", va="center")
-    
-    
-    lim = 1.1 * np.max(np.abs(coeff[:, :2]))
+
+    if circle:
+        unit_circle = plt.Circle((0, 0), 1.0, color="grey", fill=False, linestyle="--", alpha=0.6)
+        ax.add_patch(unit_circle)
+
+    for i, name in enumerate(feature_names):
+        ax.arrow(0, 0, loadings[i, 0], loadings[i, 1],
+                 head_width=0.03, length_includes_head=True, alpha=0.9)
+        ax.text(loadings[i, 0]*1.08, loadings[i, 1]*1.08, name,
+                ha="center", va="center", fontsize=9)
+
+    lim = 1.1 * float(np.max(np.abs(loadings)))
+    lim = max(lim, 1.05)
     ax.set_xlim(-lim, lim)
     ax.set_ylim(-lim, lim)
-    ax.set_xlabel("PC1")
-    ax.set_ylabel("PC2")
-    ax.set_title("Biplot (variables & individuals, first 2 PCs)")
-    ax.axhline(0, linewidth=0.5)
-    ax.axvline(0, linewidth=0.5)
+
+    ax.axhline(0, linewidth=0.6)
+    ax.axvline(0, linewidth=0.6)
+    ax.set_xlabel("Dim1")
+    ax.set_ylabel("Dim2")
+    ax.set_title(title)
     fig.tight_layout()
     return fig, ax
 
-
+# ---------- Main ----------
 def main():
-    path = resolve_path(sys.argv[1] if len(sys.argv) > 1 else None)
+    path = resolve_existing_path(DEFAULT_PATHS)
     print(f"Loading dataset: {path}")
 
     df, cat_col = load_dataset(path)
     X = df[QUANT_COLS].copy()
     feature_names = QUANT_COLS
 
-    # Standardization (zero mean, unit variance)
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+    X_scaled = standardize_zscore(X)
 
-    # PCA
-    n_components = min(len(QUANT_COLS), X_scaled.shape[1], 6)
-    pca = PCA(n_components=n_components, random_state=42)
+    n_components = min(len(feature_names), X_scaled.shape[1])
+    pca = PCA(n_components=n_components)
     scores = pca.fit_transform(X_scaled)
 
-    # Eigenvalues summary table
     explained_var = pca.explained_variance_
     explained_ratio = pca.explained_variance_ratio_
     cum_ratio = np.cumsum(explained_ratio)
@@ -129,39 +142,36 @@ def main():
     eig = pd.DataFrame({
         "Dimension": [f"Dim{x+1}" for x in range(n_components)],
         "Valeur propre": explained_var,
-        "% valeur propre": np.round(explained_ratio * 100, 2),
-        "% cum. val. prop.": np.round(cum_ratio * 100, 2),
+        "% variance expliquée": np.round(explained_ratio * 100, 2),
+        "% variance expliquée cumulée": np.round(cum_ratio * 100, 2),
     })
     print("\n=== Tableau des valeurs propres ===")
     print(eig.to_string(index=False))
 
     out_dir = Path("pca_outputs")
     out_dir.mkdir(parents=True, exist_ok=True)
-
-    eig_path = out_dir / "pca_eigenvalues.csv"
+    eig_path = out_dir / "pca_valeurs_propres.csv"
     eig.to_csv(eig_path, index=False)
     print(f"\nSaved eigenvalues table -> {eig_path}")
 
-    # Bar chart of explained variance ratio
     plt.figure(figsize=(7, 4))
     x_idx = np.arange(n_components)
-    plt.bar(x_idx, explained_ratio)
-    plt.xticks(x_idx, [f"Dim{x+1}" for x in x_idx])
-    plt.ylabel("Explained variance ratio")
-    plt.title("Explained variance by component")
+    labels = [f"Dim{x+1}" for x in x_idx]
+    plt.bar(labels, explained_ratio)
+    plt.ylabel("% variance expliquée")
+    plt.xlabel("Dimensions ACP")
+    plt.title("Variance expliquée par composante")
     plt.tight_layout()
-    bar_path = out_dir / "pca_variance_bar.png"
+    bar_path = out_dir / "pca_variance_barchart.png"
     plt.savefig(bar_path, dpi=160)
     print(f"Saved variance bar chart -> {bar_path}")
 
-    # Variables biplot using first two PCs
-    coeff = pca.components_.T[:, :2]  # (n_features, 2)
-    fig, _ = biplot(scores[:, :2], coeff, labels=feature_names)
-    biplot_path = out_dir / "pca_biplot.png"
-    fig.savefig(biplot_path, dpi=160)
-    print(f"Saved biplot -> {biplot_path}")
+    fig_vars, _ = biplot_from_pca(pca, feature_names, components=(0,1), circle=True,
+                                  title="ACP — Graphique des variables (cercle des corrélations)")
+    biplot_path = out_dir / "pca_biplot_variables.png"
+    fig_vars.savefig(biplot_path, dpi=160)
+    print(f"Saved variables biplot -> {biplot_path}")
 
-    # Individuals scatter colored by categorical column
     pca_df = pd.DataFrame({
         "Dim1": scores[:, 0],
         "Dim2": scores[:, 1],
@@ -170,18 +180,21 @@ def main():
     })
 
     plt.figure(figsize=(7, 6))
-    unique_cats = sorted(pca_df[cat_col].dropna().unique().tolist())
-    cat_to_idx = {c: i for i, c in enumerate(unique_cats)}
-    colors = [cat_to_idx.get(c, 0) for c in pca_df[cat_col]]
-    plt.scatter(pca_df["Dim1"], pca_df["Dim2"], s=16, c=colors, alpha=0.8)
-    plt.xlabel("Dimension 1 (PC1)")
-    plt.ylabel("Dimension 2 (PC2)")
-    plt.title(f"ACP — Graphique des individus (couleur: {cat_col})")
+    unique_cats = pca_df[cat_col].dropna().astype(str).unique().tolist()
+    unique_cats.sort()
+    cmap = plt.get_cmap("Dark2")
+    colors_map = {c: cmap(i % cmap.N) for i, c in enumerate(unique_cats)}
+
     for c in unique_cats:
-        plt.scatter([], [], label=c, marker="o")
+        sub = pca_df[pca_df[cat_col] == c]
+        plt.scatter(sub["Dim1"], sub["Dim2"], s=16, alpha=0.85, label=c, c=[colors_map[c]])
+
+    plt.xlabel("Dim1 (PC1)")
+    plt.ylabel("Dim2 (PC2)")
+    plt.title(f"ACP — Graphique des individus (couleur: {cat_col})")
     plt.legend(title=cat_col, frameon=False, loc="best", fontsize=8)
     plt.tight_layout()
-    ind_path = out_dir / "pca_individuals.png"
+    ind_path = out_dir / "pca_individus.png"
     plt.savefig(ind_path, dpi=160)
     print(f"Saved individuals plot -> {ind_path}")
 
@@ -194,7 +207,6 @@ def main():
 
     print("\nDone.")
     print(f"Outputs in: {out_dir.resolve()}")
-
 
 if __name__ == "__main__":
     main()
