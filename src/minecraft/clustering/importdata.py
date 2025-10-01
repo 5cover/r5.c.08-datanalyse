@@ -10,7 +10,6 @@ et écrit un fichier normalisé dans results/.
 
 from pathlib import Path
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 from const import PathCsvClean
 
@@ -57,8 +56,11 @@ def encode(df: pd.DataFrame) -> pd.DataFrame:
     df["spawnable"] = df["spawnable"].map(MAP_SPAWNABLE)
     return df
 
-if __name__ == "__main__":
+def importdata():
     df = load_data(path_csv_raw)
     df_enc = encode(df)
     df_enc.to_csv(PathCsvClean, sep=";", index=False)
     print(f"[INFO] Fichier propre écrit dans {PathCsvClean}")
+
+if __name__ == "__main__":
+    importdata()

@@ -20,11 +20,14 @@ Usage:
 from __future__ import annotations
 
 import argparse
+from dataclasses import dataclass
 import sys
 from pathlib import Path
+from typing import Literal
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+
+import importdata
 
 # sklearn (required)
 from sklearn.preprocessing import StandardScaler
@@ -33,15 +36,20 @@ from sklearn.metrics import silhouette_score
 
 from const import PathCsvClusterProfiles, PathCsvClean, PathCsvWithClusters, PathPlotKdiag
 
+@dataclass
+class Config:
+    k: Literal['auto'] | int = 'auto'
+    kmin: int = 2
+    kmax: int = 12
+    random_state: int = 42
 
-def parse_args() -> argparse.Namespace:
+def parse_args():
     p = argparse.ArgumentParser(description="K-means clustering for Minecraft blocks.")
     p.add_argument("--k", default="auto", help="Number of clusters (int) or 'auto' to search (default: auto)")
     p.add_argument("--kmin", type=int, default=2, help="Min k when --k=auto (default: 2)")
     p.add_argument("--kmax", type=int, default=12, help="Max k when --k=auto (default: 12)")
-    p.add_argument("--plots", action="store_true", help="Save inertia/silhouette plots to <input>_kdiag.png")
     p.add_argument("--random_state", type=int, default=42, help="Random seed (default: 42)")
-    return p.parse_args()
+    return Config(**vars(p.parse_args()))
 
 def to_numeric(df: pd.DataFrame) -> pd.DataFrame:
     for c in df.columns:
@@ -75,26 +83,26 @@ def choose_k_auto(Xs: pd.DataFrame, kmin: int, kmax: int, random_state: int) -> 
         best_row = diag.sort_values("inertia", ascending=True).iloc[0]
     return int(best_row["k"]), diag
 
-def decide_k(Xs, args):
+def decide_k(Xs, cfg: Config):
     # Decide k
-    if args.k == "auto":
-        best_k, diag = choose_k_auto(Xs, args.kmin, args.kmax, args.random_state)
+    if cfg.k == "auto":
+        best_k, diag = choose_k_auto(Xs, cfg.kmin, cfg.kmax, cfg.random_state)
         print(f"[INFO] Auto-selected k = {best_k}")
     else:
         try:
-            best_k = int(args.k)
+            best_k = int(cfg.k)
         except ValueError:
             print("[ERROR] --k must be an integer or 'auto'", file=sys.stderr)
             sys.exit(2)
     return best_k
 
-def create_model(X: pd.DataFrame, k: int):
+def create_model(X: pd.DataFrame, k: int, cfg: Config):
     if not PathCsvClean.exists():
         print(f"[ERROR] CSV not found: {PathCsvClean}", file=sys.stderr)
         sys.exit(2)
 
     # Fit final model
-    model = KMeans(n_clusters=k, n_init=10, random_state=args.random_state)
+    model = KMeans(n_clusters=k, n_init=10, random_state=cfg.random_state)
     model.fit(X)
     return model
 
@@ -108,7 +116,7 @@ def gen_csv_with_clusters(X: pd.DataFrame, model: KMeans, args):
     
     return labels, out_df
     
-def gen_csv_with_cluster_profiles(X: pd.DataFrame, model: KMeans, labels):
+def gen_csv_with_cluster_profiles(X: pd.DataFrame, model: KMeans, labels, scaler: StandardScaler):
     # Profiles per cluster (means in original scale)
     centers_scaled = model.cluster_centers_
     centers = scaler.inverse_transform(centers_scaled)
@@ -124,24 +132,26 @@ def gen_csv_with_cluster_profiles(X: pd.DataFrame, model: KMeans, labels):
 
     return profiles
 
-if __name__ == "__main__":
-    args = parse_args()
-
+def kmeans(cfg: Config):
+    if not PathCsvClean.exists():
+        importdata.importdata()
     X = load_data(PathCsvClean)
 
     scaler = StandardScaler()
     Xs = scaler.fit_transform(X.values)
-    k = decide_k(Xs, args)
+    k = decide_k(Xs, cfg)
 
-    model = create_model(X, k)
+    model = create_model(X, k, cfg)
 
 
-    labels, out_df = gen_csv_with_clusters(X, model, args)
+    labels, out_df = gen_csv_with_clusters(X, model, cfg)
 
     out_df.to_csv(PathCsvWithClusters, index=False, sep=";")
     print(f"[INFO] Wrote {PathCsvWithClusters}")
 
-    profiles = gen_csv_with_cluster_profiles(X, model, labels)
+    profiles = gen_csv_with_cluster_profiles(X, model, labels, scaler)
     profiles.to_csv(PathCsvClusterProfiles, index=False, sep=";")
     print(f"[INFO] Wrote {PathCsvClusterProfiles}")
 
+if __name__=='__main__':
+    kmeans(parse_args())

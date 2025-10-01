@@ -49,5 +49,6 @@ parties (from memory)
 - valeurs manquantes -> no translation key
 - variance élevée -> besoin de centrer-réduire
 - features discriminantes
+- dataset très discret
 
 ### Conclusion

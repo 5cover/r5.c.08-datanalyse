@@ -5,14 +5,13 @@ Plot clusters of Minecraft blocks
 
 Reads the clustered data CSV and plots a 2D scatter of two chosen features,
 colored by cluster.
-
-Usage:
-  python plot_clusters.py --x blast_resistance --y luminance
 """
 
 import argparse
 import pandas as pd
 import matplotlib.pyplot as plt
+
+import kmeans
 
 from const import PathCsvWithClusters, PathPngScatter
 
@@ -25,6 +24,9 @@ def parse_args(columns):
 
 
 def main():
+    if not PathCsvWithClusters.exists():
+        kmeans.kmeans(kmeans.Config())
+
     df = pd.read_csv(PathCsvWithClusters, sep=";")
     args = parse_args(df.columns)
 
