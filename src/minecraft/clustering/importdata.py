@@ -12,7 +12,7 @@ from pathlib import Path
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-from const import PathCsvStd
+from const import PathCsvClean
 
 # Constantes
 path_csv_raw = Path(__file__).parent.parent.parent.parent / "datasets" / "minecraft" / "blocks" / "blocklist_clean.csv"
@@ -57,19 +57,8 @@ def encode(df: pd.DataFrame) -> pd.DataFrame:
     df["spawnable"] = df["spawnable"].map(MAP_SPAWNABLE)
     return df
 
-
-def standardize(df: pd.DataFrame) -> pd.DataFrame:
-    scaler = StandardScaler()
-    X = scaler.fit_transform(df[ALL_FEATURES])
-    df_std = pd.DataFrame(X, columns=ALL_FEATURES, index=df.index)
-    # garder aussi le nom du bloc pour s'y retrouver
-    df_std.insert(0, "block", df["block"])
-    return df_std
-
-
 if __name__ == "__main__":
     df = load_data(path_csv_raw)
     df_enc = encode(df)
-    df_std = standardize(df_enc)
-    df_std.to_csv(PathCsvStd, sep=";", index=False)
-    print(f"[INFO] Fichier standardisé écrit dans {PathCsvStd}")
+    df_enc.to_csv(PathCsvClean, sep=";", index=False)
+    print(f"[INFO] Fichier propre écrit dans {PathCsvClean}")

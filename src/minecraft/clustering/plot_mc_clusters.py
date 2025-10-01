@@ -17,37 +17,32 @@ import matplotlib.pyplot as plt
 from const import PathCsvWithClusters, PathPngScatter
 
 
-def parse_args():
+def parse_args(columns):
     p = argparse.ArgumentParser(description="Scatter plot of clustered Minecraft blocks")
-    p.add_argument("x", help="Feature for X axis")
-    p.add_argument("y", help="Feature for Y axis")
+    p.add_argument("x", help="Feature for X axis", choices=columns)
+    p.add_argument("y", help="Feature for Y axis", choices=columns)
     return p.parse_args()
 
 
 def main():
-    args = parse_args()
     df = pd.read_csv(PathCsvWithClusters, sep=";")
+    args = parse_args(df.columns)
 
-    if args.x not in df.columns or args.y not in df.columns:
-        raise ValueError(f"Columns {args.x} and/or {args.y} not found in {PathCsvWithClusters}")
-
-    plt.figure(figsize=(8, 6))
+    fig, ax = plt.subplots()
     clusters = df["cluster"].unique()
     for cl in sorted(clusters):
         sub = df[df["cluster"] == cl]
-        plt.scatter(
+        ax.scatter(
             sub[args.x],
             sub[args.y],
             label=f"Cluster {cl}",
-            alpha=0.7
         )
 
-    plt.xlabel(args.x)
-    plt.ylabel(args.y)
-    plt.title(f"Clusters by {args.x} vs {args.y}")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig(PathPngScatter, dpi=150)
+    ax.set_xlabel(args.x)
+    ax.set_ylabel(args.y)
+    ax.set_title(f"Clusters by {args.x} vs {args.y}")
+    fig.legend()
+    fig.savefig(PathPngScatter)
     print(f"[INFO] Saved scatter plot to {PathPngScatter}")
 
 

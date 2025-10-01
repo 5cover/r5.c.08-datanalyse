@@ -1,0 +1,1080 @@
+block;number_of_variants;height_external;width_external;volume;blast_resistance;luminance;conductive;full_cube;spawnable;movable
+Activator Rail;1;0;0;0;50.35;0.0;0;0;0;3
+Air;3;0;0;0;0.0;0.0;0;0;0;3
+Cave Air;3;0;0;0;0.0;0.0;0;0;0;3
+Void Air;3;0;0;0;0.0;0.0;0;0;0;3
+Amethyst Cluster;4;9;9;729;50.75;5.0;0;0;0;1
+Large Amethyst Bud;4;9;9;729;50.75;4.0;0;0;0;1
+Medium Amethyst Bud;4;9;9;729;50.75;2.0;0;0;0;1
+Small Amethyst Bud;4;9;9;729;50.75;1.0;0;0;0;1
+Ancient Debris;1;16;16;4096;1200.0;0.0;2;2;5;3
+Andesite;2;16;16;4096;6.0;0.0;2;2;5;3
+Polished Andesite;2;16;16;4096;6.0;0.0;2;2;5;3
+Anvil;3;10;12;1440;1200.0;0.0;0;0;0;2
+Chipped Anvil;3;10;12;1440;1200.0;0.0;0;0;0;2
+Damaged Anvil;3;10;12;1440;1200.0;0.0;0;0;0;2
+Azalea;2;16;13;2704;0.0;0.0;0;0;5;1
+Flowering Azalea;2;16;13;2704;0.0;0.0;0;0;5;1
+Bamboo;2;16;0;0;1.0;0.0;0;0;0;1
+Bamboo Shoot;2;16;0;0;1.0;0.0;0;0;0;1
+Bamboo Mosaic;1;16;16;4096;3.0;0.0;2;2;5;3
+Black Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Blue Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Brown Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Cyan Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Gray Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Green Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Light Blue Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Light Gray Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Lime Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Magenta Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Orange Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Pink Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Purple Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Red Banner;32;0;0;0;1.0;0.0;0;0;0;0
+White Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Yellow Banner;32;0;0;0;1.0;0.0;0;0;0;0
+Barrel;1;16;16;4096;2.5;0.0;2;2;5;0
+Barrier;1;16;16;4096;3600000.75;0.0;2;2;0;0
+Basalt;3;16;16;4096;4.2;0.0;2;2;5;3
+Polished Basalt;3;16;16;4096;4.2;0.0;2;2;5;3
+Smooth Basalt;3;16;16;4096;4.2;0.0;2;2;5;3
+Beacon;1;16;16;4096;3.0;15.0;0;2;0;0
+Bedrock;1;16;16;4096;3600000.0;0.0;2;2;0;0
+Black Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Blue Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Brown Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Cyan Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Gray Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Green Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Light Blue Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Light Gray Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Lime Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Magenta Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Orange Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Pink Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Purple Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Red Bed;16;9;9;729;0.2;0.0;0;0;0;1
+White Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Yellow Bed;16;9;9;729;0.2;0.0;0;0;0;1
+Bee Nest;1;16;16;4096;0.3;0.0;2;2;5;0
+Beehive;1;16;16;4096;0.6000000000000001;0.0;2;2;5;0
+Bell;1;12;12;1728;5.0;0.0;0;0;0;1
+Big Dripleaf;2;14;16;3584;50.05;0.0;0;0;0;1
+Big Dripleaf Stem;2;14;16;3584;50.05;0.0;0;0;0;1
+Blackstone;5;16;16;4096;6.0;0.0;2;2;5;3
+Chiseled Polished Blackstone;5;16;16;4096;6.0;0.0;2;2;5;3
+Cracked Polished Blackstone Bricks;5;16;16;4096;6.0;0.0;2;2;5;3
+Polished Blackstone;5;16;16;4096;6.0;0.0;2;2;5;3
+Polished Blackstone Bricks;5;16;16;4096;6.0;0.0;2;2;5;3
+Blast Furnace;1;16;16;4096;3.5;6.5;2;2;5;0
+Block of Amethyst;1;16;16;4096;1.5;0.0;2;2;5;3
+Block of Bamboo;1;16;16;4096;2.0;0.0;2;2;5;3
+Block of Coal;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Exposed Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Exposed Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Oxidized Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Oxidized Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Block of Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Exposed Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Exposed Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Oxidized Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Oxidized Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Weathered Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Weathered Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Weathered Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Weathered Cut Copper;16;16;16;4096;6.0;0.0;2;2;5;3
+Block of Diamond;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Emerald;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Gold;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Iron;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Lapis Lazuli;1;16;16;4096;3.0;0.0;2;2;5;3
+Block of Netherite;1;16;16;4096;1200.0;0.0;2;2;5;3
+Block of Quartz;5;16;16;4096;0.8;0.0;2;2;5;3
+Chiseled Quartz Block;5;16;16;4096;0.8;0.0;2;2;5;3
+Quartz Bricks;5;16;16;4096;0.8;0.0;2;2;5;3
+Quartz Pillar;5;16;16;4096;0.8;0.0;2;2;5;3
+Smooth Quartz Block;5;16;16;4096;6.0;0.0;2;2;5;3
+Block of Raw Copper;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Raw Gold;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Raw Iron;1;16;16;4096;6.0;0.0;2;2;5;3
+Block of Redstone;1;16;16;4096;6.0;0.0;0;2;5;3
+Block of Stripped Bamboo;1;16;16;4096;2.0;0.0;2;2;5;3
+Blue Ice;1;16;16;4096;2.8;0.0;2;2;5;3
+Bone Block;1;16;16;4096;2.0;0.0;2;2;5;3
+Bookshelf;1;16;16;4096;1.5;0.0;2;2;5;3
+Brewing Stand;1;8;12;1152;0.5;1.0;0;0;0;0
+Bricks;1;16;16;4096;6.0;0.0;2;2;5;3
+Budding Amethyst;1;16;16;4096;1.5;0.0;2;2;5;1
+Acacia Button;14;0;0;0;0.5;0.0;0;0;0;1
+Bamboo Button;14;0;0;0;0.5;0.0;0;0;0;1
+Birch Button;14;0;0;0;0.5;0.0;0;0;0;1
+Cherry Button;14;0;0;0;0.5;0.0;0;0;0;1
+Crimson Button;14;0;0;0;0.5;0.0;0;0;0;1
+Dark Oak Button;14;0;0;0;0.5;0.0;0;0;0;1
+Jungle Button;14;0;0;0;0.5;0.0;0;0;0;1
+Mangrove Button;14;0;0;0;0.5;0.0;0;0;0;1
+Oak Button;14;0;0;0;0.5;0.0;0;0;0;1
+Pale Oak Button;14;0;0;0;0.5;0.0;0;0;0;1
+Polished Blackstone Button;14;0;0;0;0.5;0.0;0;0;0;1
+Spruce Button;14;0;0;0;0.5;0.0;0;0;0;1
+Stone Button;14;0;0;0;0.5;0.0;0;0;0;1
+Warped Button;14;0;0;0;0.5;0.0;0;0;0;1
+Cactus;1;15;15;3375;0.4;0.0;0;0;0;1
+Cake;18;8;10;800;0.5;0.0;0;0;0;1
+Cake with Black Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Blue Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Brown Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Cyan Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Gray Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Green Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Light Blue Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Light Gray Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Lime Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Magenta Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Orange Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Pink Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Purple Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Red Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with White Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Cake with Yellow Candle;18;11;10;1100;0.5;1.5;0;0;0;1
+Calcite;1;16;16;4096;0.75;0.0;2;2;5;3
+Calibrated Sculk Sensor;1;8;16;2048;50.75;1.0;0;0;0;0
+Campfire;2;7;16;1792;51.0;7.5;0;0;0;0
+Soul Campfire;2;7;16;1792;51.0;5.0;0;0;0;0
+Black Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Blue Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Brown Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Cyan Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Gray Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Green Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Light Blue Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Light Gray Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Lime Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Magenta Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Orange Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Pink Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Purple Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Red Candle;17;6;10;600;50.05;3.75;0;0;0;1
+White Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Yellow Candle;17;6;10;600;50.05;3.75;0;0;0;1
+Black Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Blue Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Brown Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Cyan Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Gray Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Green Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Light Blue Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Light Gray Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Lime Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Magenta Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Orange Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Pink Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Purple Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Red Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+White Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Yellow Carpet;16;1;16;256;0.1;0.0;0;0;0;3
+Cartography Table;1;16;16;4096;2.5;0.0;2;2;5;3
+Cauldron;4;10;7;490;2.0;0.0;0;0;0;3
+Lava Cauldron;4;10;7;490;2.0;15.0;0;0;0;3
+Powder Snow Cauldron;4;10;7;490;2.0;0.0;0;0;0;3
+Water Cauldron;4;10;7;490;2.0;0.0;0;0;0;3
+Cave Vines;2;0;0;0;0.0;7.0;0;0;0;1
+Cave Vines Plant;2;0;0;0;0.0;7.0;0;0;0;1
+Chain;1;12;12;1728;53.0;0.0;0;0;0;3
+Chest;1;14;15;3150;51.25;0.0;0;0;0;0
+Chiseled Bookshelf;1;16;16;4096;1.5;0.0;2;2;5;0
+Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Exposed Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Oxidized Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Exposed Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Oxidized Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Waxed Weathered Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Weathered Chiseled Copper;8;16;16;4096;6.0;0.0;2;2;5;3
+Chiseled Tuff;1;16;16;4096;6.0;0.0;2;2;5;3
+Chiseled Tuff Bricks;1;16;16;4096;6.0;0.0;2;2;5;3
+Chorus Flower;1;16;16;4096;0.4;0.0;0;2;0;1
+Chorus Plant;1;14;14;2744;0.4;0.0;0;0;0;1
+Clay;1;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Coal Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Deepslate Coal Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Coarse Dirt;1;16;16;4096;0.5;0.0;2;2;5;3
+Chiseled Deepslate;7;16;16;4096;6.0;0.0;2;2;5;3
+Cobbled Deepslate;7;16;16;4096;6.0;0.0;2;2;5;3
+Cracked Deepslate Bricks;7;16;16;4096;6.0;0.0;2;2;5;3
+Cracked Deepslate Tiles;7;16;16;4096;6.0;0.0;2;2;5;3
+Deepslate Bricks;7;16;16;4096;6.0;0.0;2;2;5;3
+Deepslate Tiles;7;16;16;4096;6.0;0.0;2;2;5;3
+Polished Deepslate;7;16;16;4096;6.0;0.0;2;2;5;3
+Cobblestone;3;16;16;4096;6.0;0.0;2;2;5;3
+Infested Cobblestone;3;16;16;4096;0.75;0.0;2;2;5;3
+Mossy Cobblestone;3;16;16;4096;6.0;0.0;2;2;5;3
+Cobweb;1;0;0;0;4.0;0.0;0;0;0;1
+Cocoa;1;12;10;1200;3.0;0.0;0;0;0;1
+Chain Command Block;3;16;16;4096;3600000.0;0.0;2;2;5;0
+Command Block;3;16;16;4096;3600000.0;0.0;2;2;5;0
+Repeating Command Block;3;16;16;4096;3600000.0;0.0;2;2;5;0
+Composter;1;9;9;729;0.6000000000000001;0.0;0;0;0;3
+Black Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Blue Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Brown Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Cyan Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Gray Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Green Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Light Blue Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Light Gray Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Lime Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Magenta Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Orange Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Pink Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Purple Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Red Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+White Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Yellow Concrete;16;16;16;4096;1.8;0.0;2;2;5;3
+Black Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Blue Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Brown Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Cyan Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Gray Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Green Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Light Blue Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Light Gray Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Lime Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Magenta Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Orange Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Pink Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Purple Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Red Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+White Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Yellow Concrete Powder;16;16;16;4096;0.5;0.0;2;2;5;3
+Conduit;1;11;11;1331;51.5;15.0;0;0;0;0
+Copper Bulb;8;16;16;4096;6.0;7.5;0;2;4;3
+Exposed Copper Bulb;8;16;16;4096;6.0;6.0;0;2;4;3
+Oxidized Copper Bulb;8;16;16;4096;6.0;2.0;0;2;4;3
+Waxed Copper Bulb;8;16;16;4096;6.0;7.5;0;2;4;3
+Waxed Exposed Copper Bulb;8;16;16;4096;6.0;6.0;0;2;4;3
+Waxed Oxidized Copper Bulb;8;16;16;4096;6.0;2.0;0;2;4;3
+Waxed Weathered Copper Bulb;8;16;16;4096;6.0;4.0;0;2;4;3
+Weathered Copper Bulb;8;16;16;4096;6.0;4.0;0;2;4;3
+Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Exposed Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Oxidized Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Waxed Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Waxed Exposed Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Waxed Oxidized Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Waxed Weathered Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Weathered Copper Grate;8;16;16;4096;53.0;0.0;0;2;0;3
+Copper Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Deepslate Copper Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Brain Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Bubble Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Dead Brain Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Dead Bubble Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Dead Fire Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Dead Horn Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Dead Tube Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Fire Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Horn Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Tube Coral Block;10;16;16;4096;6.0;0.0;2;2;5;3
+Brain Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Brain Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Bubble Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Bubble Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Brain Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Brain Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Bubble Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Bubble Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Fire Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Fire Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Horn Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Horn Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Tube Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Dead Tube Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Fire Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Fire Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Horn Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Horn Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Tube Coral Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Tube Coral Wall Fan;20;0;0;0;50.0;0.0;0;0;0;3
+Brain Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Bubble Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Dead Brain Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Dead Bubble Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Dead Fire Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Dead Horn Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Dead Tube Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Fire Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Horn Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Tube Coral;10;0;0;0;50.0;0.0;0;0;0;3
+Crafter;1;16;16;4096;3.5;0.0;2;2;5;0
+Crafting Table;1;16;16;4096;2.5;0.0;2;2;5;3
+Creaking Heart;1;16;16;4096;10.0;0.0;2;2;5;0
+Attached Melon Stem;8;0;0;0;0.0;0.0;0;0;0;1
+Attached Pumpkin Stem;8;0;0;0;0.0;0.0;0;0;0;1
+Beetroots;8;0;0;0;0.0;0.0;0;0;0;1
+Carrots;8;0;0;0;0.0;0.0;0;0;0;1
+Melon Stem;8;0;0;0;0.0;0.0;0;0;0;1
+Potatoes;8;0;0;0;0.0;0.0;0;0;0;1
+Pumpkin Stem;8;0;0;0;0.0;0.0;0;0;0;1
+Wheat Crops;8;0;0;0;0.0;0.0;0;0;0;1
+Crying Obsidian;1;16;16;4096;1200.0;10.0;2;2;5;0
+Daylight Detector;1;6;16;1536;0.2;0.0;0;0;0;0
+Dead Bush;1;0;0;0;0.0;0.0;0;0;0;1
+Decorated Pot;1;16;15;3600;50.0;0.0;0;0;0;1
+Deepslate;2;16;16;4096;6.0;0.0;2;2;5;3
+Infested Deepslate;2;16;16;4096;0.75;0.0;2;2;5;3
+Detector Rail;1;0;0;0;50.35;0.0;0;0;0;3
+Deepslate Diamond Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Diamond Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Diorite;2;16;16;4096;6.0;0.0;2;2;5;3
+Polished Diorite;2;16;16;4096;6.0;0.0;2;2;5;3
+Dirt;2;16;16;4096;0.5;0.0;2;2;5;3
+Rooted Dirt;2;16;16;4096;0.5;0.0;2;2;5;3
+Dirt Path;1;15;16;3840;0.65;0.0;0;0;0;3
+Dispenser;1;16;16;4096;3.5;0.0;2;2;5;0
+Acacia Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Bamboo Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Birch Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Cherry Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Crimson Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Dark Oak Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Exposed Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Iron Door;21;16;9;1296;5.0;0.0;0;0;0;1
+Jungle Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Mangrove Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Oak Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Oxidized Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Pale Oak Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Spruce Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Warped Door;21;16;9;1296;3.0;0.0;0;0;0;1
+Waxed Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Waxed Exposed Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Waxed Oxidized Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Waxed Weathered Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Weathered Copper Door;21;16;9;1296;6.0;0.0;0;0;0;1
+Dragon Egg;1;16;15;3600;9.0;1.0;0;0;0;3
+Dried Kelp Block;1;16;16;4096;2.5;0.0;2;2;5;3
+Dripstone Block;1;16;16;4096;1.0;0.0;2;2;5;3
+Dropper;1;16;16;4096;3.5;0.0;2;2;5;0
+Deepslate Emerald Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Emerald Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Enchanting Table;1;12;16;3072;1200.0;7.0;0;0;0;0
+End Gateway;1;0;0;0;3600000.0;15.0;0;0;0;0
+End Portal;1;0;0;0;3600000.0;15.0;0;0;0;0
+End Portal Frame;1;14;14;2744;3600000.0;1.0;0;0;0;0
+End Rod;1;13;13;2197;0.0;14.0;0;0;0;3
+End Stone;1;16;16;4096;9.0;0.0;2;2;5;3
+End Stone Bricks;1;16;16;4096;9.0;0.0;2;2;5;3
+Ender Chest;1;14;15;3150;600.0;7.0;0;0;0;0
+Farmland;1;15;16;3840;0.6000000000000001;0.0;0;0;0;3
+Acacia Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Bamboo Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Birch Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Cherry Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Crimson Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Dark Oak Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Jungle Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Mangrove Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Oak Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Pale Oak Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Spruce Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Warped Fence Gate;12;24;13;4056;3.0;0.0;0;0;0;3
+Acacia Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Bamboo Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Birch Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Cherry Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Crimson Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Dark Oak Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Jungle Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Mangrove Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Nether Brick Fence;13;24;13;4056;53.0;0.0;0;0;0;3
+Oak Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Pale Oak Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Spruce Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Warped Fence;13;24;13;4056;51.5;0.0;0;0;0;3
+Fern;2;0;0;0;0.0;0.0;0;0;0;1
+Large Fern;2;0;0;0;0.0;0.0;0;0;0;1
+Fire;2;0;0;0;0.0;15.0;0;0;0;1
+Soul Fire;2;0;0;0;0.0;10.0;0;0;0;1
+Fletching Table;1;16;16;4096;2.5;0.0;2;2;5;3
+Flower Pot;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Acacia Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Allium;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Azalea;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Azure Bluet;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Bamboo;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Birch Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Blue Orchid;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Brown Mushroom;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Cactus;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Cherry Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Closed Eyeblossom;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Cornflower;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Crimson Fungus;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Crimson Roots;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Dandelion;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Dark Oak Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Dead Bush;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Fern;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Flowering Azalea;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Jungle Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Lily of the Valley;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Mangrove Propagule;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Oak Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Open Eyeblossom;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Orange Tulip;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Oxeye Daisy;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Pale Oak Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Pink Tulip;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Poppy;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Red Mushroom;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Red Tulip;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Spruce Sapling;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Torchflower;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Warped Fungus;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Warped Roots;38;6;11;726;0.0;0.0;0;0;0;1
+Potted White Tulip;38;6;11;726;0.0;0.0;0;0;0;1
+Potted Wither Rose;38;6;11;726;0.0;0.0;0;0;0;1
+Allium;19;0;0;0;0.0;0.0;0;0;0;1
+Azure Bluet;19;0;0;0;0.0;0.0;0;0;0;1
+Blue Orchid;19;0;0;0;0.0;0.0;0;0;0;1
+Closed Eyeblossom;19;0;0;0;0.0;0.0;0;0;0;1
+Cornflower;19;0;0;0;0.0;0.0;0;0;0;1
+Dandelion;19;0;0;0;0.0;0.0;0;0;0;1
+Lilac;19;0;0;0;0.0;0.0;0;0;0;1
+Lily of the Valley;19;0;0;0;0.0;0.0;0;0;0;1
+Open Eyeblossom;19;0;0;0;0.0;0.0;0;0;0;1
+Orange Tulip;19;0;0;0;0.0;0.0;0;0;0;1
+Oxeye Daisy;19;0;0;0;0.0;0.0;0;0;0;1
+Peony;19;0;0;0;0.0;0.0;0;0;0;1
+Pink Tulip;19;0;0;0;0.0;0.0;0;0;0;1
+Poppy;19;0;0;0;0.0;0.0;0;0;0;1
+Red Tulip;19;0;0;0;0.0;0.0;0;0;0;1
+Rose Bush;19;0;0;0;0.0;0.0;0;0;0;1
+Sunflower;19;0;0;0;0.0;0.0;0;0;0;1
+White Tulip;19;0;0;0;0.0;0.0;0;0;0;1
+Wither Rose;19;0;0;0;0.0;0.0;0;0;0;1
+Ochre Froglight;3;16;16;4096;0.3;15.0;2;2;0;3
+Pearlescent Froglight;3;16;16;4096;0.3;15.0;2;2;0;3
+Verdant Froglight;3;16;16;4096;0.3;15.0;2;2;0;3
+Frogspawn;1;0;0;0;0.0;0.0;0;0;0;1
+Frosted Ice;1;16;16;4096;0.5;0.0;0;2;3;3
+Crimson Fungus;2;0;0;0;0.0;0.0;0;0;0;1
+Warped Fungus;2;0;0;0;0.0;0.0;0;0;0;1
+Furnace;1;16;16;4096;3.5;6.5;2;2;5;0
+Gilded Blackstone;1;16;16;4096;6.0;0.0;2;2;5;3
+Glass;1;16;16;4096;0.3;0.0;0;2;0;3
+Glass Pane;1;16;12;2304;50.15;0.0;0;0;0;3
+Black Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Blue Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Brown Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Cyan Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Gray Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Green Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Light Blue Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Light Gray Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Lime Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Magenta Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Orange Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Pink Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Purple Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Red Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+White Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Yellow Glazed Terracotta;16;16;16;4096;1.4;0.0;2;2;5;3
+Glow Lichen;1;0;0;0;50.1;6.0;0;0;0;1
+Glowstone;1;16;16;4096;0.3;15.0;0;2;0;3
+Deepslate Gold Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Gold Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Granite;2;16;16;4096;6.0;0.0;2;2;5;3
+Polished Granite;2;16;16;4096;6.0;0.0;2;2;5;3
+Grass Block;1;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Gravel;1;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Grindstone;1;12;13;2028;6.0;0.0;0;0;0;0
+Hanging Roots;1;0;0;0;50.0;0.0;0;0;0;1
+Acacia Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Acacia Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Bamboo Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Bamboo Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Birch Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Birch Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Cherry Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Cherry Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Crimson Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Crimson Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Dark Oak Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Dark Oak Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Jungle Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Jungle Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Mangrove Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Mangrove Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Oak Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Oak Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Pale Oak Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Pale Oak Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Spruce Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Spruce Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Warped Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Warped Wall Hanging Sign;24;16;13;2704;50.5;0.0;0;0;0;0
+Hay Bale;1;16;16;4096;0.5;0.0;2;2;5;3
+Creeper Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Creeper Wall Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Dragon Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Dragon Wall Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Piglin Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Piglin Wall Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Player Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Player Wall Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Skeleton Skull;14;10;12;1440;1.0;0.0;0;0;0;1
+Skeleton Wall Skull;14;10;12;1440;1.0;0.0;0;0;0;1
+Wither Skeleton Skull;14;10;12;1440;1.0;0.0;0;0;0;1
+Wither Skeleton Wall Skull;14;10;12;1440;1.0;0.0;0;0;0;1
+Zombie Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Zombie Wall Head;14;10;12;1440;1.0;0.0;0;0;0;1
+Heavy Core;1;8;12;1152;1200.0;0.0;0;0;0;3
+Honey Block;1;15;15;3375;0.0;0.0;0;0;0;3
+Honeycomb Block;1;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Hopper;1;13;12;1872;4.8;0.0;0;0;0;0
+Crimson Hyphae;4;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Crimson Hyphae;4;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Warped Hyphae;4;16;16;4096;2.0;0.0;2;2;5;3
+Warped Hyphae;4;16;16;4096;2.0;0.0;2;2;5;3
+Ice;1;16;16;4096;0.5;0.0;0;2;3;3
+Iron Bars;1;16;12;2304;53.0;0.0;0;0;0;3
+Deepslate Iron Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Iron Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Jack o'Lantern;1;16;16;4096;1.0;15.0;2;2;5;1
+Jigsaw Block;1;16;16;4096;3600000.0;0.0;2;2;5;0
+Jukebox;1;16;16;4096;6.0;0.0;2;2;5;0
+Kelp;2;0;0;0;100.0;0.0;0;0;0;1
+Kelp Plant;2;0;0;0;100.0;0.0;0;0;0;1
+Ladder;1;16;9;1296;50.2;0.0;0;0;0;1
+Lantern;2;8;10;800;51.75;15.0;0;0;0;1
+Soul Lantern;2;8;10;800;51.75;10.0;0;0;0;1
+Deepslate Lapis Lazuli Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Lapis Lazuli Ore;2;16;16;4096;3.0;0.0;2;2;5;3
+Lava;1;0;0;0;100.0;15.0;0;0;0;1
+Acacia Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Azalea Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Birch Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Cherry Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Dark Oak Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Flowering Azalea Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Jungle Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Mangrove Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Oak Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Pale Oak Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Spruce Leaves;11;16;16;4096;50.1;0.0;0;2;2;1
+Lectern;1;8;14;1568;2.5;0.0;0;0;0;0
+Lever;1;0;0;0;0.5;0.0;0;0;0;1
+Light;1;0;0;0;3600000.75;7.5;0;0;0;0
+Lightning Rod;1;13;13;2197;53.0;0.0;0;0;0;3
+Lily Pad;1;1;15;225;0.0;0.0;0;0;0;1
+Lodestone;1;16;16;4096;3.5;0.0;2;2;5;0
+Acacia Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Birch Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Cherry Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Dark Oak Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Jungle Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Mangrove Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Oak Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Pale Oak Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Spruce Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Acacia Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Birch Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Cherry Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Dark Oak Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Jungle Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Mangrove Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Oak Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Pale Oak Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Spruce Log;18;16;16;4096;2.0;0.0;2;2;5;3
+Loom;1;16;16;4096;2.5;0.0;2;2;5;3
+Magma Block;1;16;16;4096;0.5;3.0;2;2;1;3
+Mangrove Propagule;1;0;0;0;50.0;0.0;0;0;0;1
+Mangrove Roots;1;16;16;4096;50.35;0.0;2;2;5;3
+Melon;1;16;16;4096;1.0;0.0;2;2;5;1
+Moss Block;1;16;16;4096;0.1;0.0;2;2;5;1
+Moss Carpet;1;1;16;256;0.1;0.0;0;0;0;1
+Moving Piston;1;0;0;0;0.0;0.0;0;0;0;0
+Mud;1;14;16;3584;0.5;0.0;2;0;5;3
+Mud Bricks;1;16;16;4096;3.0;0.0;2;2;5;3
+Muddy Mangrove Roots;1;16;16;4096;0.7000000000000001;0.0;2;2;5;3
+Brown Mushroom Block;3;16;16;4096;0.2;0.0;2;2;5;3
+Mushroom Stem;3;16;16;4096;0.2;0.0;2;2;5;3
+Red Mushroom Block;3;16;16;4096;0.2;0.0;2;2;5;3
+Brown Mushroom;2;0;0;0;0.0;1.0;0;0;0;1
+Red Mushroom;2;0;0;0;0.0;0.0;0;0;0;1
+Mycelium;1;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Chiseled Nether Bricks;4;16;16;4096;6.0;0.0;2;2;5;3
+Cracked Nether Bricks;4;16;16;4096;6.0;0.0;2;2;5;3
+Nether Bricks;4;16;16;4096;6.0;0.0;2;2;5;3
+Red Nether Bricks;4;16;16;4096;6.0;0.0;2;2;5;3
+Nether Gold Ore;1;16;16;4096;3.0;0.0;2;2;5;3
+Nether Portal;1;0;0;0;0.0;11.0;0;0;0;0
+Nether Quartz Ore;1;16;16;4096;3.0;0.0;2;2;5;3
+Nether Sprouts;1;0;0;0;0.0;0.0;0;0;0;1
+Nether Wart;1;0;0;0;0.0;0.0;0;0;0;1
+Netherrack;1;16;16;4096;0.4;0.0;2;2;5;3
+Note Block;1;16;16;4096;0.8;0.0;2;2;5;3
+Crimson Nylium;2;16;16;4096;0.4;0.0;2;2;5;3
+Warped Nylium;2;16;16;4096;0.4;0.0;2;2;5;3
+Observer;1;16;16;4096;3.0;0.0;0;2;5;3
+Obsidian;1;16;16;4096;1200.0;0.0;2;2;5;0
+Packed Ice;1;16;16;4096;0.5;0.0;2;2;5;3
+Packed Mud;1;16;16;4096;3.0;0.0;2;2;5;3
+Pale Hanging Moss;1;16;0;0;0.0;0.0;0;0;0;1
+Pale Moss Block;1;16;16;4096;0.1;0.0;2;2;5;1
+Pale Moss Carpet;1;1;16;256;0.1;0.0;0;0;0;1
+Pink Petals;1;0;0;0;0.0;0.0;0;0;0;1
+Piston;3;12;12;1728;1.5;0.0;0;1;4;2
+Piston Head;3;12;12;1728;1.5;0.0;0;1;4;2
+Sticky Piston;3;12;12;1728;1.5;0.0;0;1;4;2
+Pitcher Crop;1;4;12;576;0.0;0.0;0;0;0;1
+Pitcher Plant;1;0;0;0;0.0;0.0;0;0;0;1
+Acacia Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Bamboo Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Birch Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Cherry Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Crimson Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Dark Oak Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Jungle Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Mangrove Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Oak Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Pale Oak Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Spruce Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Warped Planks;12;16;16;4096;3.0;0.0;2;2;5;3
+Podzol;1;16;16;4096;0.5;0.0;2;2;5;3
+Pointed Dripstone;1;14;0;0;51.5;0.0;0;0;0;3
+Polished Tuff;1;16;16;4096;6.0;0.0;2;2;5;3
+Powder Snow;1;16;0;0;0.25;0.0;0;0;0;3
+Powered Rail;1;0;0;0;50.35;0.0;0;0;0;3
+Acacia Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Bamboo Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Birch Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Cherry Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Crimson Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Dark Oak Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Heavy Weighted Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Jungle Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Light Weighted Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Mangrove Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Oak Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Pale Oak Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Polished Blackstone Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Spruce Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Stone Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Warped Pressure Plate;16;0;0;0;0.5;0.0;0;0;0;1
+Dark Prismarine;3;16;16;4096;6.0;0.0;2;2;5;3
+Prismarine;3;16;16;4096;6.0;0.0;2;2;5;3
+Prismarine Bricks;3;16;16;4096;6.0;0.0;2;2;5;3
+Carved Pumpkin;2;16;16;4096;1.0;0.0;2;2;5;1
+Pumpkin;2;16;16;4096;1.0;0.0;2;2;5;1
+Purpur Block;2;16;16;4096;6.0;0.0;2;2;5;3
+Purpur Pillar;2;16;16;4096;6.0;0.0;2;2;5;3
+Rail;1;0;0;0;50.35;0.0;0;0;0;3
+Red Sand;1;16;16;4096;0.5;0.0;2;2;5;3
+Chiseled Red Sandstone;4;16;16;4096;0.8;0.0;2;2;5;3
+Cut Red Sandstone;4;16;16;4096;0.8;0.0;2;2;5;3
+Red Sandstone;4;16;16;4096;0.8;0.0;2;2;5;3
+Smooth Red Sandstone;4;16;16;4096;6.0;0.0;2;2;5;3
+Redstone Comparator;1;2;16;512;0.0;0.0;0;0;0;1
+Redstone Wire;1;0;0;0;0.0;0.0;0;0;0;1
+Redstone Lamp;1;16;16;4096;0.3;7.5;2;2;5;3
+Deepslate Redstone Ore;2;16;16;4096;3.0;4.5;2;2;5;3
+Redstone Ore;2;16;16;4096;3.0;4.5;2;2;5;3
+Redstone Repeater;1;2;16;512;0.0;0.0;0;0;0;1
+Redstone Torch;2;0;0;0;0.0;3.5;0;0;0;1
+Redstone Wall Torch;2;0;0;0;0.0;3.5;0;0;0;1
+Reinforced Deepslate;1;16;16;4096;1200.0;0.0;2;2;5;0
+Block of Resin;1;16;16;4096;0.0;0.0;2;2;5;3
+Chiseled Resin Bricks;2;16;16;4096;6.0;0.0;2;2;5;3
+Resin Bricks;2;16;16;4096;6.0;0.0;2;2;5;3
+Resin Clump;1;0;16;0;50.0;0.0;0;0;0;1
+Respawn Anchor;1;16;16;4096;1200.0;7.2;2;2;4;0
+Crimson Roots;2;0;0;0;0.0;0.0;0;0;0;1
+Warped Roots;2;0;0;0;0.0;0.0;0;0;0;1
+Sand;1;16;16;4096;0.5;0.0;2;2;5;3
+Chiseled Sandstone;4;16;16;4096;0.8;0.0;2;2;5;3
+Cut Sandstone;4;16;16;4096;0.8;0.0;2;2;5;3
+Sandstone;4;16;16;4096;0.8;0.0;2;2;5;3
+Smooth Sandstone;4;16;16;4096;6.0;0.0;2;2;5;3
+Acacia Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Birch Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Cherry Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Dark Oak Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Jungle Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Oak Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Pale Oak Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Spruce Sapling;8;0;0;0;0.0;0.0;0;0;0;1
+Scaffolding;1;6;12;864;50.0;0.0;0;0;0;3
+Sculk;1;16;16;4096;0.2;0.0;2;2;5;3
+Sculk Catalyst;1;16;16;4096;3.0;6.0;2;2;5;0
+Sculk Sensor;1;8;16;2048;50.75;1.0;0;0;0;0
+Sculk Shrieker;1;8;16;2048;51.5;0.0;0;0;0;0
+Sculk Vein;1;0;0;0;50.1;0.0;0;0;0;1
+Sea Lantern;1;16;16;4096;0.3;15.0;0;2;0;3
+Sea Pickle;1;6;12;864;50.0;5.25;0;0;0;1
+Seagrass;2;0;0;0;100.0;0.0;0;0;0;1
+Tall Seagrass;2;0;0;0;100.0;0.0;0;0;0;1
+Short Grass;1;0;0;0;0.0;0.0;0;0;0;1
+Shroomlight;1;16;16;4096;1.0;15.0;2;2;0;3
+Black Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Blue Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Brown Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Cyan Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Gray Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Green Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Light Blue Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Light Gray Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Lime Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Magenta Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Orange Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Pink Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Purple Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Red Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+White Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Yellow Shulker Box;17;20;20;8000;2.0;0.0;2;1;5;1
+Acacia Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Acacia Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Bamboo Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Bamboo Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Birch Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Birch Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Cherry Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Cherry Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Crimson Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Crimson Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Dark Oak Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Dark Oak Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Jungle Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Jungle Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Mangrove Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Mangrove Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Oak Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Oak Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Pale Oak Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Pale Oak Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Spruce Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Spruce Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Warped Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Warped Wall Sign;24;0;0;0;50.5;0.0;0;0;0;0
+Acacia Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Andesite Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Bamboo Mosaic Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Bamboo Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Birch Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Blackstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Cherry Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Cobbled Deepslate Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Cobblestone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Crimson Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Cut Red Sandstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Cut Sandstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Dark Oak Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Dark Prismarine Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Deepslate Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Deepslate Tile Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Diorite Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+End Stone Brick Slab;62;12;16;3072;54.5;0.0;1;1;4;3
+Exposed Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Granite Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Jungle Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Mangrove Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Mossy Cobblestone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Mossy Stone Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Mud Brick Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Nether Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Oak Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Oxidized Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Pale Oak Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Petrified Oak Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Andesite Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Blackstone Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Blackstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Deepslate Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Diorite Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Granite Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Polished Tuff Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Prismarine Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Prismarine Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Purpur Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Quartz Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Red Nether Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Red Sandstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Resin Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Sandstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Smooth Quartz Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Smooth Red Sandstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Smooth Sandstone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Smooth Stone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Spruce Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Stone Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Stone Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Tuff Brick Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Tuff Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Warped Slab;62;12;16;3072;51.5;0.0;1;1;4;3
+Waxed Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Waxed Exposed Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Waxed Oxidized Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Waxed Weathered Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Weathered Cut Copper Slab;62;12;16;3072;53.0;0.0;1;1;4;3
+Slime Block;1;16;16;4096;0.0;0.0;2;2;5;3
+Small Dripleaf;1;0;0;0;50.0;0.0;0;0;0;1
+Smithing Table;1;16;16;4096;2.5;0.0;2;2;5;3
+Smoker;1;16;16;4096;3.5;6.5;2;2;5;0
+Sniffer Egg;1;16;14;3136;0.5;0.0;0;0;0;3
+Snow;1;8;16;2048;0.1;0.0;0;0;4;1
+Snow Block;1;16;16;4096;0.2;0.0;2;2;5;3
+Soul Sand;1;14;16;3584;0.5;0.0;2;0;5;3
+Soul Soil;1;16;16;4096;0.5;0.0;2;2;5;3
+Monster Spawner;1;16;16;4096;5.0;0.0;2;2;5;0
+Sponge;2;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Wet Sponge;2;16;16;4096;0.6000000000000001;0.0;2;2;5;3
+Spore Blossom;1;0;0;0;0.0;0.0;0;0;0;1
+Black Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Blue Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Brown Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Cyan Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Gray Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Green Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Light Blue Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Light Gray Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Lime Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Magenta Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Orange Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Pink Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Purple Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Red Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+White Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Yellow Stained Glass;16;16;16;4096;0.3;0.0;0;2;0;3
+Black Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Blue Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Brown Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Cyan Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Gray Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Green Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Light Blue Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Light Gray Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Lime Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Magenta Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Orange Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Pink Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Purple Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Red Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+White Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Yellow Stained Glass Pane;16;16;12;2304;50.15;0.0;0;0;0;3
+Acacia Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Andesite Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Bamboo Mosaic Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Bamboo Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Birch Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Blackstone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Cherry Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Cobbled Deepslate Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Cobblestone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Crimson Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Dark Oak Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Dark Prismarine Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Deepslate Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Deepslate Tile Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Diorite Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+End Stone Brick Stairs;58;12;12;1728;54.5;0.0;0;0;4;3
+Exposed Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Granite Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Jungle Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Mangrove Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Mossy Cobblestone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Mossy Stone Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Mud Brick Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Nether Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Oak Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Oxidized Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Pale Oak Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Polished Andesite Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Polished Blackstone Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Polished Blackstone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Polished Deepslate Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Polished Diorite Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Polished Granite Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Polished Tuff Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Prismarine Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Prismarine Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Purpur Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Quartz Stairs;58;12;12;1728;50.4;0.0;0;0;4;3
+Red Nether Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Red Sandstone Stairs;58;12;12;1728;50.4;0.0;0;0;4;3
+Resin Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Sandstone Stairs;58;12;12;1728;50.4;0.0;0;0;4;3
+Smooth Quartz Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Smooth Red Sandstone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Smooth Sandstone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Spruce Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Stone Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Stone Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Tuff Brick Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Tuff Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Warped Stairs;58;12;12;1728;51.5;0.0;0;0;4;3
+Waxed Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Waxed Exposed Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Waxed Oxidized Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Waxed Weathered Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Weathered Cut Copper Stairs;58;12;12;1728;53.0;0.0;0;0;4;3
+Crimson Stem;4;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Crimson Stem;4;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Warped Stem;4;16;16;4096;2.0;0.0;2;2;5;3
+Warped Stem;4;16;16;4096;2.0;0.0;2;2;5;3
+Infested Stone;3;16;16;4096;0.75;0.0;2;2;5;3
+Smooth Stone;3;16;16;4096;6.0;0.0;2;2;5;3
+Stone;3;16;16;4096;6.0;0.0;2;2;5;3
+Chiseled Stone Bricks;8;16;16;4096;6.0;0.0;2;2;5;3
+Cracked Stone Bricks;8;16;16;4096;6.0;0.0;2;2;5;3
+Infested Chiseled Stone Bricks;8;16;16;4096;0.75;0.0;2;2;5;3
+Infested Cracked Stone Bricks;8;16;16;4096;0.75;0.0;2;2;5;3
+Infested Mossy Stone Bricks;8;16;16;4096;0.75;0.0;2;2;5;3
+Infested Stone Bricks;8;16;16;4096;0.75;0.0;2;2;5;3
+Mossy Stone Bricks;8;16;16;4096;6.0;0.0;2;2;5;3
+Stone Bricks;8;16;16;4096;6.0;0.0;2;2;5;3
+Stonecutter;1;9;16;2304;3.5;0.0;0;0;0;3
+Structure Block;1;16;16;4096;3600000.0;0.0;2;2;5;0
+Structure Void;1;0;0;0;0.0;0.0;0;0;0;1
+Sugar Cane;1;0;0;0;0.0;0.0;0;0;0;1
+Suspicious Gravel;1;16;16;4096;0.25;0.0;2;2;5;3
+Suspicious Sand;1;16;16;4096;0.25;0.0;2;2;5;3
+Sweet Berry Bush;1;0;0;0;0.0;0.0;0;0;0;1
+Tall Grass;1;0;0;0;0.0;0.0;0;0;0;1
+Target;1;16;16;4096;0.5;0.0;2;2;5;3
+Black Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Blue Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Brown Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Cyan Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Gray Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Green Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Light Blue Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Light Gray Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Lime Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Magenta Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Orange Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Pink Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Purple Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Red Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+White Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Yellow Terracotta;17;16;16;4096;4.2;0.0;2;2;5;3
+Tinted Glass;1;16;16;4096;0.3;0.0;0;2;0;3
+TNT;1;16;16;4096;0.0;0.0;0;2;5;3
+Soul Torch;4;0;0;0;0.0;10.0;0;0;0;1
+Soul Wall Torch;4;0;0;0;0.0;10.0;0;0;0;1
+Torch;4;0;0;0;0.0;14.0;0;0;0;1
+Wall Torch;4;0;0;0;0.0;14.0;0;0;0;1
+Torchflower;1;0;0;0;0.0;0.0;0;0;0;1
+Torchflower Crop;1;0;0;0;0.0;0.0;0;0;0;1
+Acacia Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Bamboo Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Birch Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Cherry Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Crimson Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Dark Oak Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Exposed Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Iron Trapdoor;21;9;9;729;52.5;0.0;0;0;0;3
+Jungle Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Mangrove Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Oak Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Oxidized Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Pale Oak Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Spruce Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Warped Trapdoor;21;9;9;729;51.5;0.0;0;0;0;3
+Waxed Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Waxed Exposed Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Waxed Oxidized Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Waxed Weathered Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Weathered Copper Trapdoor;21;9;9;729;53.0;0.0;0;0;0;3
+Trapped Chest;1;14;15;3150;51.25;0.0;0;0;0;0
+Trial Spawner;1;16;16;4096;50.0;4.0;2;2;5;0
+Tripwire;1;0;0;0;0.0;0.0;0;0;0;1
+Tripwire Hook;1;0;0;0;0.0;0.0;0;0;0;1
+Tuff;1;16;16;4096;6.0;0.0;2;2;5;3
+Tuff Bricks;1;16;16;4096;6.0;0.0;2;2;5;3
+Turtle Egg;1;7;13;1183;0.5;0.0;0;0;0;1
+Twisting Vines;2;0;0;0;0.0;0.0;0;0;0;1
+Twisting Vines Plant;2;0;0;0;0.0;0.0;0;0;0;1
+Vault;1;16;16;4096;50.0;9.0;2;2;5;0
+Vines;1;0;0;0;0.2;0.0;0;0;0;1
+Andesite Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Blackstone Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Cobbled Deepslate Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Cobblestone Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Deepslate Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Deepslate Tile Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Diorite Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+End Stone Brick Wall;26;24;13;4056;54.5;0.0;0;0;0;3
+Granite Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Mossy Cobblestone Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Mossy Stone Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Mud Brick Wall;26;24;13;4056;51.5;0.0;0;0;0;3
+Nether Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Polished Blackstone Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Polished Blackstone Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Polished Deepslate Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Polished Tuff Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Prismarine Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Red Nether Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Red Sandstone Wall;26;24;13;4056;50.4;0.0;0;0;0;3
+Resin Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Sandstone Wall;26;24;13;4056;50.4;0.0;0;0;0;3
+Stone Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Tuff Brick Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Tuff Wall;26;24;13;4056;53.0;0.0;0;0;0;3
+Nether Wart Block;2;16;16;4096;1.0;0.0;2;2;5;3
+Warped Wart Block;2;16;16;4096;1.0;0.0;2;2;5;3
+Bubble Column;2;0;0;0;100.0;0.0;0;0;0;1
+Water;2;0;0;0;100.0;0.0;0;0;0;1
+Weeping Vines;2;0;0;0;0.0;0.0;0;0;0;1
+Weeping Vines Plant;2;0;0;0;0.0;0.0;0;0;0;1
+Acacia Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Birch Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Cherry Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Dark Oak Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Jungle Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Mangrove Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Oak Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Pale Oak Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Spruce Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Acacia Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Birch Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Cherry Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Dark Oak Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Jungle Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Mangrove Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Oak Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Pale Oak Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Stripped Spruce Wood;18;16;16;4096;2.0;0.0;2;2;5;3
+Black Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Blue Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Brown Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Cyan Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Gray Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Green Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Light Blue Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Light Gray Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Lime Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Magenta Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Orange Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Pink Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Purple Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Red Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+White Wool;16;16;16;4096;0.8;0.0;2;2;5;3
+Yellow Wool;16;16;16;4096;0.8;0.0;2;2;5;3

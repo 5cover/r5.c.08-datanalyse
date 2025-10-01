@@ -8,7 +8,7 @@ def casefold_map(d: dict[str, int]) -> dict[str, int]:
 
 outdir = Path(__file__).parent / 'results'
 outdir.mkdir(exist_ok=True)
-PathCsvStd = outdir / 'std.csv'
+PathCsvClean = outdir / 'clean.csv'
 PathCsvClusterProfiles = outdir / 'cluster_profiles.csv'
 PathPlotKdiag = outdir / 'kdiag.png'
 PathCsvWithClusters = outdir / 'data_with_clusters.csv'
