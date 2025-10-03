@@ -52,35 +52,44 @@ height_external|TD|Average voxel height (1/16 blocks)
 
 [clean_json.py](./src/minecraft/blocks/clean_json.py)
 
-1.  **Aplatissement des variantes** :
+1. **Aplatissement des variantes** :
     - Chaque bloc est décomposé en plusieurs lignes, une pour chaque variante.
     - Si un bloc n'a pas de variantes, il est traité comme une seule ligne.
     - Un champ `number_of_variants` est ajouté pour indiquer le nombre total de variantes du bloc d'origine.
 
-2.  **Extraction des dimensions et calcul du volume** :
+2. **Extraction des dimensions et calcul du volume** :
     - Pour `height_external` et `width_external`, le script recherche une valeur numérique spécifique à la variante.
     - En l'absence de valeur spécifique, il calcule la moyenne de toutes les valeurs numériques trouvées.
     - Les dimensions sont converties en entiers (0 par défaut).
     - Un champ `volume` est calculé en utilisant la formule : `width * width * height`.
 
-3.  **Normalisation des champs numériques** :
+3. **Normalisation des champs numériques** :
     - Pour `blast_resistance` et `luminance`, le script extrait une valeur flottante, en priorisant celle de la variante.
     - Si aucune valeur spécifique à la variante n'est trouvée, la moyenne des valeurs disponibles est utilisée.
 
-4.  **Standardisation des champs qualitatifs** :
+4. **Standardisation des champs qualitatifs** :
     - Les champs `conductive`, `full_cube`, et `spawnable` sont normalisés en "Yes", "No", ou "Maybe".
     - "Maybe" est assigné si des valeurs contradictoires ("Yes" et "No") sont présentes dans les données brutes du bloc.
     - Le champ `movable` est également normalisé en "Yes", "No", "Maybe", mais conserve sa valeur textuelle (ex: "Breaks") si elle ne correspond pas.
 
-5.  **Sauvegarde** :
+5. **Sauvegarde** :
     - La liste des blocs nettoyés est sauvegardée dans `blocklist_clean.json` avec une structure claire et formatée.
 
 #### 2. Conversion en CSV: `blocklist_clean.json` &rarr; `blocklist_clean.csv`
 
 [json_to_csv.py](./src/minecraft/blocks/json_to_csv.py)
 
-
 ## Analyse de données quantitatives
+
+### K-means clustering
+
+### 1. Choix de $K$
+
+Nous choisissons $K$ en utilisant la méthode du coude:
+
+[img/clustering-elbow.png](img/clustering-elbow.png)
+
+Nous choisissons $K=7$.
 
 ## Analyse de données qualitatives
 

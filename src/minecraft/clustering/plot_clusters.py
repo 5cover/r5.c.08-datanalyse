@@ -8,6 +8,8 @@ colored by cluster.
 """
 
 import argparse
+import itertools
+from matplotlib.pylab import f
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -23,30 +25,36 @@ def parse_args(columns):
     return p.parse_args()
 
 
-def main():
-    if not PathCsvWithClusters.exists():
-        kmeans.kmeans(kmeans.Config())
-
-    df = pd.read_csv(PathCsvWithClusters, sep=";")
-    args = parse_args(df.columns)
-
+def main(df: pd.DataFrame, feature_x: str, feature_y: str):
     fig, ax = plt.subplots()
     clusters = df["cluster"].unique()
     for cl in sorted(clusters):
         sub = df[df["cluster"] == cl]
+        counts = sub.groupby([feature_x, feature_y]).size().reset_index(name="count")
         ax.scatter(
-            sub[args.x],
-            sub[args.y],
+            counts[feature_x],
+            counts[feature_y],
+            s=counts["count"] * 5,  # scale factor
+            alpha=0.5,
             label=f"Cluster {cl}",
         )
 
-    ax.set_xlabel(args.x)
-    ax.set_ylabel(args.y)
-    ax.set_title(f"Clusters by {args.x} vs {args.y}")
-    fig.legend()
-    fig.savefig(PathPngScatter)
-    print(f"[INFO] Saved scatter plot to {PathPngScatter}")
+    ax.set_xlabel(feature_x)
+    ax.set_ylabel(feature_y)
+    ax.set_title(f"Clusters in {feature_y} by {feature_x} (K = {len(clusters)})")
+    path = PathPngScatter(feature_x, feature_y)
+    fig.savefig(path)
+    print(f"[INFO] Saved scatter plot to {path}")
 
+def generate_all(df: pd.DataFrame):
+    features=[col for col in df.columns if col != 'cluster']
+    perms=list(itertools.permutations(features, 2))
+    print(perms, len(perms))
 
 if __name__ == "__main__":
-    main()
+    if not PathCsvWithClusters.exists():
+        kmeans.kmeans(kmeans.Config())
+    df = pd.read_csv(PathCsvWithClusters, sep=";")
+    generate_all(df)
+    #args = parse_args(df.columns)
+    #main(df, args.x, args.y)
