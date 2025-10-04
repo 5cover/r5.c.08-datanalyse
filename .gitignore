@@ -4,3 +4,4 @@ notes.md
 .venv/
 *.pyc
 pca_outputs/
+afc_outputs/
