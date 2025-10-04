@@ -3,6 +3,6 @@ AGENTS.md
 notes.md
 .venv/
 *.pyc
-pca_outputs/
+acp_outputs/
 afc_outputs/
 acm_outputs/
