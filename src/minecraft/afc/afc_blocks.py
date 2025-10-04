@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 from __future__ import annotations
 
 import argparse
@@ -18,6 +17,7 @@ from scipy.stats import chi2_contingency
 DEFAULT_INPUT = Path("../../../datasets/minecraft/blocks/blocklist_clean.json")
 CATEGORICAL_CANDIDATES = ("conductive", "full_cube", "spawnable", "movable")
 
+# lit un fichier de données et retourne un DataFrame
 def read_any(input_path: Path, sep: Optional[str] = None) -> pd.DataFrame:
     ext = input_path.suffix.lower()
     if ext == ".json":
@@ -35,18 +35,23 @@ def read_any(input_path: Path, sep: Optional[str] = None) -> pd.DataFrame:
         return pd.read_csv(input_path)
     return pd.read_table(input_path)
 
+# retourne les colonnes catégorielles candidates présentes dans le DataFrame
 def candidate_categoricals(df: pd.DataFrame) -> List[str]:
     return [c for c in CATEGORICAL_CANDIDATES if c in df.columns]
 
+# cnstruit une table de contingence entre deux variables catégorielles
 def build_contingency_table(df: pd.DataFrame, col_x: str, col_y: str) -> pd.DataFrame:
     x = df[col_x].astype(str)
     y = df[col_y].astype(str)
     ct = pd.crosstab(x, y)
+    # Supprime les lignes et colonnes vides
     ct = ct.loc[(ct.sum(axis=1) > 0), (ct.sum(axis=0) > 0)]
     if ct.shape[0] < 2 or ct.shape[1] < 2:
         raise ValueError("Degenerate contingency table (need ≥2 rows and ≥2 columns).")
     return ct
 
+# standardise les données et supprime les colonnes constantes
+# retourne la matrice standardisée et la liste des colonnes conservées
 def zscore_and_prune(M: pd.DataFrame) -> Tuple[pd.DataFrame, List[str]]:
     std = M.std(axis=0, ddof=1)
     keep = std > 0
@@ -61,16 +66,20 @@ def zscore_and_prune(M: pd.DataFrame) -> Tuple[pd.DataFrame, List[str]]:
     Z = Z.replace([np.inf, -np.inf], np.nan).fillna(0.0)
     return Z, list(M2.columns)
 
+# calcule la p-value du test du chi-deux d'indépendance sur une table de contingence
 def chi2_pvalue(ct: pd.DataFrame) -> float:
     chi2, p, dof, exp = chi2_contingency(ct, correction=False)
     return float(p)
 
+# calcule les valeurs propres et vecteurs propres de la matrice de corrélation
 def eigenvalues_from_corr(Z: pd.DataFrame) -> Tuple[np.ndarray, np.ndarray]:
     C = np.corrcoef(Z, rowvar=False)
     w, V = np.linalg.eigh(C)
+    # Trie par ordre décroissant des valeurs propres
     idx = np.argsort(w)[::-1]
     return w[idx], V[:, idx]
 
+# détermine le nombre de facteurs à retenir selon le critère de Kaiser
 def choose_num_factors(ev: np.ndarray, n_rows: int, n_cols: int) -> int:
     n_max = max(1, min(n_cols - 1, n_rows - 1))
     n_keep = int(np.sum(ev >= 1.0))
@@ -78,6 +87,7 @@ def choose_num_factors(ev: np.ndarray, n_rows: int, n_cols: int) -> int:
         n_keep = 1
     return min(n_keep, n_max)
 
+# calcule les loadings (contributions) et scores factoriels des k premières composantes
 def pca_scores_and_loadings(Z: pd.DataFrame, V: np.ndarray, ev: np.ndarray, k: int) -> Tuple[np.ndarray, np.ndarray]:
     V_k = V[:, :k]
     ev_k = ev[:k]
@@ -85,6 +95,8 @@ def pca_scores_and_loadings(Z: pd.DataFrame, V: np.ndarray, ev: np.ndarray, k: i
     S = Z.values @ V_k
     return L, S
 
+# applique la rotation Varimax pour simplifier l'interprétation des facteurs
+# maximise la variance des loadings au carré pour obtenir une structure simple
 def varimax(Phi: np.ndarray, gamma: float = 1.0, q: int = 100, tol: float = 1e-6) -> Tuple[np.ndarray, np.ndarray]:
     p, k = Phi.shape
     if k < 2:
@@ -105,9 +117,11 @@ def varimax(Phi: np.ndarray, gamma: float = 1.0, q: int = 100, tol: float = 1e-6
         R = R_new
     return Phi @ R, R
 
+# applique la rotation Quartimax (cas particulier de Varimax avec gamma=0)
 def quartimax(Phi: np.ndarray, q: int = 100, tol: float = 1e-6) -> Tuple[np.ndarray, np.ndarray]:
     return varimax(Phi, gamma=0.0, q=q, tol=tol)
 
+# génère le scree plot
 def plot_scree(ev: np.ndarray, out_path: Path) -> None:
     plt.figure(figsize=(7, 4))
     xs = np.arange(1, len(ev) + 1)
@@ -121,6 +135,8 @@ def plot_scree(ev: np.ndarray, out_path: Path) -> None:
     plt.savefig(out_path, dpi=160)
     plt.close()
 
+# génère la carte factorielle affichant les variables et modalités
+# visualise les relations entre modalités et variables dans l'espace des deux premiers facteurs
 def plot_factor_map(loadings: np.ndarray, scores: np.ndarray, ct_cols: List[str], ct_rows: List[str], title: str, out_path: Path) -> None:
     x_idx = 0
     y_idx = 1 if loadings.shape[1] > 1 else 0
@@ -141,6 +157,8 @@ def plot_factor_map(loadings: np.ndarray, scores: np.ndarray, ct_cols: List[str]
     fig.savefig(out_path, dpi=160)
     plt.close(fig)
 
+# sélectionne automatiquement la meilleure paire de variables catégorielles
+# choisit la paire avec la plus petite p-value (< 0.05) au test du chi-deux
 def auto_select_best_pair(df: pd.DataFrame) -> Tuple[str, str, float]:
     cands = candidate_categoricals(df)
     if len(cands) < 2:
@@ -181,6 +199,7 @@ def main() -> None:
 
     df = read_any(input_path, sep=args.sep)
 
+    # sélection automatique des colonnes si non spécifiées
     if args.x is None or args.y is None:
         col_x, col_y, p_auto = auto_select_best_pair(df)
         print(f"[auto] colonnes sélectionnées: x='{col_x}', y='{col_y}' (p={p_auto:.6g})")

@@ -28,6 +28,8 @@ except Exception:
 
 CATEGORICAL_CANDIDATES = ("conductive", "full_cube", "spawnable", "movable")
 
+# résout le chemin vers le fichier JSON en testant plusieurs emplacements possibles
+# cherche dans le répertoire courant, le répertoire du script, les répertoires parents, et PROJECT_ROOT
 def _resolve_json_path(user_path: Path) -> Path:
     tried: list[Path] = []
     if user_path.is_absolute() and user_path.is_file():
@@ -54,24 +56,30 @@ def _resolve_json_path(user_path: Path) -> Path:
     msg = ["Fichier JSON introuvable. Chemins testés :"] + [f" - {p}" for p in tried]
     raise FileNotFoundError("\n".join(msg))
 
+# charge le fichier JSON des blocs Minecraft et normalise les noms de colonnes
 def load_blocks_json(path: Path) -> pd.DataFrame:
     path = _resolve_json_path(path)
     df = pd.read_json(path)
+    # Supprime les espaces dans les noms de colonnes
     df.columns = [c.strip() for c in df.columns]
     return df
 
+# sélectionne automatiquement les colonnes catégorielles pertinentes du dataset
 def choose_categorical(df: pd.DataFrame) -> list[str]:
     chosen = [c for c in CATEGORICAL_CANDIDATES if c in df.columns]
     if not chosen:
         chosen = [c for c in df.columns if (df[c].dtype == "object" or str(df[c].dtype) == "category") and c.lower() not in {"block", "id", "name"}]
     return chosen
 
+# convertit un DataFrame catégoriel en tableau disjonctif complet
+# transforme chaque modalité d'une variable en une colonne binaire
 def to_disjunctive(df_cat: pd.DataFrame) -> pd.DataFrame:
     for c in df_cat.columns:
         if df_cat[c].dtype == bool:
             df_cat[c] = df_cat[c].map({True: "Yes", False: "No"})
     return pd.get_dummies(df_cat, drop_first=False)
 
+# rffectue l'ACM avec la bibliothèque 'mca' et retourne les coordonnées des individus et modalités
 def fit_mca_with_mca(dc: pd.DataFrame, n_components: int = 2):
     model = MCA_mca(dc, benzecri=False)
     def _to_df(arr, index, prefix):
@@ -94,6 +102,7 @@ def fit_mca_with_mca(dc: pd.DataFrame, n_components: int = 2):
         col_coords = pd.DataFrame(index=dc.columns, columns=["Dim1", "Dim2"])
     return model, eigenvalues, explained, row_coords, col_coords
 
+# effectue l'ACM et retourne les coordonnées des individus et modalités
 def fit_mca_with_prince(dc: pd.DataFrame, n_components: int = 2):
     model = prince.MCA(n_components=max(2, n_components), random_state=42).fit(dc)
     explained = np.array(model.explained_inertia_)
@@ -103,12 +112,14 @@ def fit_mca_with_prince(dc: pd.DataFrame, n_components: int = 2):
     col_coords = model.column_coordinates(dc).iloc[:, :2].rename(columns={0: "Dim1", 1: "Dim2"})
     return model, eigenvalues, explained, row_coords, col_coords
 
+# crée le répertoire de sortie pour les résultats de l'ACM
 def _make_outdir() -> Path:
     here = Path(__file__).resolve().parent
     out = here / "acm_outputs"
     out.mkdir(parents=True, exist_ok=True)
     return out
 
+# génère les graphiques, coordonnées et rapport d'analyse
 def run_acm(json_path: Path, max_labels_modalities: int = 50, sample_labels: int = 0) -> None:
     outdir = _make_outdir()
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -116,6 +127,7 @@ def run_acm(json_path: Path, max_labels_modalities: int = 50, sample_labels: int
     cat_cols = choose_categorical(df)
     if not cat_cols:
         raise ValueError("Aucune variable qualitative détectée. Ajoute p.ex. 'conductive', 'full_cube', 'spawnable', 'movable'.")
+    # supprime les lignes avec des valeurs manquantes dans les colonnes catégorielles
     before = len(df)
     x = df[cat_cols].copy().dropna(axis=0, how="any")
     after = len(x)
@@ -132,6 +144,7 @@ def run_acm(json_path: Path, max_labels_modalities: int = 50, sample_labels: int
         raise RuntimeError("Ni 'mca' ni 'prince' n'est installé. Installe: pip install mca prince")
     if len(row_coords) == len(labels):
         row_coords.index = labels.values
+    # génère le scree plot (graphique des valeurs propres)
     if eigenvalues is not None and explained is not None:
         k = min(len(eigenvalues), 10)
         plt.figure()
@@ -143,6 +156,7 @@ def run_acm(json_path: Path, max_labels_modalities: int = 50, sample_labels: int
         plt.tight_layout()
         plt.savefig(outdir / f"{stamp}_scree.png", dpi=150, bbox_inches="tight")
         plt.close()
+    # génère le graphique des individus dans le plan factoriel
     plt.figure()
     plt.scatter(row_coords["Dim1"], row_coords["Dim2"], alpha=0.4, s=10)
     plt.axhline(0); plt.axvline(0)
@@ -156,6 +170,7 @@ def run_acm(json_path: Path, max_labels_modalities: int = 50, sample_labels: int
     plt.tight_layout()
     plt.savefig(outdir / f"{stamp}_individuals.png", dpi=150, bbox_inches="tight")
     plt.close()
+    # génère le graphique des modalités dans le plan factoriel
     plt.figure()
     plt.scatter(col_coords["Dim1"], col_coords["Dim2"])
     plt.axhline(0); plt.axvline(0)
@@ -167,9 +182,11 @@ def run_acm(json_path: Path, max_labels_modalities: int = 50, sample_labels: int
     plt.tight_layout()
     plt.savefig(outdir / f"{stamp}_modalities.png", dpi=150, bbox_inches="tight")
     plt.close()
+    # sauvegarde les coordonnées et le tableau disjonctif en CSV
     row_coords.to_csv(outdir / f"{stamp}_row_coords.csv")
     col_coords.to_csv(outdir / f"{stamp}_col_coords.csv")
     dc.to_csv(outdir / f"{stamp}_disjunctive.csv")
+    # sauvegarde les valeurs propres et ratios de variance expliquée
     if eigenvalues is not None and explained is not None:
         cum = np.cumsum(explained)
         eig_df = pd.DataFrame({

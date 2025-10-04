@@ -23,6 +23,8 @@ QUANTITATIVE_COLUMNS = [
 ]
 CATEGORICAL_COLUMNS_CANDIDATES = ["conductive", "movable", "full_cube", "spawnable"]
 
+# normalise les valeurs de la colonne 'movable' qui peuvent être des dictionnaires, None, ou des chaînes
+# retourne une catégorie standardisée : "ConditionalYes", "No", "ConditionalBreaks", "Conditional", ou "Unknown"
 def normalize_movable(value: Any) -> str:
     if isinstance(value, dict):
         vals = {str(v).strip().title() for v in value.values()}
@@ -37,6 +39,8 @@ def normalize_movable(value: Any) -> str:
         return "Unknown"
     return str(value).strip().title()
 
+# résout le chemin vers le fichier dataset en testant plusieurs emplacements possibles
+# cherche d'abord le chemin fourni par l'utilisateur, puis les chemins par défaut
 def resolve_dataset_path(user_path: str | None, script_dir: Path) -> Path:
     candidates: list[Path] = []
     if user_path:
@@ -56,10 +60,13 @@ def resolve_dataset_path(user_path: str | None, script_dir: Path) -> Path:
 
 def load_dataset(dataset_path: Path) -> tuple[pd.DataFrame, str]:
     df = pd.read_json(dataset_path)
+    # s'assure que toutes les colonnes nécessaires existent, ajoute NaN si manquantes
     for col in QUANTITATIVE_COLUMNS + ["block"] + CATEGORICAL_COLUMNS_CANDIDATES:
         if col not in df.columns:
             df[col] = np.nan
+    # crée une colonne catégorielle normalisée pour 'movable'        
     df["movable_cat"] = df["movable"].apply(normalize_movable)
+    # impute les valeurs manquantes avec la médiane de chaque colonne quantitative
     for col in QUANTITATIVE_COLUMNS:
         df[col] = pd.to_numeric(df[col], errors="coerce")
     df = df.dropna(subset=QUANTITATIVE_COLUMNS, how="all").copy()
@@ -73,11 +80,14 @@ def load_dataset(dataset_path: Path) -> tuple[pd.DataFrame, str]:
     df["category"] = "Unknown"
     return df, "category"
 
+# standardise les données en calculant le z-score : (x - moyenne) / écart-type
+# transforme les données pour avoir une moyenne de 0 et un écart-type de 1
 def zscore_standardize(df_numeric: pd.DataFrame) -> pd.DataFrame:
     centered = df_numeric.sub(df_numeric.mean())
     scaled = centered.div(df_numeric.std(ddof=1))
     return scaled.replace([np.inf, -np.inf], np.nan).fillna(0.0)
 
+# génère le cercle des corrélations montrant la contribution des variables aux deux premières composantes
 def save_variables_correlation_plot(pca_model: PCA, feature_names: list[str], output_path: Path):
     loadings = pca_model.components_.T[:, [0, 1]]
     fig, ax = plt.subplots(figsize=(7, 6))
@@ -97,6 +107,8 @@ def save_variables_correlation_plot(pca_model: PCA, feature_names: list[str], ou
     fig.tight_layout()
     fig.savefig(output_path, dpi=160)
 
+# crée un biplot combiné affichant simultanément les individus et les variables
+# paramètre alpha contrôle l'équilibre entre la représentation des lignes et des colonnes
 def save_combined_biplot(pca_model: PCA, pc_scores: np.ndarray, feature_names: list[str], output_path: Path, alpha: float = 0.5):
     s = pca_model.singular_values_[:2]
     row_coords = pc_scores[:, :2] @ np.diag(s**(alpha - 1.0))
@@ -131,6 +143,8 @@ def main():
     standardized_matrix = zscore_standardize(numeric_matrix)
     print("Standardisation z-score appliquée.")
 
+    # effectue l'ACP sur les données standardisées
+    # n_components : nombre de composantes à calculer
     n_components = min(len(QUANTITATIVE_COLUMNS), standardized_matrix.shape[1])
     pca_model = PCA(n_components=n_components)
     principal_component_scores = pca_model.fit_transform(standardized_matrix)
