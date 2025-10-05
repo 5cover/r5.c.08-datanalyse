@@ -20,7 +20,9 @@ Ce projet vise à explorer et analyser un jeu de données issu du célèbre jeu 
 - [Analyse en composante principale](#analyse-en-composante-principale)
   - [Interprétations (charges/corrélations)](#interprétations-chargescorrélations)
 - [Analyse factorielle des correspondances](#analyse-factorielle-des-correspondances)
+  - [Cartes factorielles \& rotations](#cartes-factorielles--rotations)
 - [Analyse en composants multiples](#analyse-en-composants-multiples)
+  - [Lecture synthétique des axes](#lecture-synthétique-des-axes)
 - [Clustering K-moyennes](#clustering-k-moyennes)
   - [Choix de $K$](#choix-de-k)
   - [Représentation](#représentation)
@@ -164,7 +166,7 @@ Note: certaines techniques utilise le format JSON, d'autres le format CSV.
 
 **Nombre de facteurs.** Avec trois modalités côté colonnes, au plus **2 facteurs** sont interprétables. Le **scree plot** montre deux valeurs propres ≥ 1 (Kaiser) et une troisième ≈ 0 ; on **retient 2 dimensions**, suffisantes pour résumer l’association `conductive` × `full_cube`.
 
-**Cartes factorielles & rotations.**  
+### Cartes factorielles & rotations
 
 - *Sans rotation* : on observe des **proximité́s lignes↔colonnes homogènes** :  
   `Yes` (conductive) est proche de `Yes` (full_cube) ; `No` (conductive) est proche de `No` (full_cube) ; `Maybe` s’aligne avec `Maybe`. Ces voisinages traduisent une **corrélation positive forte** entre modalités de même nom.
@@ -208,7 +210,7 @@ La carte des modalités confirme cette lecture :
 - Certaines modalités spécifiques de `spawnable` (règles restreintes) se placent près du pôle **Yes** de Dim1 mais avec une position distincte sur Dim2, suggérant qu’**être spawnable** ne signifie pas **spawnable pour tout** (nuances par type de mob).  
 ![ACM — modalités](./img/acm_modalities.png)
 
-**Lecture synthétique des axes.**  
+### Lecture synthétique des axes
 
 - **Dim1 (≈ 26 %)** : gradient **« non → oui »** de propriétés structurelles (conductivité, plein, mobilité/spawn).  
 - **Dim2 (≈ 20 %)** : **spécificités/ambiguïtés** (modalités *Maybe* et règles de spawn exceptionnelles).
