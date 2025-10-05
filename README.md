@@ -9,6 +9,7 @@ Idées jeu de données "maison"
 
 ## Structure du dépôt
 
+```text
 ./
 ├── datasets/minecraft/blocks/ : jeu de données
 ├── deliverables/
@@ -20,8 +21,7 @@ Idées jeu de données "maison"
     └── acp/ : ACP
     └── afc/ : AFC
     └── clustering/ : K-means and hierarchical clustering
-
-6 directories, 2 files
+```
 
 ## Instructions
 
