@@ -11,6 +11,10 @@ Réalisation:
 
 Ce projet vise à explorer et analyser un jeu de données issu du célèbre jeu vidéo Minecraft, en appliquant diverses techniques d'analyse de données. Nous nous concentrons sur les caractéristiques des blocs présents dans le jeu, en utilisant des méthodes statistiques et de machine learning pour extraire des informations pertinentes.
 
+<!-- omit in toc -->
+## Sommaire
+
+- [Code source](#code-source)
 - [Présentation du jeu de données "Blocks"](#présentation-du-jeu-de-données-blocks)
   - [Origine](#origine)
   - [Variables](#variables)
@@ -38,6 +42,10 @@ Ce projet vise à explorer et analyser un jeu de données issu du célèbre jeu 
   - [Cluster 6 (11 items, 1.02%): Blocs de contrôle et techniques réservées aux opérateurs](#cluster-6-11-items-102-blocs-de-contrôle-et-techniques-réservées-aux-opérateurs)
   - [Cluster 7 (191 items, 17.70%): Végétation, signaux et entités vivantes](#cluster-7-191-items-1770-végétation-signaux-et-entités-vivantes)
 
+## Code source
+
+Le code source de ce compte-rendu et des graphiques peut être trouvé sur le dépôt GitHub [5cover/r5.c.08-datanalyse](https://github.com/5cover/r5.c.08-datanalyse).
+
 ## Présentation du jeu de données "Blocks"
 
 Liste des blocs dans le jeu-vidéo Minecraft.
@@ -60,8 +68,8 @@ Nombre de lignes: 1079
 variable|type|signification
 -|-|-
 blast_resistance|TD|blast resistance
-block|QN|block name (string).  use levenshtein diff
-conductive|QO: No, Maybe, Yes|conducts redstone?
+block|QN|block name (string)
+conductive|QO: No, Maybe, Yes|does it conduct redstone?
 full_cube|QO: No, Maybe, yes
 height_external|TD $[0;24]$|
 luminance|TD $[0;15]$|light emission level
@@ -82,7 +90,7 @@ height_external|TD|Average voxel height (1/16 blocks)
 
 `blocklist.json` &rarr; `blocklist_clean.json`
 
-[clean_json.py](./src/minecraft/blocks/clean_json.py)
+Script: [src/minecraft/blocks/clean_json.py](https://github.com/5cover/r5.c.08-datanalyse/tree/main/src/minecraft/blocks/clean_json.py)
 
 1. **Aplatissement des variantes** :
     - Chaque bloc est décomposé en plusieurs lignes, une pour chaque variante.
@@ -109,6 +117,8 @@ height_external|TD|Average voxel height (1/16 blocks)
 
 ### Conversion en CSV: `blocklist_clean.json` &rarr; `blocklist_clean.csv`
 
+Script: [src/minecraft/blocks/json_to_csv.py](https://github.com/5cover/r5.c.08-datanalyse/tree/main/src/minecraft/blocks/json_to_csv.py)
+
 ```py
 with open("./datasets/minecraft/blocks/blocklist_clean.json", encoding="utf-8") as inputfile:
     df = pd.read_json(inputfile)
@@ -118,6 +128,8 @@ df.to_csv("./datasets/minecraft/blocks/blocklist_clean.csv", sep=";", encoding="
 Note: certaines techniques utilise le format JSON, d'autres le format CSV.
 
 ## Analyse en composante principale
+
+Script: [src/minecraft/acp/acp_blocks.py](https://github.com/5cover/r5.c.08-datanalyse/tree/main/src/minecraft/acp/acp_blocks.py)
 
 **Méthode.** Nous appliquons une ACP sur 6 variables quantitatives (`height_external`, `width_external`, `number_of_variants`, `volume`, `blast_resistance`, `luminance`). Les données sont **centrées-réduites** (z-score), puis nous ajustons une PCA et exportons : valeurs propres, barchart de variance, cercle des corrélations, biplots individus/variables.
 
@@ -153,6 +165,8 @@ Note: certaines techniques utilise le format JSON, d'autres le format CSV.
 
 ## Analyse factorielle des correspondances
 
+Script: [src/minecraft/afc/afc_blocks.py](https://github.com/5cover/r5.c.08-datanalyse/tree/main/src/minecraft/afc/afc_blocks.py)
+
 **Méthode.** Nous réalisons une **AFC** sur la table de contingence entre `conductive` (lignes) et `full_cube` (colonnes). Le script (`afc_blocks.py`) :
 
 1. construit la table de contingence
@@ -181,6 +195,8 @@ Note: certaines techniques utilise le format JSON, d'autres le format CSV.
 **À retenir.** (i) Le test du χ² confirme une **dépendance nette** entre `conductive` et `full_cube`. (ii) **Deux facteurs** suffisent (Kaiser + scree plot). (iii) Les **proximité́s** `Yes↔Yes`, `No↔No`, `Maybe↔Maybe` valident une **association forte** et facilement interprétable, stable avec ou sans rotation.
 
 ## Analyse en composants multiples
+
+Script: [src/minecraft/acm/acm_blocks.py](https://github.com/5cover/r5.c.08-datanalyse/tree/main/src/minecraft/acm/acm_blocks.py)
 
 **Jeu de données & variables retenues.**  
 Analyse réalisée sur **1079 blocs** du JSON Minecraft. Quatre variables qualitatives ont été utilisées : `conductive`, `full_cube`, `spawnable`, `movable`. Après transformation en tableau disjonctif, on obtient une matrice **1079 × 16** (toutes modalités).
@@ -216,6 +232,8 @@ La carte des modalités confirme cette lecture :
 - **Dim2 (≈ 20 %)** : **spécificités/ambiguïtés** (modalités *Maybe* et règles de spawn exceptionnelles).
 
 ## Clustering K-moyennes
+
+Scripts: [src/minecraft/clustering/](https://github.com/5cover/r5.c.08-datanalyse/tree/main/src/minecraft/clustering)
 
 ### Choix de $K$
 
@@ -259,6 +277,11 @@ Ce dendogramme permet de visualiser les regroupements hiérarchiques des blocs, 
 ## Conclusion
 
 Ce projet a permis d'explorer un jeu de données issu de Minecraft en appliquant diverses techniques d'analyse de données, notamment l'ACP, l'AFC, l'ACM et le clustering. Chaque méthode a apporté des insights uniques sur les caractéristiques des blocs du jeu, révélant des structures sous-jacentes et des relations entre les variables.
+
+Nous avons utilisé l'IA générative (avec review) pour:
+
+- Inteprétation intuitive des clusters déduits
+- Génération de code boilerplate
 
 ## Annexe 1: Liste clusters
 

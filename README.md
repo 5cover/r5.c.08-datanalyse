@@ -7,48 +7,31 @@ Idées jeu de données "maison"
 - Raphaël : dépôts github
 - Titouan : blocs Minecraft
 
-- [ ] Réfléchir à la structure du compte rendu (trouver example BUT3 sur github ou demander un breakdown à Constance)
-- [ ] Réfléchir à un modèle transactionnel pour le prétraitement (afin de ne perdre aucune info sur ce qui a été fait pour le compte rendu, optionnellement avec caches mais si le dataset n'est pas trop gros pas besoin) et à l'implémentation
+## Structure du dépôt
+
+./
+├── datasets/minecraft/blocks/ : jeu de données
+├── deliverables/
+│   ├── Compte Rendu.md
+│   └── img/ : images du compte rendu
+├── README.md
+└── src/minecraft
+    └── acm/ : ACM
+    └── acp/ : ACP
+    └── afc/ : AFC
+    └── clustering/ : K-means and hierarchical clustering
+
+6 directories, 2 files
+
+## Instructions
+
+1. Cloner le dépôt
+2. (Optionnel) Créer un environnement virtuel pour isoler les dépendances
+3. `pip install requirements.txt -r`
+4. Exécuter les scripts (la plupart on un `--help` en ligne de commande) pour générer outputs/graphiques
 
 ## Todo
 
 - [x] FIX CLUSTERING showing all dots
 - [ ] unified data transformation layer
 - [x] recover unstded data to plot (standard scaler inverse)
-
-## Phase 1. Collecte
-
-## Phase 2. Prétraitement
-
-- Détecter valeurs manquantes (NaN/NULL)
-- Détecter valeurs aberrantes (anomalie)
-
-## Phase 3. Analyse
-
-Stack: python
-
-### Analyse des correspondances
-
-### Analyses des composantes principales
-
-- Normalisation
-
-## Préparation compte rendu
-
-format:notebook
-
-parties (from memory)
-
-### Introduction/Abstract
-
-### Corps
-
-- source
-- étapes de prétraitement, etc.
-
-- valeurs manquantes -> no translation key
-- variance élevée -> besoin de centrer-réduire
-- features discriminantes
-- dataset très discret
-
-### Conclusion
