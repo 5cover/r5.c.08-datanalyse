@@ -9,7 +9,6 @@ colored by cluster.
 
 import argparse
 import itertools
-from matplotlib.pylab import f
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -47,9 +46,11 @@ def main(df: pd.DataFrame, feature_x: str, feature_y: str):
     print(f"[INFO] Saved scatter plot to {path}")
 
 def generate_all(df: pd.DataFrame):
-    features=[col for col in df.columns if col != 'cluster']
-    perms=list(itertools.permutations(features, 2))
-    print(perms, len(perms))
+    perms:list[tuple[str,str]]=list(itertools.combinations(('width_external', 'height_external', 'volume'), 2))
+    perms.extend(itertools.combinations(('number_of_variants', 'luminance', 'blast_resistance'), 2))
+    for x, y in perms:
+        print(x,y)
+        main(df, x, y)
 
 if __name__ == "__main__":
     if not PathCsvWithClusters.exists():

@@ -13,5 +13,6 @@ PathCsvClusterProfiles = outdir / 'cluster_profiles.csv'
 PathPlotKdiag = outdir / 'kdiag.png'
 PathCsvWithClusters = outdir / 'data_with_clusters.csv'
 PathPlotCustersPca = outdir / "clusters_pca.png"
+PathPlotDendogram = outdir / "dendogram.png"
 PathClusterSizes = outdir / "clusters_sizes.png"
 def PathPngScatter(x_feature: str, y_feature: str): return outdir / f"clustering-scatter-of-{y_feature}-by-{x_feature}.png"

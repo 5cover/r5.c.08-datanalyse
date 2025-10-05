@@ -24,13 +24,15 @@ from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+from sklearn.cluster import AgglomerativeClustering
+from scipy.cluster.hierarchy import dendrogram
 
 import importdata
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-from const import PathCsvClusterProfiles, PathCsvClean, PathCsvWithClusters, PathPlotKdiag
+from const import PathCsvClusterProfiles, PathCsvClean, PathCsvWithClusters, PathPlotDendogram, PathPlotKdiag
 
 type MatrixLike = np.ndarray | pd.DataFrame
 
@@ -50,13 +52,12 @@ def to_numeric(df: pd.DataFrame) -> pd.DataFrame:
         df[c] = pd.to_numeric(df[c], errors="raise")
     return df
 
-def load_data(csv_path: Path) -> pd.DataFrame:
+def load_data(csv_path: Path):
     # Expect semicolon delimiter based on provided snippet
     df = pd.read_csv(csv_path, sep=";", dtype=str, keep_default_na=False)
     # Strip whitespace from column names and values
     df.columns = [c.strip() for c in df.columns]
-    df = df.drop(columns=["block"])
-    return to_numeric(df)
+    return df.block, to_numeric(df.drop(columns=["block"]))
 
 def plot_elbow(Xstd: MatrixLike, cfg: Config):
     """
@@ -109,7 +110,7 @@ def kmeans(cfg: Config):
     print('Executing kmeans...')
     if not PathCsvClean.exists():
         importdata.importdata()
-    X = load_data(PathCsvClean)
+    blocks_names, X = load_data(PathCsvClean)
 
     scaler = StandardScaler()
     Xstd = scaler.fit_transform(X.values)
@@ -120,12 +121,40 @@ def kmeans(cfg: Config):
 
     XwithCluters = X.copy()
     XwithCluters['cluster'] = labels
+    XwithCluters['block'] = blocks_names
     XwithCluters.to_csv(PathCsvWithClusters, index=False, sep=";")
     print(f"[INFO] Wrote {PathCsvWithClusters}")
 
     profiles = gen_csv_with_cluster_profiles(X, model, labels, scaler)
     profiles.to_csv(PathCsvClusterProfiles, index=False, sep=";")
     print(f"[INFO] Wrote {PathCsvClusterProfiles}")
+
+    hierarchical_clustering(Xstd, cfg)
+
+
+def hierarchical_clustering(X: MatrixLike, cfg: Config):
+    model = AgglomerativeClustering(distance_threshold=0, n_clusters=None)
+    model.fit(X)
+    plot_dendrogram(model, truncate_mode="level", p=4)
+    plt.xlabel("Nombre de points dans la classe (ou index sans parenthèses).")
+    plt.savefig(PathPlotDendogram)
+    print(f"[INFO] Wrote {PathPlotDendogram}")
+    
+def plot_dendrogram(model, **kwargs):
+    counts = np.zeros(model. children_ .shape[0])
+    n_samples = len(model. labels_)
+    for i, merge in enumerate(model. children_):
+        current_count = 0
+        for child_idx in merge:
+            if child_idx < n_samples:
+                current_count += 1
+            else:
+                current_count += counts[child_idx-n_samples]
+        counts[i] = current_count
+    linkage_matrix = np.column_stack(
+        [model.children_, model.distances_, counts]
+    ).astype(float)
+    dendrogram(linkage_matrix, **kwargs)
 
 if __name__=='__main__':
     kmeans(parse_args())
